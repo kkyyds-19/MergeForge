@@ -1,0 +1,70 @@
+{
+  "tags": [],
+  "layers": [
+    "Default",
+    "TransparentFX",
+    "Ignore Raycast",
+    "",
+    "Water",
+    "UI",
+    "SitePreview",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "m_SortingLayers": [
+    {
+      "name": "Areas",
+      "uniqueID": 3461661571
+    },
+    {
+      "name": "Background",
+      "uniqueID": 4072002405
+    },
+    {
+      "name": "Default",
+      "uniqueID": 0
+    },
+    {
+      "name": "Foreground",
+      "uniqueID": 678736467
+    },
+    {
+      "name": "NextRoom",
+      "uniqueID": 2117398931
+    },
+    {
+      "name": "CurrentRoom",
+      "uniqueID": 863784721
+    },
+    {
+      "name": "AreaPreview",
+      "uniqueID": 1619968917
+    }
+  ],
+  "m_RenderingLayers": [
+    "Default"
+  ]
+}

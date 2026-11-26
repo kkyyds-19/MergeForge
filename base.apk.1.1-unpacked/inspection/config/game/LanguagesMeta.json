@@ -1,0 +1,73 @@
+{
+  "name": "LanguagesMeta",
+  "resourceFolder": "BalanceData/Localization/",
+  "resourceName": "LanguagesMeta",
+  "languages": [
+    {
+      "code": "en",
+      "displayName": "English"
+    },
+    {
+      "code": "zh-CN",
+      "displayName": "简体中文"
+    },
+    {
+      "code": "zh-TW",
+      "displayName": "繁體中文"
+    },
+    {
+      "code": "fr",
+      "displayName": "Français"
+    },
+    {
+      "code": "de",
+      "displayName": "Deutsch"
+    },
+    {
+      "code": "it",
+      "displayName": "Italiano"
+    },
+    {
+      "code": "pt",
+      "displayName": "Português"
+    },
+    {
+      "code": "ru",
+      "displayName": "Русский язык"
+    },
+    {
+      "code": "es",
+      "displayName": "Español"
+    },
+    {
+      "code": "ja",
+      "displayName": "日本語"
+    },
+    {
+      "code": "ko",
+      "displayName": "한국어"
+    }
+  ],
+  "unlabelledSecondaryCodes": [
+    "en",
+    "zh-CN",
+    "zh-TW",
+    "fr",
+    "de",
+    "it",
+    "pt",
+    "ru",
+    "es",
+    "ja",
+    "ko"
+  ],
+  "undecodedTrailingArray": {
+    "count": 11,
+    "bytesPerEntry": 12,
+    "dataHex": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "source": {
+    "file": "sharedassets0.assets",
+    "pathId": 139
+  }
+}

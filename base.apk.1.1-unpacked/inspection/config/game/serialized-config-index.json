@@ -1,0 +1,805 @@
+{
+  "sourceFile": "sharedassets0.assets",
+  "namedComponents": [
+    {
+      "name": "UI/Navigate",
+      "pathId": 131,
+      "serializedSize": 96,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "UI/RightClick",
+      "pathId": 132,
+      "serializedSize": 100,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "UI/MiddleClick",
+      "pathId": 133,
+      "serializedSize": 100,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "UI/Point",
+      "pathId": 134,
+      "serializedSize": 92,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "DefaultInputActions",
+      "pathId": 135,
+      "serializedSize": 8036,
+      "script": {
+        "m_ClassName": "InputActionAsset",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "HybridModeConfig",
+      "pathId": 136,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "HybridModeConfig",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "WebServiceConfig",
+      "pathId": 137,
+      "serializedSize": 68,
+      "script": {
+        "m_ClassName": "WebServiceConfig",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "WebSocketConfig",
+      "pathId": 138,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "WebSocketConfig",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "LanguagesMeta",
+      "pathId": 139,
+      "serializedSize": 612,
+      "script": {
+        "m_ClassName": "LanguagesMetaDescription",
+        "m_Namespace": "Supersolid.I18n.Data",
+        "m_AssemblyName": "Supersolid.I18n"
+      }
+    },
+    {
+      "name": "Ad Units Debug Menu",
+      "pathId": 140,
+      "serializedSize": 112,
+      "script": {
+        "m_ClassName": "ViewReference",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Card Event Debug Menu",
+      "pathId": 141,
+      "serializedSize": 116,
+      "script": {
+        "m_ClassName": "ViewReference",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Loading Info Debug Menu",
+      "pathId": 142,
+      "serializedSize": 116,
+      "script": {
+        "m_ClassName": "ViewReference",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Offline Friends Debug Menu",
+      "pathId": 143,
+      "serializedSize": 120,
+      "script": {
+        "m_ClassName": "ViewReference",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Popup Debug Menu",
+      "pathId": 144,
+      "serializedSize": 108,
+      "script": {
+        "m_ClassName": "ViewReference",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Shop Offer Debug Menu",
+      "pathId": 145,
+      "serializedSize": 116,
+      "script": {
+        "m_ClassName": "ViewReference",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Suggested Friends Debug Menu",
+      "pathId": 146,
+      "serializedSize": 120,
+      "script": {
+        "m_ClassName": "ViewReference",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "OnlineInstaller",
+      "pathId": 147,
+      "serializedSize": 92,
+      "script": {
+        "m_ClassName": "ScriptableCompositeInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Core",
+      "pathId": 148,
+      "serializedSize": 332,
+      "script": {
+        "m_ClassName": "ScriptableCompositeInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "AdsInstaller",
+      "pathId": 149,
+      "serializedSize": 576,
+      "script": {
+        "m_ClassName": "AdsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "AnalyticsCompositeInstaller",
+      "pathId": 150,
+      "serializedSize": 92,
+      "script": {
+        "m_ClassName": "ScriptableCompositeInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "AnalyticsInstaller",
+      "pathId": 151,
+      "serializedSize": 236,
+      "script": {
+        "m_ClassName": "AnalyticsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "AppLifecycleInstaller",
+      "pathId": 152,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "AppLifecycleInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "AppReviewInstaller",
+      "pathId": 153,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "AppReviewInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "AudioServiceInstaller",
+      "pathId": 154,
+      "serializedSize": 68,
+      "script": {
+        "m_ClassName": "AudioServiceInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "BuildInfoInstaller",
+      "pathId": 155,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "BuildInfoInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "ClientUpdateSystemInstaller",
+      "pathId": 156,
+      "serializedSize": 60,
+      "script": {
+        "m_ClassName": "ClientUpdateSystemInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "CrashReportsInstaller",
+      "pathId": 157,
+      "serializedSize": 68,
+      "script": {
+        "m_ClassName": "CrashReportsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "DescriptionsInstaller",
+      "pathId": 158,
+      "serializedSize": 100,
+      "script": {
+        "m_ClassName": "DescriptionsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "DialogueInstaller",
+      "pathId": 159,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "DialogueInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "FeatureFlagsInstaller",
+      "pathId": 160,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "FeatureFlagsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "FirebaseInstaller",
+      "pathId": 161,
+      "serializedSize": 1000,
+      "script": {
+        "m_ClassName": "FirebaseInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "GameStatsInstaller",
+      "pathId": 162,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "GameStatsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "GooglePubSubAnalyticsInstaller",
+      "pathId": 163,
+      "serializedSize": 64,
+      "script": {
+        "m_ClassName": "GooglePubSubAnalyticsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "ItemControllersInstaller",
+      "pathId": 164,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "ItemControllersInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "LocalNotificationsInstaller",
+      "pathId": 165,
+      "serializedSize": 60,
+      "script": {
+        "m_ClassName": "LocalNotificationsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "LocalizationInstaller",
+      "pathId": 166,
+      "serializedSize": 68,
+      "script": {
+        "m_ClassName": "LocalizationInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "PopupInstaller",
+      "pathId": 167,
+      "serializedSize": 48,
+      "script": {
+        "m_ClassName": "PopupInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "ProfanityFilterServiceInstaller",
+      "pathId": 168,
+      "serializedSize": 64,
+      "script": {
+        "m_ClassName": "ProfanityFilterServiceInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "SeasonInstaller",
+      "pathId": 169,
+      "serializedSize": 48,
+      "script": {
+        "m_ClassName": "SeasonInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "SerializationInstaller",
+      "pathId": 170,
+      "serializedSize": 112,
+      "script": {
+        "m_ClassName": "SerializationInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "SettingsServiceInstaller",
+      "pathId": 171,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "SettingsServiceInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "TimeInstaller",
+      "pathId": 172,
+      "serializedSize": 48,
+      "script": {
+        "m_ClassName": "TimeInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "TutorialInstaller",
+      "pathId": 173,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "TutorialInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "UIInstaller",
+      "pathId": 174,
+      "serializedSize": 156,
+      "script": {
+        "m_ClassName": "UIInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Gemini",
+      "pathId": 175,
+      "serializedSize": 276,
+      "script": {
+        "m_ClassName": "ScriptableCompositeInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "AchievementsInstaller",
+      "pathId": 176,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "AchievementsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "AnalyticsObserverInstaller",
+      "pathId": 177,
+      "serializedSize": 60,
+      "script": {
+        "m_ClassName": "AnalyticsObserverInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "BoardInstaller",
+      "pathId": 178,
+      "serializedSize": 60,
+      "script": {
+        "m_ClassName": "BoardInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "BubblesInstaller",
+      "pathId": 179,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "BubblesInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "CardEventInstaller",
+      "pathId": 180,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "CardEventInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "CosmeticsInstaller",
+      "pathId": 181,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "CosmeticsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "EventBusInstaller",
+      "pathId": 182,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "EventBusInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "EventsInstaller",
+      "pathId": 183,
+      "serializedSize": 48,
+      "script": {
+        "m_ClassName": "EventsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "GameTasksInstaller",
+      "pathId": 184,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "GameTasksInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "GiftingInstaller",
+      "pathId": 185,
+      "serializedSize": 48,
+      "script": {
+        "m_ClassName": "GiftingInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "GuildInstaller",
+      "pathId": 186,
+      "serializedSize": 48,
+      "script": {
+        "m_ClassName": "GuildInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "HintsInstaller",
+      "pathId": 187,
+      "serializedSize": 48,
+      "script": {
+        "m_ClassName": "HintsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "LeaderboardInstaller",
+      "pathId": 188,
+      "serializedSize": 64,
+      "script": {
+        "m_ClassName": "LeaderboardInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "MetaGameInstaller",
+      "pathId": 189,
+      "serializedSize": 96,
+      "script": {
+        "m_ClassName": "MetaGameInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "OrdersInstaller",
+      "pathId": 190,
+      "serializedSize": 92,
+      "script": {
+        "m_ClassName": "OrdersInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "RewardletsInstaller",
+      "pathId": 191,
+      "serializedSize": 64,
+      "script": {
+        "m_ClassName": "RewardletsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "SocialsInstaller",
+      "pathId": 192,
+      "serializedSize": 48,
+      "script": {
+        "m_ClassName": "SocialsInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "StoreSystemInstaller",
+      "pathId": 193,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "StoreSystemInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "SuperchargeInstaller",
+      "pathId": 194,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "SuperchargeInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "VipInstaller",
+      "pathId": 195,
+      "serializedSize": 44,
+      "script": {
+        "m_ClassName": "VipInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "Online",
+      "pathId": 196,
+      "serializedSize": 132,
+      "script": {
+        "m_ClassName": "ScriptableCompositeInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "OnlineDebugInstaller",
+      "pathId": 197,
+      "serializedSize": 852,
+      "script": {
+        "m_ClassName": "OnlineDebugInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "OnlineHybridModeInstaller",
+      "pathId": 198,
+      "serializedSize": 84,
+      "script": {
+        "m_ClassName": "OnlineHybridModeInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "OnlineMessengerServiceInstaller",
+      "pathId": 199,
+      "serializedSize": 64,
+      "script": {
+        "m_ClassName": "OnlineMessengerServiceInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "OnlineUserInstaller",
+      "pathId": 200,
+      "serializedSize": 52,
+      "script": {
+        "m_ClassName": "OnlineUserInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "OnlineValidationInstaller",
+      "pathId": 201,
+      "serializedSize": 60,
+      "script": {
+        "m_ClassName": "OnlineValidationInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "WebServiceInstaller",
+      "pathId": 202,
+      "serializedSize": 76,
+      "script": {
+        "m_ClassName": "WebServiceInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "BalanceVersion",
+      "pathId": 203,
+      "serializedSize": 56,
+      "script": {
+        "m_ClassName": "BalanceVersionDescription",
+        "m_Namespace": "Supersolid.AssetManagement",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "name": "MIKADO BOLD SDF",
+      "pathId": 204,
+      "serializedSize": 20028,
+      "script": {
+        "m_ClassName": "TMP_FontAsset",
+        "m_Namespace": "TMPro",
+        "m_AssemblyName": "Unity.TextMeshPro"
+      }
+    },
+    {
+      "name": "UI/Submit",
+      "pathId": 205,
+      "serializedSize": 96,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "UI/Click",
+      "pathId": 206,
+      "serializedSize": 92,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "UI/ScrollWheel",
+      "pathId": 207,
+      "serializedSize": 100,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "UI/TrackedDevicePosition",
+      "pathId": 208,
+      "serializedSize": 108,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "UI/Cancel",
+      "pathId": 209,
+      "serializedSize": 96,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    },
+    {
+      "name": "UI/TrackedDeviceOrientation",
+      "pathId": 210,
+      "serializedSize": 112,
+      "script": {
+        "m_ClassName": "InputActionReference",
+        "m_Namespace": "UnityEngine.InputSystem",
+        "m_AssemblyName": "Unity.InputSystem"
+      }
+    }
+  ]
+}

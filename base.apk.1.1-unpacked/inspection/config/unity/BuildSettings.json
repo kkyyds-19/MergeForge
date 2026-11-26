@@ -1,0 +1,29 @@
+{
+  "scenes": [
+    "Assets/Scenes/ApplicationLoading.unity",
+    "Assets/Scenes/MainMenu.unity",
+    "Assets/Scenes/Quit.unity"
+  ],
+  "preloadedPlugins": [],
+  "enabledVRDevices": [],
+  "buildTags": [],
+  "hasPROVersion": false,
+  "isNoWatermarkBuild": false,
+  "isPrototypingBuild": false,
+  "isEducationalBuild": false,
+  "isEmbedded": false,
+  "isTrial": false,
+  "hasPublishingRights": true,
+  "hasShadows": true,
+  "hasSoftShadows": true,
+  "hasLocalLightShadows": true,
+  "hasAdvancedVersion": false,
+  "enableDynamicBatching": false,
+  "usesOnMouseEvents": true,
+  "hasClusterRendering": false,
+  "m_Version": "6000.3.27f2",
+  "m_GraphicsAPIs": [
+    21,
+    11
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "HybridModeConfig",
+  "script": {
+    "m_ClassName": "HybridModeConfig",
+    "m_Namespace": "",
+    "m_AssemblyName": "Assembly-CSharp"
+  },
+  "source": {
+    "file": "sharedassets0.assets",
+    "pathId": 136
+  },
+  "unlabelledPayloadWordsLE": [
+    1,
+    10
+  ],
+  "status": "field_names_unavailable"
+}

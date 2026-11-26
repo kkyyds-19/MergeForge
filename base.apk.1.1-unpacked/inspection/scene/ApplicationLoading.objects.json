@@ -1,0 +1,3922 @@
+{
+  "buildScenePath": "Assets/Scenes/ApplicationLoading.unity",
+  "serializedFile": "level0",
+  "decodeCounts": {
+    "full": 84,
+    "header_only": 38
+  },
+  "externalFiles": [
+    "globalgamemanagers.assets",
+    "Library/unity default resources",
+    "sharedassets0.assets"
+  ],
+  "objectsByPathId": {
+    "1": {
+      "type": "GameObject",
+      "serializedSize": 95,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 58
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 57
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 89
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 90
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 91
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 92
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "Canvas",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "2": {
+      "type": "GameObject",
+      "serializedSize": 71,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 59
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 39
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 94
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 93
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "Heading",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "3": {
+      "type": "GameObject",
+      "serializedSize": 71,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 60
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 40
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 83
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 95
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "UserId",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "4": {
+      "type": "GameObject",
+      "serializedSize": 75,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 29
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 34
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 35
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 96
+            }
+          }
+        ],
+        "m_Layer": 0,
+        "m_Name": "Main Camera",
+        "m_Tag": 5,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "5": {
+      "type": "GameObject",
+      "serializedSize": 43,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 61
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "ProgressBarPanel",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "6": {
+      "type": "GameObject",
+      "serializedSize": 75,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 62
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 41
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 98
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 97
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "SubHeading",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "7": {
+      "type": "GameObject",
+      "serializedSize": 67,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 63
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 42
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 99
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 100
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "Logo",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "8": {
+      "type": "GameObject",
+      "serializedSize": 63,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 64
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 43
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 101
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "CopyImage",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "9": {
+      "type": "GameObject",
+      "serializedSize": 59,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 30
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 102
+            }
+          }
+        ],
+        "m_Layer": 0,
+        "m_Name": "SpriteAtlasProvider",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "10": {
+      "type": "GameObject",
+      "serializedSize": 59,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 31
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 103
+            }
+          }
+        ],
+        "m_Layer": 0,
+        "m_Name": "SetupCompleteHandler",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "11": {
+      "type": "GameObject",
+      "serializedSize": 79,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 65
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 44
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 104
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 105
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "UserIdBackground",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "12": {
+      "type": "GameObject",
+      "serializedSize": 83,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 66
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 45
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 84
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 107
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 106
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "Version",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "13": {
+      "type": "GameObject",
+      "serializedSize": 91,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 67
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 46
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 85
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 108
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 109
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "DowloadingLabel",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "14": {
+      "type": "GameObject",
+      "serializedSize": 79,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 68
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 47
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 111
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 110
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 112
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "Bg",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "15": {
+      "type": "GameObject",
+      "serializedSize": 47,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 69
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 113
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "SafeArea",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "16": {
+      "type": "GameObject",
+      "serializedSize": 51,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 32
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 81
+            }
+          }
+        ],
+        "m_Layer": 0,
+        "m_Name": "AppLauncher",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "17": {
+      "type": "GameObject",
+      "serializedSize": 67,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 70
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 48
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 86
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "LoadingStepName",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "18": {
+      "type": "GameObject",
+      "serializedSize": 79,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 33
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 82
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 122
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 120
+            }
+          }
+        ],
+        "m_Layer": 0,
+        "m_Name": "MainController",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "19": {
+      "type": "GameObject",
+      "serializedSize": 75,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 74
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 51
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 87
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "ProgressPercentageLabel",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "20": {
+      "type": "GameObject",
+      "serializedSize": 87,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 73
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 52
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 88
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 121
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "ProgressPercentageLabel",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "21": {
+      "type": "GameObject",
+      "serializedSize": 55,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 79
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 56
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 117
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "bg",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "22": {
+      "type": "GameObject",
+      "serializedSize": 55,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 80
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 55
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 116
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "bg",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "23": {
+      "type": "GameObject",
+      "serializedSize": 63,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 76
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 53
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 115
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "ProgressBar",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "24": {
+      "type": "GameObject",
+      "serializedSize": 71,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 75
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 54
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 114
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "DownloadProgressBar",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "25": {
+      "type": "GameObject",
+      "serializedSize": 43,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 78
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "FillContainer",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "26": {
+      "type": "GameObject",
+      "serializedSize": 43,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 77
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "FillContainer",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "27": {
+      "type": "GameObject",
+      "serializedSize": 59,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 71
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 50
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 118
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "FillRect",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "28": {
+      "type": "GameObject",
+      "serializedSize": 59,
+      "data": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 72
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 49
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": 119
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "FillRect",
+        "m_Tag": 0,
+        "m_IsActive": true
+      },
+      "decodeStatus": "full"
+    },
+    "29": {
+      "type": "Transform",
+      "serializedSize": 68,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 4
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": -10.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "30": {
+      "type": "Transform",
+      "serializedSize": 68,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 9
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "31": {
+      "type": "Transform",
+      "serializedSize": 68,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 10
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "32": {
+      "type": "Transform",
+      "serializedSize": 68,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 16
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "33": {
+      "type": "Transform",
+      "serializedSize": 68,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 18
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "34": {
+      "type": "Camera",
+      "serializedSize": 184,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 4
+        },
+        "m_Enabled": 1,
+        "m_ClearFlags": 3,
+        "m_BackGroundColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "m_projectionMatrixMode": 1,
+        "m_GateFitMode": 2,
+        "m_Iso": 200,
+        "m_ShutterSpeed": 0.004999999888241291,
+        "m_Aperture": 16.0,
+        "m_FocusDistance": 10.0,
+        "m_FocalLength": 50.0,
+        "m_BladeCount": 5,
+        "m_Curvature": {
+          "x": 2.0,
+          "y": 11.0
+        },
+        "m_BarrelClipping": 0.25,
+        "m_Anamorphism": 0.0,
+        "m_SensorSize": {
+          "x": 36.0,
+          "y": 24.0
+        },
+        "m_LensShift": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 1000.0,
+        "field of view": 60.0,
+        "orthographic": false,
+        "orthographic size": 5.0,
+        "m_Depth": 1.0,
+        "m_CullingMask": {
+          "m_Bits": 4294967295
+        },
+        "m_RenderingPath": -1,
+        "m_TargetTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_TargetDisplay": 0,
+        "m_TargetEye": 3,
+        "m_HDR": true,
+        "m_AllowMSAA": true,
+        "m_AllowDynamicResolution": false,
+        "m_ForceIntoRT": false,
+        "m_OcclusionCulling": true,
+        "m_StereoConvergence": 10.0,
+        "m_StereoSeparation": 0.02199999988079071
+      },
+      "decodeStatus": "full"
+    },
+    "35": {
+      "type": "AudioListener",
+      "serializedSize": 16,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 4
+        },
+        "m_Enabled": 1
+      },
+      "decodeStatus": "full"
+    },
+    "36": {
+      "type": "RenderSettings",
+      "serializedSize": 333,
+      "data": {
+        "m_Fog": false,
+        "m_FogColor": {
+          "r": 0.5,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "m_FogMode": 3,
+        "m_FogDensity": 0.009999999776482582,
+        "m_LinearFogStart": 0.0,
+        "m_LinearFogEnd": 300.0,
+        "m_AmbientSkyColor": {
+          "r": 0.21199999749660492,
+          "g": 0.22699999809265137,
+          "b": 0.2590000033378601,
+          "a": 1.0
+        },
+        "m_AmbientEquatorColor": {
+          "r": 0.11400000005960464,
+          "g": 0.125,
+          "b": 0.13300000131130219,
+          "a": 1.0
+        },
+        "m_AmbientGroundColor": {
+          "r": 0.04699999839067459,
+          "g": 0.0430000014603138,
+          "b": 0.03500000014901161,
+          "a": 1.0
+        },
+        "m_AmbientIntensity": 1.0,
+        "m_AmbientMode": 3,
+        "m_SubtractiveShadowColor": {
+          "r": 0.41999998688697815,
+          "g": 0.4779999852180481,
+          "b": 0.6269999742507935,
+          "a": 1.0
+        },
+        "m_SkyboxMaterial": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_HaloStrength": 0.5,
+        "m_FlareStrength": 1.0,
+        "m_FlareFadeSpeed": 3.0,
+        "m_HaloTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_SpotCookie": {
+          "m_FileID": 2,
+          "m_PathID": 10001
+        },
+        "m_DefaultReflectionMode": 0,
+        "m_DefaultReflectionResolution": 128,
+        "m_ReflectionBounces": 1,
+        "m_ReflectionIntensity": 1.0,
+        "m_CustomReflection": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_AmbientProbe": {
+          "sh[ 0]": 0.0,
+          "sh[ 1]": 0.0,
+          "sh[ 2]": 0.0,
+          "sh[ 3]": 0.0,
+          "sh[ 4]": 0.0,
+          "sh[ 5]": 0.0,
+          "sh[ 6]": 0.0,
+          "sh[ 7]": 0.0,
+          "sh[ 8]": 0.0,
+          "sh[ 9]": 0.0,
+          "sh[10]": 0.0,
+          "sh[11]": 0.0,
+          "sh[12]": 0.0,
+          "sh[13]": 0.0,
+          "sh[14]": 0.0,
+          "sh[15]": 0.0,
+          "sh[16]": 0.0,
+          "sh[17]": 0.0,
+          "sh[18]": 0.0,
+          "sh[19]": 0.0,
+          "sh[20]": 0.0,
+          "sh[21]": 0.0,
+          "sh[22]": 0.0,
+          "sh[23]": 0.0,
+          "sh[24]": 0.0,
+          "sh[25]": 0.0,
+          "sh[26]": 0.0
+        },
+        "m_GeneratedSkyboxReflection": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Sun": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_IndirectSpecularColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "m_UseRadianceAmbientProbe": false
+      },
+      "decodeStatus": "full"
+    },
+    "37": {
+      "type": "LightmapSettings",
+      "serializedSize": 76,
+      "data": {
+        "m_EnlightenSceneMapping": {
+          "m_Renderers": [],
+          "m_Systems": [],
+          "m_Probesets": [],
+          "m_SystemAtlases": [],
+          "m_TerrainChunks": []
+        },
+        "m_BakeOnSceneLoad": 0,
+        "m_LightProbes": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Lightmaps": [],
+        "m_LightmapsMode": 1,
+        "m_GISettings": {
+          "m_BounceScale": 1.0,
+          "m_IndirectOutputScale": 1.0,
+          "m_AlbedoBoost": 1.0,
+          "m_EnvironmentLightingMode": 0,
+          "m_EnableBakedLightmaps": true,
+          "m_EnableRealtimeLightmaps": false
+        },
+        "m_LightingSettings": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "38": {
+      "type": "NavMeshSettings",
+      "serializedSize": 12,
+      "data": {
+        "m_NavMeshData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "39": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 2
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "40": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 3
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "41": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 6
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "42": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 7
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "43": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 8
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "44": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 11
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "45": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 12
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "46": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 13
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "47": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 14
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "48": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 17
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "49": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 28
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "50": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 27
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "51": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 19
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "52": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 20
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "53": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 23
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "54": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 24
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "55": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 22
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "56": {
+      "type": "CanvasRenderer",
+      "serializedSize": 13,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 21
+        },
+        "m_CullTransparentMesh": true
+      },
+      "decodeStatus": "full"
+    },
+    "57": {
+      "type": "Canvas",
+      "serializedSize": 63,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1
+        },
+        "m_Enabled": 1,
+        "m_RenderMode": 1,
+        "m_Camera": {
+          "m_FileID": 0,
+          "m_PathID": 34
+        },
+        "m_PlaneDistance": 60.0,
+        "m_PixelPerfect": false,
+        "m_ReceivesEvents": true,
+        "m_OverrideSorting": false,
+        "m_OverridePixelPerfect": false,
+        "m_SortingBucketNormalizedSize": 0.0,
+        "m_VertexColorAlwaysGammaSpace": false,
+        "m_AdditionalShaderChannelsFlag": 25,
+        "m_UpdateRectTransformForStandalone": 0,
+        "m_SortingLayerID": 0,
+        "m_SortingOrder": 50,
+        "m_TargetDisplay": 0
+      },
+      "decodeStatus": "full"
+    },
+    "58": {
+      "type": "RectTransform",
+      "serializedSize": 144,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 68
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 63
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 69
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "59": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 2
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 63
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_AnchoredPosition": {
+          "x": -0.592010498046875,
+          "y": -0.257080078125
+        },
+        "m_SizeDelta": {
+          "x": -1.7790069580078125,
+          "y": -0.2480010986328125
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "60": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 3
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 65
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.8676869869232178,
+          "y": 1.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "61": {
+      "type": "RectTransform",
+      "serializedSize": 156,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 5
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 76
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 75
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 67
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 70
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 69
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 540.0,
+          "y": 62.275001525878906
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "62": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 6
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 63
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": -104.20000457763672
+        },
+        "m_SizeDelta": {
+          "x": -22.251998901367188,
+          "y": -78.39998626708984
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "63": {
+      "type": "RectTransform",
+      "serializedSize": 132,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 7
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 59
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 62
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 58
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 282.699951171875
+        },
+        "m_SizeDelta": {
+          "x": 358.6239929199219,
+          "y": 171.7530059814453
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "64": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 8
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 65
+        },
+        "m_AnchorMin": {
+          "x": 0.8676869869232178,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 1.0,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "65": {
+      "type": "RectTransform",
+      "serializedSize": 132,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 11
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 60
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 64
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 69
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 301.8370056152344,
+          "y": 26.99799919128418
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "66": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 12
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 69
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 200.0,
+          "y": 35.1870002746582
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "67": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 13
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 61
+        },
+        "m_AnchorMin": {
+          "x": 0.24074070155620575,
+          "y": 0.10000000149011612
+        },
+        "m_AnchorMax": {
+          "x": 0.7592592835426331,
+          "y": 0.3125
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": -14.5
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 1.0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "68": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 14
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 58
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "69": {
+      "type": "RectTransform",
+      "serializedSize": 144,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 15
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 61
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 66
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 65
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 58
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "70": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 17
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 61
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchoredPosition": {
+          "x": 270.0,
+          "y": -63.0
+        },
+        "m_SizeDelta": {
+          "x": 400.0,
+          "y": 20.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 1.0
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "71": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 27
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 77
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 2.8089001178741455,
+          "y": 3.0517578125e-05
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 28.847999572753906
+        },
+        "m_Pivot": {
+          "x": 0.0,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "72": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 28
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 78
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 2.8089001178741455,
+          "y": 3.0517578125e-05
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 28.847999572753906
+        },
+        "m_Pivot": {
+          "x": 0.0,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "73": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 20
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 76
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.5999984741210938
+        },
+        "m_SizeDelta": {
+          "x": 91.54570007324219,
+          "y": 37.69820022583008
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "74": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 19
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 75
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.5999984741210938
+        },
+        "m_SizeDelta": {
+          "x": 219.39999389648438,
+          "y": 37.69820022583008
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "75": {
+      "type": "RectTransform",
+      "serializedSize": 144,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 24
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 0.800000011920929,
+          "y": 0.800000011920929,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 79
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 77
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 74
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 61
+        },
+        "m_AnchorMin": {
+          "x": 0.24074071645736694,
+          "y": 0.3125
+        },
+        "m_AnchorMax": {
+          "x": 0.7592592835426331,
+          "y": 0.6875
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "76": {
+      "type": "RectTransform",
+      "serializedSize": 144,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 23
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 0.800000011920929,
+          "y": 0.800000011920929,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 80
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 78
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 73
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 61
+        },
+        "m_AnchorMin": {
+          "x": 0.24074071645736694,
+          "y": 0.3125
+        },
+        "m_AnchorMax": {
+          "x": 0.7592592835426331,
+          "y": 0.6875
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "77": {
+      "type": "RectTransform",
+      "serializedSize": 120,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 26
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 71
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 75
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 3.6320037841796875,
+          "y": -2.288818359375e-05
+        },
+        "m_SizeDelta": {
+          "x": 269.2380065917969,
+          "y": 28.847999572753906
+        },
+        "m_Pivot": {
+          "x": 0.0,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "78": {
+      "type": "RectTransform",
+      "serializedSize": 120,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 25
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 72
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 76
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 3.6320037841796875,
+          "y": -2.288818359375e-05
+        },
+        "m_SizeDelta": {
+          "x": 269.2380065917969,
+          "y": 28.847999572753906
+        },
+        "m_Pivot": {
+          "x": 0.0,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "79": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 21
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 75
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": -0.5924999713897705,
+          "y": -3.3206005096435547
+        },
+        "m_SizeDelta": {
+          "x": 289.80010986328125,
+          "y": 45.53900146484375
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "80": {
+      "type": "RectTransform",
+      "serializedSize": 108,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 22
+        },
+        "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 76
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": -0.5924999713897705,
+          "y": -3.3206005096435547
+        },
+        "m_SizeDelta": {
+          "x": 289.80010986328125,
+          "y": 45.53900146484375
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "decodeStatus": "full"
+    },
+    "81": {
+      "type": "MonoBehaviour",
+      "serializedSize": 32,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 16
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 4376
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "full",
+      "script": {
+        "m_ClassName": "AppLauncher",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "82": {
+      "type": "MonoBehaviour",
+      "serializedSize": 76,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 18
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2956
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 76 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "MainController",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "83": {
+      "type": "MonoBehaviour",
+      "serializedSize": 552,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 3
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 6946
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 552 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "Player ID: XXXXXXXXXXXXXXXXXXXXXXXX"
+      ],
+      "script": {
+        "m_ClassName": "TextMeshProUGUI",
+        "m_Namespace": "TMPro",
+        "m_AssemblyName": "Unity.TextMeshPro"
+      }
+    },
+    "84": {
+      "type": "MonoBehaviour",
+      "serializedSize": 528,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 12
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 6946
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 528 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "Version 2.45"
+      ],
+      "script": {
+        "m_ClassName": "TextMeshProUGUI",
+        "m_Namespace": "TMPro",
+        "m_AssemblyName": "Unity.TextMeshPro"
+      }
+    },
+    "85": {
+      "type": "MonoBehaviour",
+      "serializedSize": 544,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 13
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 6946
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 544 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "Downloading content (---MB)"
+      ],
+      "script": {
+        "m_ClassName": "TextMeshProUGUI",
+        "m_Namespace": "TMPro",
+        "m_AssemblyName": "Unity.TextMeshPro"
+      }
+    },
+    "86": {
+      "type": "MonoBehaviour",
+      "serializedSize": 568,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 17
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 6946
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 568 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "phase_01_install_services_02_descriptions_init_start"
+      ],
+      "script": {
+        "m_ClassName": "TextMeshProUGUI",
+        "m_Namespace": "TMPro",
+        "m_AssemblyName": "Unity.TextMeshPro"
+      }
+    },
+    "87": {
+      "type": "MonoBehaviour",
+      "serializedSize": 532,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 19
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 6946
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 532 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "22 MB / 33 MB"
+      ],
+      "script": {
+        "m_ClassName": "TextMeshProUGUI",
+        "m_Namespace": "TMPro",
+        "m_AssemblyName": "Unity.TextMeshPro"
+      }
+    },
+    "88": {
+      "type": "MonoBehaviour",
+      "serializedSize": 520,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 20
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 6946
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 520 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "TextMeshProUGUI",
+        "m_Namespace": "TMPro",
+        "m_AssemblyName": "Unity.TextMeshPro"
+      }
+    },
+    "89": {
+      "type": "MonoBehaviour",
+      "serializedSize": 80,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 355
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 80 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "CanvasScaler",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "90": {
+      "type": "MonoBehaviour",
+      "serializedSize": 80,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 5639
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 80 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "AssetLoadingScreen",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "91": {
+      "type": "MonoBehaviour",
+      "serializedSize": 56,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2349
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 56 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "SafeCanvasResizer",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "92": {
+      "type": "MonoBehaviour",
+      "serializedSize": 44,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 6287
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 44 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "GraphicRaycaster",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "93": {
+      "type": "MonoBehaviour",
+      "serializedSize": 264,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 2
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 4590
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 264 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "pt",
+        "ru",
+        "zh-CN",
+        "zh-TW",
+        "ja",
+        "ko"
+      ],
+      "script": {
+        "m_ClassName": "LocalizeImage",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "94": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 2
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "95": {
+      "type": "MonoBehaviour",
+      "serializedSize": 72,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 3
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1490
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 72 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "User ID: {0}"
+      ],
+      "script": {
+        "m_ClassName": "UserIdLabel",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "96": {
+      "type": "MonoBehaviour",
+      "serializedSize": 44,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 4
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 3814
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 44 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "UICamera",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "97": {
+      "type": "MonoBehaviour",
+      "serializedSize": 264,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 6
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 4590
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 264 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "pt",
+        "ru",
+        "zh-CN",
+        "zh-TW",
+        "ja",
+        "ko"
+      ],
+      "script": {
+        "m_ClassName": "LocalizeImage",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "98": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 6
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "99": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 7
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "100": {
+      "type": "MonoBehaviour",
+      "serializedSize": 264,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 7
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 4590
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 264 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "pt",
+        "ru",
+        "zh-CN",
+        "zh-TW",
+        "ja",
+        "ko"
+      ],
+      "script": {
+        "m_ClassName": "LocalizeImage",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "101": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 8
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "102": {
+      "type": "MonoBehaviour",
+      "serializedSize": 32,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 9
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 4316
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "full",
+      "script": {
+        "m_ClassName": "SpriteAtlasProvider",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "103": {
+      "type": "MonoBehaviour",
+      "serializedSize": 32,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 10
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 4812
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "full",
+      "script": {
+        "m_ClassName": "LoadSceneAppSetupCompleteHandler",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "104": {
+      "type": "MonoBehaviour",
+      "serializedSize": 80,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 11
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 264
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 80 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "NonDrawingGraphic",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "105": {
+      "type": "MonoBehaviour",
+      "serializedSize": 452,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 11
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2176
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 452 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "Normal",
+        "Highlighted",
+        "Pressed",
+        "Selected",
+        "Disabled",
+        "UserIdLabel, Assembly-CSharp",
+        "CopyIdToClipboard",
+        "UnityEngine.Object, UnityEngine"
+      ],
+      "script": {
+        "m_ClassName": "Button",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "106": {
+      "type": "MonoBehaviour",
+      "serializedSize": 44,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 12
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7100
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 44 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "ClientVersionLabel",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "107": {
+      "type": "MonoBehaviour",
+      "serializedSize": 192,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 12
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 4596
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 192 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "TMPro.TMP_Text, Unity.TextMeshPro",
+        "set_text",
+        "UnityEngine.Object, UnityEngine"
+      ],
+      "script": {
+        "m_ClassName": "FormatLabel",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "108": {
+      "type": "MonoBehaviour",
+      "serializedSize": 68,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 13
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 6363
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 68 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "DownloadInProgressPrompt",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "109": {
+      "type": "MonoBehaviour",
+      "serializedSize": 48,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 13
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2168
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 48 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "DownloadSizeLabel",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "110": {
+      "type": "MonoBehaviour",
+      "serializedSize": 40,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 14
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 3830
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 40 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "AspectRatioFitter",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "111": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 14
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "112": {
+      "type": "MonoBehaviour",
+      "serializedSize": 2388,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 14
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1601
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 2388 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "776d3929148319c4690bc681a5b9f573",
+        "loading_img_valentines",
+        "UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "742693b63c2784f429e9c70057ac2aaa",
+        "loading_img_spring",
+        "ffc96872f25817845a51f4546ba6aebd",
+        "56af7de9d1f53417b941fe0ed4cf3901",
+        "270f3e1e2157db84c96b770fa6873754",
+        "330d750078e500b46ad01fe324be8fa5",
+        "93c55b51dd04a224381735069fa8de35",
+        "0defa3f92bbafb54cad3558f7476faa4",
+        "85e10fcd075dcc148a20c7c007f6ae49",
+        "70c54053de05f264c8f2b65e03fa2998",
+        "63b08a131bd001a4390bd21574dc9ae3",
+        "2a8b24241f3cdde48804a0525eb6179a"
+      ],
+      "script": {
+        "m_ClassName": "CachedSpriteSeasonConsumer",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "113": {
+      "type": "MonoBehaviour",
+      "serializedSize": 84,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 15
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2514
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 84 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "VerticalLayoutGroup",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "114": {
+      "type": "MonoBehaviour",
+      "serializedSize": 84,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 24
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 3900
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 84 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "ProgressBar",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "115": {
+      "type": "MonoBehaviour",
+      "serializedSize": 216,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 23
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 3900
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 216 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "FormatLabel, Assembly-CSharp",
+        "FormatFloat",
+        "UnityEngine.Object, UnityEngine"
+      ],
+      "script": {
+        "m_ClassName": "ProgressBar",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "116": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 22
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "117": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 21
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "118": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 27
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "119": {
+      "type": "MonoBehaviour",
+      "serializedSize": 136,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 28
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7200
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 136 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "Image",
+        "m_Namespace": "UnityEngine.UI",
+        "m_AssemblyName": "UnityEngine.UI"
+      }
+    },
+    "120": {
+      "type": "MonoBehaviour",
+      "serializedSize": 44,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 18
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1482
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 44 bytes, but only read 32 bytes",
+      "script": {
+        "m_ClassName": "AssetManagementInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "121": {
+      "type": "MonoBehaviour",
+      "serializedSize": 184,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 20
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 4596
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "header_only",
+      "schemaError": "ValueError: Expected to read 184 bytes, but only read 32 bytes",
+      "unlabelledSerializedStrings": [
+        "{0:P0}",
+        "TMPro.TMP_Text, Unity.TextMeshPro",
+        "set_text",
+        "UnityEngine.Object, UnityEngine"
+      ],
+      "script": {
+        "m_ClassName": "FormatLabel",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    "122": {
+      "type": "MonoBehaviour",
+      "serializedSize": 32,
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 18
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7194
+        },
+        "m_Name": ""
+      },
+      "decodeStatus": "full",
+      "script": {
+        "m_ClassName": "CoreSupersolidInstaller",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    }
+  }
+}

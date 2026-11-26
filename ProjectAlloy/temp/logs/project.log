@@ -1,0 +1,16 @@
+2026-11-26 18:59:10 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine
+2026-11-26 18:59:11 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\native
+2026-11-26 18:59:11 - log: Request namespace: device-list
+2026-11-26 18:59:15 - log: [RB] extension loaded v0.1.12 sha256=3d66302ab21f7808de5cd6d5908c063a9d9ca2e38ad335388e5cae82906ce7ff path=C:\Users\CEO\.CocosCreator\builtin-extensions\3.8.6\runtime-bridge
+2026-11-26 18:59:17 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2026-11-26 18:59:17 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2026-11-26 18:59:17 - log: [Scene] meshopt wasm decoder initialized
+2026-11-26 18:59:17 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2026-11-26 18:59:17 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2026-11-26 18:59:17 - log: [Scene] [PHYSICS]: using builtin.
+2026-11-26 18:59:17 - log: [Scene] Cocos Creator v3.8.6
+2026-11-26 18:59:17 - log: [Scene] Using custom pipeline: Builtin
+2026-11-26 18:59:17 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.

@@ -1,0 +1,39 @@
+{
+  "m_Enabled": true,
+  "m_TestMode": false,
+  "m_EventOldUrl": "https://api.uca.cloud.unity3d.com/v1/events",
+  "m_EventUrl": "https://cdp.cloud.unity3d.com/v1/events",
+  "m_ConfigUrl": "https://config.uca.cloud.unity3d.com",
+  "m_DashboardUrl": "https://dashboard.unity3d.com",
+  "m_TestInitMode": 0,
+  "InsightsSettings": {
+    "m_EventUrl": "https://engine-data.unity3d.com",
+    "m_StackTraceUrl": "https://engine-data.services.api.unity.com/v1/stack-traces",
+    "m_EngineDiagnosticsEnabled": true,
+    "m_Enabled": false
+  },
+  "CrashReportingSettings": {
+    "m_EventUrl": "https://perf-events.cloud.unity3d.com",
+    "m_EnableCloudDiagnosticsReporting": true,
+    "m_LogBufferSize": 20
+  },
+  "UnityPurchasingSettings": {
+    "m_Enabled": false,
+    "m_TestMode": false
+  },
+  "UnityAnalyticsSettings": {
+    "m_Enabled": false,
+    "m_TestMode": false,
+    "m_InitializeOnStartup": true,
+    "m_PackageRequiringCoreStatsPresent": false
+  },
+  "UnityAdsSettings": {
+    "m_Enabled": false,
+    "m_InitializeOnStartup": true,
+    "m_TestMode": false,
+    "m_GameId": ""
+  },
+  "PerformanceReportingSettings": {
+    "m_Enabled": false
+  }
+}

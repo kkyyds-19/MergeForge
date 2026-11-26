@@ -1,0 +1,506 @@
+[
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 6,
+    "type": "Shader",
+    "serializedSize": 26340,
+    "name": "Legacy Shaders/VertexLit"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 7,
+    "type": "Shader",
+    "serializedSize": 29248,
+    "name": "Legacy Shaders/Diffuse"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 19,
+    "type": "Shader",
+    "serializedSize": 4168,
+    "name": "Hidden/Internal-StencilWrite"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 62,
+    "type": "Shader",
+    "serializedSize": 43600,
+    "name": "Hidden/Internal-DepthNormalsTexture"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 64,
+    "type": "Shader",
+    "serializedSize": 34628,
+    "name": "Hidden/Internal-ScreenSpaceShadows"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 65,
+    "type": "Shader",
+    "serializedSize": 5728,
+    "name": "Hidden/Internal-CombineDepthNormals"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 66,
+    "type": "Shader",
+    "serializedSize": 4704,
+    "name": "Hidden/BlitCopy"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 67,
+    "type": "Shader",
+    "serializedSize": 4544,
+    "name": "Hidden/BlitCopyDepth"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 68,
+    "type": "Shader",
+    "serializedSize": 5472,
+    "name": "Hidden/ConvertTexture"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 69,
+    "type": "Shader",
+    "serializedSize": 77760,
+    "name": "Hidden/Internal-DeferredShading"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 74,
+    "type": "Shader",
+    "serializedSize": 13156,
+    "name": "Hidden/Internal-DeferredReflections"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 75,
+    "type": "Shader",
+    "serializedSize": 13796,
+    "name": "Hidden/Internal-MotionVectors"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 102,
+    "type": "Shader",
+    "serializedSize": 4700,
+    "name": "Hidden/Internal-Flare"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 105,
+    "type": "Shader",
+    "serializedSize": 4860,
+    "name": "Hidden/Internal-Halo"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 107,
+    "type": "Shader",
+    "serializedSize": 4920,
+    "name": "Hidden/BlitCopyWithDepth"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 109,
+    "type": "Shader",
+    "serializedSize": 4764,
+    "name": "Hidden/BlitToDepth"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 110,
+    "type": "Shader",
+    "serializedSize": 4496,
+    "name": "Hidden/BlitToDepth_MSAA"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 111,
+    "type": "Shader",
+    "serializedSize": 7236,
+    "name": "Hidden/BlitCopyHDRTonemap"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 113,
+    "type": "Shader",
+    "serializedSize": 10208,
+    "name": "Hidden/Internal-DebugPattern"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 9000,
+    "type": "Shader",
+    "serializedSize": 8212,
+    "name": "Hidden/Internal-GUITextureClip"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 9001,
+    "type": "Shader",
+    "serializedSize": 7808,
+    "name": "Hidden/Internal-GUITextureClipText"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 9002,
+    "type": "Shader",
+    "serializedSize": 7136,
+    "name": "Hidden/Internal-GUITexture"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 9003,
+    "type": "Shader",
+    "serializedSize": 8156,
+    "name": "Hidden/Internal-GUITextureBlit"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 9004,
+    "type": "Shader",
+    "serializedSize": 11716,
+    "name": "Hidden/Internal-GUIRoundedRect"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 9007,
+    "type": "Shader",
+    "serializedSize": 13104,
+    "name": "Hidden/Internal-GUIRoundedRectWithColorPerBorder"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 9100,
+    "type": "Shader",
+    "serializedSize": 158368,
+    "name": "Hidden/Internal-UIRDefault"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 9101,
+    "type": "Shader",
+    "serializedSize": 6888,
+    "name": "Hidden/Internal-UIRAtlasBlitCopy"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 10753,
+    "type": "Shader",
+    "serializedSize": 8072,
+    "name": "Sprites/Default"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 10757,
+    "type": "Shader",
+    "serializedSize": 7708,
+    "name": "Sprites/Mask"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 10770,
+    "type": "Shader",
+    "serializedSize": 10064,
+    "name": "UI/Default"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 15104,
+    "type": "Shader",
+    "serializedSize": 10644,
+    "name": "Hidden/CubeBlur"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 15105,
+    "type": "Shader",
+    "serializedSize": 7056,
+    "name": "Hidden/CubeCopy"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 15106,
+    "type": "Shader",
+    "serializedSize": 8020,
+    "name": "Hidden/CubeBlend"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 15304,
+    "type": "Shader",
+    "serializedSize": 4784,
+    "name": "Hidden/VR/BlitTexArraySlice"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 15308,
+    "type": "Shader",
+    "serializedSize": 38444,
+    "name": "Hidden/Internal-ODSWorldTexture"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 15309,
+    "type": "Shader",
+    "serializedSize": 4928,
+    "name": "Hidden/Internal-CubemapToEquirect"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 15312,
+    "type": "Shader",
+    "serializedSize": 7984,
+    "name": "Hidden/VR/BlitFromTex2DToTexArraySlice"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 16000,
+    "type": "Shader",
+    "serializedSize": 5080,
+    "name": "Hidden/VideoComposite"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 16001,
+    "type": "Shader",
+    "serializedSize": 27500,
+    "name": "Hidden/VideoDecode"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 16003,
+    "type": "Shader",
+    "serializedSize": 9420,
+    "name": "Hidden/VideoDecodeAndroid"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 19011,
+    "type": "Shader",
+    "serializedSize": 9096,
+    "name": "Hidden/TextCore/Distance Field SSD"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 20500,
+    "type": "Shader",
+    "serializedSize": 9012,
+    "name": "Hidden/Physics2D/SDF_CircleGeometry"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 20501,
+    "type": "Shader",
+    "serializedSize": 9428,
+    "name": "Hidden/Physics2D/SDF_CapsuleGeometry"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 20502,
+    "type": "Shader",
+    "serializedSize": 14452,
+    "name": "Hidden/Physics2D/SDF_PolygonGeometry"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 20506,
+    "type": "Shader",
+    "serializedSize": 7548,
+    "name": "Hidden/Physics2D/SDF_Line"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "unity_builtin_extra",
+    "pathId": 20507,
+    "type": "Shader",
+    "serializedSize": 7252,
+    "name": "Hidden/Physics2D/SDF_Point"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "pathId": 29,
+    "type": "Shader",
+    "serializedSize": 17768,
+    "name": "TextMeshPro/Distance Field"
+  },
+  {
+    "scope": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "pathId": 30,
+    "type": "Shader",
+    "serializedSize": 13820,
+    "name": "TextMeshPro/Mobile/Distance Field"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 17,
+    "type": "Shader",
+    "serializedSize": 16068,
+    "name": "Hidden/InternalErrorShader"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 68,
+    "type": "Shader",
+    "serializedSize": 26760,
+    "name": "Hidden/InternalClear"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 69,
+    "type": "Shader",
+    "serializedSize": 7976,
+    "name": "Hidden/Internal-Colored"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 70,
+    "type": "Shader",
+    "serializedSize": 7280,
+    "name": "Hidden/Internal-Loading"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 300,
+    "type": "ComputeShader",
+    "serializedSize": 2629412,
+    "name": "Internal-Skinning"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 301,
+    "type": "ComputeShader",
+    "serializedSize": 326488,
+    "name": "Internal-BlendShape"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 302,
+    "type": "ComputeShader",
+    "serializedSize": 64,
+    "name": "Internal-RayTracing-AddInstancesIndirectSingleGeometry"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 303,
+    "type": "ComputeShader",
+    "serializedSize": 64,
+    "name": "Internal-RayTracing-AddInstancesIndirectMultiGeometry"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 400,
+    "type": "ComputeShader",
+    "serializedSize": 4972,
+    "name": "Internal-VT-TranslationTableReplace"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 401,
+    "type": "ComputeShader",
+    "serializedSize": 249300,
+    "name": "Internal-VT-TranslationTableUpsample"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 600,
+    "type": "ComputeShader",
+    "serializedSize": 22720,
+    "name": "Internal-CreateFoveatedShadingRateTextureArray"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 601,
+    "type": "ComputeShader",
+    "serializedSize": 19952,
+    "name": "Internal-CreateFoveatedShadingRateTextureNoArray"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 602,
+    "type": "ComputeShader",
+    "serializedSize": 10500,
+    "name": "Internal-YFlipFoveatedShadingTexture"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 10101,
+    "type": "Shader",
+    "serializedSize": 8404,
+    "name": "GUI/Text Shader"
+  },
+  {
+    "scope": "unity default resources",
+    "file": "unity default resources",
+    "pathId": 10755,
+    "type": "Shader",
+    "serializedSize": 14216,
+    "name": "Hidden/FrameDebuggerRenderTargetDisplay"
+  }
+]

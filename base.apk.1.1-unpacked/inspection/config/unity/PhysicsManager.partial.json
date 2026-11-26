@@ -1,0 +1,102 @@
+{
+  "decodeStatus": "trailing_bytes_unparsed",
+  "source": {
+    "file": "globalgamemanagers",
+    "pathId": 10
+  },
+  "data": {
+    "m_Gravity": {
+      "x": 0.0,
+      "y": -9.8100004196167,
+      "z": 0.0
+    },
+    "m_DefaultMaterial": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_BounceThreshold": 2.0,
+    "m_DefaultMaxDepenetrationVelocity": 10.0,
+    "m_SleepThreshold": 0.004999999888241291,
+    "m_DefaultContactOffset": 0.009999999776482582,
+    "m_DefaultSolverIterations": 6,
+    "m_DefaultSolverVelocityIterations": 1,
+    "m_QueriesHitBackfaces": false,
+    "m_QueriesHitTriggers": true,
+    "m_EnableAdaptiveForce": false,
+    "m_ClothInterCollisionDistance": 0.0,
+    "m_ClothInterCollisionStiffness": 0.0,
+    "m_LayerCollisionMatrix": [
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295,
+      4294967295
+    ],
+    "m_SimulationMode": 2,
+    "m_AutoSyncTransforms": false,
+    "m_ReuseCollisionCallbacks": false,
+    "m_InvokeCollisionCallbacks": false,
+    "m_ClothInterCollisionSettingsToggle": false,
+    "m_ClothGravity": {
+      "x": 9.219422856485836e-41,
+      "y": 0.0,
+      "z": -9.8100004196167
+    },
+    "m_ContactPairsMode": 0,
+    "m_BroadphaseType": 0,
+    "m_WorldBounds": {
+      "m_Center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_Extent": {
+        "x": 0.0,
+        "y": 250.0,
+        "z": 250.0
+      }
+    },
+    "m_WorldSubdivisions": 1132068864,
+    "m_FrictionType": 8,
+    "m_EnableEnhancedDeterminism": false,
+    "m_ImprovedPatchFriction": false,
+    "m_GenerateOnTriggerStayEvents": false,
+    "m_SolverType": 65536,
+    "m_DefaultMaxAngularSpeed": 0.0,
+    "m_ScratchBufferChunkCount": 1088421888,
+    "m_CurrentBackendId": 4,
+    "m_FastMotionThreshold": -7.325203719775965e+30,
+    "m_SceneBuffersReleaseInterval": 2139095039,
+    "m_ReleaseSceneBuffers": false,
+    "m_LogVerbosity": 0,
+    "m_IncrementalStaticBroadphase": true
+  },
+  "undecodedTrailingBytesHex": "01000000"
+}

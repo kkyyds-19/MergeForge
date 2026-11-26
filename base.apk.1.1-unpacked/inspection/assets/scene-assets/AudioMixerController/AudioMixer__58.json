@@ -1,0 +1,170 @@
+{
+  "m_Name": "AudioMixer",
+  "m_OutputGroup": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_MasterGroup": {
+    "m_FileID": 0,
+    "m_PathID": 62
+  },
+  "m_Snapshots": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 63
+    }
+  ],
+  "m_StartSnapshot": {
+    "m_FileID": 0,
+    "m_PathID": 63
+  },
+  "m_SuspendThreshold": -80.0,
+  "m_EnableSuspend": true,
+  "m_UpdateMode": 0,
+  "m_MixerConstant": {
+    "groups": [
+      {
+        "parentConstantIndex": -1,
+        "volumeIndex": 0,
+        "pitchIndex": 1,
+        "mute": false,
+        "solo": false,
+        "bypassEffects": false
+      },
+      {
+        "parentConstantIndex": 0,
+        "volumeIndex": 2,
+        "pitchIndex": 3,
+        "mute": false,
+        "solo": false,
+        "bypassEffects": false
+      },
+      {
+        "parentConstantIndex": 0,
+        "volumeIndex": 4,
+        "pitchIndex": 5,
+        "mute": false,
+        "solo": false,
+        "bypassEffects": false
+      },
+      {
+        "parentConstantIndex": 0,
+        "volumeIndex": 6,
+        "pitchIndex": 7,
+        "mute": false,
+        "solo": false,
+        "bypassEffects": false
+      }
+    ],
+    "groupGUIDs": [
+      {
+        "data[0]": 4246724683,
+        "data[1]": 1224437172,
+        "data[2]": 2708795028,
+        "data[3]": 3336184884
+      },
+      {
+        "data[0]": 1170982248,
+        "data[1]": 1238627835,
+        "data[2]": 3125971107,
+        "data[3]": 1025126132
+      },
+      {
+        "data[0]": 2861479356,
+        "data[1]": 1139091689,
+        "data[2]": 2474453648,
+        "data[3]": 1532000373
+      },
+      {
+        "data[0]": 1520318806,
+        "data[1]": 927302494,
+        "data[2]": 3961235122,
+        "data[3]": 741458672
+      }
+    ],
+    "effects": [],
+    "effectGUIDs": [],
+    "numSideChainBuffers": 0,
+    "snapshots": [
+      {
+        "nameHash": 3577444195,
+        "values": [
+          0.0,
+          1.0,
+          -2.0,
+          1.0,
+          -25.12769317626953,
+          1.0,
+          -2.0,
+          1.0
+        ],
+        "transitionTypes": [],
+        "transitionIndices": []
+      }
+    ],
+    "snapshotGUIDs": [
+      {
+        "data[0]": 3326195237,
+        "data[1]": 1258935806,
+        "data[2]": 4208932539,
+        "data[3]": 2563841739
+      }
+    ],
+    "groupNameBuffer": [
+      77,
+      97,
+      115,
+      116,
+      101,
+      114,
+      0,
+      83,
+      111,
+      117,
+      110,
+      100,
+      0,
+      77,
+      117,
+      115,
+      105,
+      99,
+      0,
+      65,
+      109,
+      98,
+      105,
+      101,
+      110,
+      99,
+      101,
+      0,
+      0
+    ],
+    "snapshotNameBuffer": [
+      83,
+      110,
+      97,
+      112,
+      115,
+      104,
+      111,
+      116,
+      0,
+      0
+    ],
+    "pluginEffectNameBuffer": [
+      0
+    ],
+    "exposedParameterNames": [
+      2152970009,
+      3575369835,
+      2775539866
+    ],
+    "exposedParameterIndices": [
+      6,
+      4,
+      2
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "sceneObjects": 122,
+  "sceneGameObjects": 28,
+  "sceneDecodeCounts": {
+    "full": 84,
+    "header_only": 38
+  },
+  "decodedUnityEngineConfigs": 14,
+  "UnityEngineConfigErrors": [
+    {
+      "name": "PlayerSettings",
+      "pathId": 1,
+      "error": "EOFError: read_str out of bounds"
+    },
+    {
+      "name": "PhysicsManager",
+      "pathId": 10,
+      "error": "ValueError: Expected to read 296 bytes, but only read 292 bytes",
+      "partialExport": "config/unity/PhysicsManager.partial.json"
+    }
+  ],
+  "additionalAssetCounts": {
+    "Texture2D": 36,
+    "Font": 1,
+    "Mesh": 13,
+    "Material": 3,
+    "AnimationClip": 3,
+    "AnimatorController": 1,
+    "AudioMixerController": 1,
+    "AudioMixerGroupController": 4,
+    "AudioMixerSnapshotController": 1,
+    "AudioSource": 7,
+    "Android launcher .xml": 2,
+    "Android launcher .png": 24
+  },
+  "additionalAssetErrors": [],
+  "resourceEntries": 112,
+  "missingResourceEntriesByFile": {
+    "resources.assets": 110
+  },
+  "namedSharedMonoBehaviourEntries": 80,
+  "emptyBuiltInTexture": {
+    "name": "Font Texture",
+    "pathId": 10103
+  },
+  "shaderIndexCount": 63,
+  "shaderNamesRead": 63
+}

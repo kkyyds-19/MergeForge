@@ -1,0 +1,781 @@
+{
+  "source": "globalgamemanagers",
+  "externalFileReferences": [
+    {
+      "serializedFile": "globalgamemanagers",
+      "references": [
+        {
+          "fileId": 1,
+          "path": "globalgamemanagers.assets",
+          "present": true
+        },
+        {
+          "fileId": 2,
+          "path": "Library/unity default resources",
+          "present": true
+        },
+        {
+          "fileId": 3,
+          "path": "Resources/unity_builtin_extra",
+          "present": true
+        },
+        {
+          "fileId": 4,
+          "path": "sharedassets2.assets",
+          "present": false
+        },
+        {
+          "fileId": 5,
+          "path": "resources.assets",
+          "present": false
+        },
+        {
+          "fileId": 6,
+          "path": "sharedassets0.assets",
+          "present": true
+        }
+      ]
+    },
+    {
+      "serializedFile": "unity_builtin_extra",
+      "references": []
+    },
+    {
+      "serializedFile": "globalgamemanagers.assets",
+      "references": [
+        {
+          "fileId": 1,
+          "path": "Library/unity default resources",
+          "present": true
+        },
+        {
+          "fileId": 2,
+          "path": "Resources/unity_builtin_extra",
+          "present": true
+        }
+      ]
+    },
+    {
+      "serializedFile": "sharedassets0.assets",
+      "references": [
+        {
+          "fileId": 1,
+          "path": "globalgamemanagers.assets",
+          "present": true
+        },
+        {
+          "fileId": 2,
+          "path": "Library/unity default resources",
+          "present": true
+        }
+      ]
+    },
+    {
+      "serializedFile": "level0",
+      "references": [
+        {
+          "fileId": 1,
+          "path": "globalgamemanagers.assets",
+          "present": true
+        },
+        {
+          "fileId": 2,
+          "path": "Library/unity default resources",
+          "present": true
+        },
+        {
+          "fileId": 3,
+          "path": "sharedassets0.assets",
+          "present": true
+        }
+      ]
+    }
+  ],
+  "resourceEntries": [
+    {
+      "name": "allin1oneshaderfunctions",
+      "file": null,
+      "pathId": 0,
+      "present": false
+    },
+    {
+      "name": "allin1spriteshader",
+      "file": "resources.assets",
+      "pathId": 15,
+      "present": false
+    },
+    {
+      "name": "allin1spriteshaderscaledtime",
+      "file": "resources.assets",
+      "pathId": 17,
+      "present": false
+    },
+    {
+      "name": "allin1spriteshaderuimask",
+      "file": "resources.assets",
+      "pathId": 16,
+      "present": false
+    },
+    {
+      "name": "applovinsettings",
+      "file": "resources.assets",
+      "pathId": 1481,
+      "present": false
+    },
+    {
+      "name": "assetpacks",
+      "file": "resources.assets",
+      "pathId": 1511,
+      "present": false
+    },
+    {
+      "name": "balanceversion",
+      "file": "sharedassets0.assets",
+      "pathId": 203,
+      "present": true
+    },
+    {
+      "name": "billingmode",
+      "file": "resources.assets",
+      "pathId": 20,
+      "present": false
+    },
+    {
+      "name": "buildnumber",
+      "file": "resources.assets",
+      "pathId": 23,
+      "present": false
+    },
+    {
+      "name": "debuguicanvas",
+      "file": "resources.assets",
+      "pathId": 63,
+      "present": false
+    },
+    {
+      "name": "debuguipersistentcanvas",
+      "file": "resources.assets",
+      "pathId": 147,
+      "present": false
+    },
+    {
+      "name": "gamecentericon",
+      "file": "resources.assets",
+      "pathId": 132,
+      "present": false
+    },
+    {
+      "name": "googleplaygamesicon",
+      "file": "resources.assets",
+      "pathId": 133,
+      "present": false
+    },
+    {
+      "name": "images/error_icon",
+      "file": "resources.assets",
+      "pathId": 6,
+      "present": false
+    },
+    {
+      "name": "images/info_icon",
+      "file": "resources.assets",
+      "pathId": 3,
+      "present": false
+    },
+    {
+      "name": "images/uninstall_icon",
+      "file": "resources.assets",
+      "pathId": 13,
+      "present": false
+    },
+    {
+      "name": "images/warning_icon",
+      "file": "resources.assets",
+      "pathId": 12,
+      "present": false
+    },
+    {
+      "name": "iso_4217",
+      "file": "resources.assets",
+      "pathId": 21,
+      "present": false
+    },
+    {
+      "name": "linebreaking following characters",
+      "file": "resources.assets",
+      "pathId": 24,
+      "present": false
+    },
+    {
+      "name": "linebreaking leading characters",
+      "file": "resources.assets",
+      "pathId": 22,
+      "present": false
+    },
+    {
+      "name": "newtonsoft.json-for-unity.converters",
+      "file": "resources.assets",
+      "pathId": 1512,
+      "present": false
+    },
+    {
+      "name": "performancetestruninfo",
+      "file": "resources.assets",
+      "pathId": 19,
+      "present": false
+    },
+    {
+      "name": "performancetestrunsettings",
+      "file": "resources.assets",
+      "pathId": 18,
+      "present": false
+    },
+    {
+      "name": "playgamessettings",
+      "file": "resources.assets",
+      "pathId": 1480,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack1_01_shard",
+      "file": "resources.assets",
+      "pathId": 1394,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack1_02_shard",
+      "file": "resources.assets",
+      "pathId": 1395,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack1_03_card",
+      "file": "resources.assets",
+      "pathId": 1396,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack2_01_shard",
+      "file": "resources.assets",
+      "pathId": 1397,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack2_02_shard",
+      "file": "resources.assets",
+      "pathId": 1398,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack2_03_card",
+      "file": "resources.assets",
+      "pathId": 1399,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack3_01_shard",
+      "file": "resources.assets",
+      "pathId": 1400,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack3_02_shard",
+      "file": "resources.assets",
+      "pathId": 1401,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack3_03_card",
+      "file": "resources.assets",
+      "pathId": 1402,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack4_01_shard",
+      "file": "resources.assets",
+      "pathId": 1403,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack4_02_shard",
+      "file": "resources.assets",
+      "pathId": 1404,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack4_03_card",
+      "file": "resources.assets",
+      "pathId": 1405,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack5_01_shard",
+      "file": "resources.assets",
+      "pathId": 1406,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack5_02_shard",
+      "file": "resources.assets",
+      "pathId": 1407,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpack5_03_card",
+      "file": "resources.assets",
+      "pathId": 1408,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpackmystery_00_shard",
+      "file": "resources.assets",
+      "pathId": 1409,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpackmystery_01_shard",
+      "file": "resources.assets",
+      "pathId": 1410,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpackmystery_02_shard",
+      "file": "resources.assets",
+      "pathId": 1411,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/cardpackmystery_03_card",
+      "file": "resources.assets",
+      "pathId": 1412,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/family_cardpack1_boardable",
+      "file": "resources.assets",
+      "pathId": 1413,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/family_cardpack2_boardable",
+      "file": "resources.assets",
+      "pathId": 1414,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/family_cardpack3_boardable",
+      "file": "resources.assets",
+      "pathId": 1415,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/family_cardpack4_boardable",
+      "file": "resources.assets",
+      "pathId": 1416,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/family_cardpack5_boardable",
+      "file": "resources.assets",
+      "pathId": 1417,
+      "present": false
+    },
+    {
+      "name": "resource_cardpacks/family_cardpackmystery_boardable",
+      "file": "resources.assets",
+      "pathId": 1418,
+      "present": false
+    },
+    {
+      "name": "resource_coins/coins lvl 1",
+      "file": "resources.assets",
+      "pathId": 1419,
+      "present": false
+    },
+    {
+      "name": "resource_coins/coins lvl 2",
+      "file": "resources.assets",
+      "pathId": 1420,
+      "present": false
+    },
+    {
+      "name": "resource_coins/coins lvl 3",
+      "file": "resources.assets",
+      "pathId": 1421,
+      "present": false
+    },
+    {
+      "name": "resource_coins/coins lvl 4",
+      "file": "resources.assets",
+      "pathId": 1422,
+      "present": false
+    },
+    {
+      "name": "resource_coins/coins lvl 5",
+      "file": "resources.assets",
+      "pathId": 1423,
+      "present": false
+    },
+    {
+      "name": "resource_coins/coins lvl 6",
+      "file": "resources.assets",
+      "pathId": 1424,
+      "present": false
+    },
+    {
+      "name": "resource_coins/family_coins",
+      "file": "resources.assets",
+      "pathId": 1425,
+      "present": false
+    },
+    {
+      "name": "resource_energy/energy lvl 1",
+      "file": "resources.assets",
+      "pathId": 1426,
+      "present": false
+    },
+    {
+      "name": "resource_energy/energy lvl 2",
+      "file": "resources.assets",
+      "pathId": 1427,
+      "present": false
+    },
+    {
+      "name": "resource_energy/energy lvl 3",
+      "file": "resources.assets",
+      "pathId": 1428,
+      "present": false
+    },
+    {
+      "name": "resource_energy/energy lvl 4",
+      "file": "resources.assets",
+      "pathId": 1429,
+      "present": false
+    },
+    {
+      "name": "resource_energy/energy lvl 5",
+      "file": "resources.assets",
+      "pathId": 1430,
+      "present": false
+    },
+    {
+      "name": "resource_energy/energyshard",
+      "file": "resources.assets",
+      "pathId": 1431,
+      "present": false
+    },
+    {
+      "name": "resource_energy/family_energy",
+      "file": "resources.assets",
+      "pathId": 1432,
+      "present": false
+    },
+    {
+      "name": "resource_experience/family_experience",
+      "file": "resources.assets",
+      "pathId": 1433,
+      "present": false
+    },
+    {
+      "name": "resource_experience/xp lvl 1",
+      "file": "resources.assets",
+      "pathId": 1434,
+      "present": false
+    },
+    {
+      "name": "resource_experience/xp lvl 2",
+      "file": "resources.assets",
+      "pathId": 1435,
+      "present": false
+    },
+    {
+      "name": "resource_experience/xp lvl 3",
+      "file": "resources.assets",
+      "pathId": 1436,
+      "present": false
+    },
+    {
+      "name": "resource_experience/xp lvl 4",
+      "file": "resources.assets",
+      "pathId": 1437,
+      "present": false
+    },
+    {
+      "name": "resource_experience/xp lvl 5",
+      "file": "resources.assets",
+      "pathId": 1438,
+      "present": false
+    },
+    {
+      "name": "resource_gems/family_gems",
+      "file": "resources.assets",
+      "pathId": 1439,
+      "present": false
+    },
+    {
+      "name": "resource_gems/gems lvl 1",
+      "file": "resources.assets",
+      "pathId": 1440,
+      "present": false
+    },
+    {
+      "name": "resource_gems/gems lvl 2",
+      "file": "resources.assets",
+      "pathId": 1441,
+      "present": false
+    },
+    {
+      "name": "resource_gems/gems lvl 3",
+      "file": "resources.assets",
+      "pathId": 1442,
+      "present": false
+    },
+    {
+      "name": "resource_gems/gems lvl 4",
+      "file": "resources.assets",
+      "pathId": 1443,
+      "present": false
+    },
+    {
+      "name": "resource_gems/gems lvl 5",
+      "file": "resources.assets",
+      "pathId": 1444,
+      "present": false
+    },
+    {
+      "name": "resource_gems/gemsshard lvl 1",
+      "file": "resources.assets",
+      "pathId": 1445,
+      "present": false
+    },
+    {
+      "name": "resource_gems/gemsshard lvl 2",
+      "file": "resources.assets",
+      "pathId": 1446,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/family_sbcoins",
+      "file": "resources.assets",
+      "pathId": 1447,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/sbcoins lvl 1",
+      "file": "resources.assets",
+      "pathId": 1448,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/sbcoins lvl 2",
+      "file": "resources.assets",
+      "pathId": 1449,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/sbcoins lvl 3",
+      "file": "resources.assets",
+      "pathId": 1450,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/sbcoins lvl 4",
+      "file": "resources.assets",
+      "pathId": 1451,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/sbcoins lvl 5",
+      "file": "resources.assets",
+      "pathId": 1452,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/sbcoins lvl 6",
+      "file": "resources.assets",
+      "pathId": 1453,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/sbcoins lvl 7",
+      "file": "resources.assets",
+      "pathId": 1454,
+      "present": false
+    },
+    {
+      "name": "resource_sbcoins/sbcoins lvl 8",
+      "file": "resources.assets",
+      "pathId": 1455,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/family_sbenergy",
+      "file": "resources.assets",
+      "pathId": 1456,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/sbenergy lvl 1",
+      "file": "resources.assets",
+      "pathId": 1457,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/sbenergy lvl 2",
+      "file": "resources.assets",
+      "pathId": 1458,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/sbenergy lvl 3",
+      "file": "resources.assets",
+      "pathId": 1459,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/sbenergy lvl 4",
+      "file": "resources.assets",
+      "pathId": 1460,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/sbenergy lvl 5",
+      "file": "resources.assets",
+      "pathId": 1461,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/sbenergy lvl 6",
+      "file": "resources.assets",
+      "pathId": 1462,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/sbenergy lvl 7",
+      "file": "resources.assets",
+      "pathId": 1463,
+      "present": false
+    },
+    {
+      "name": "resource_sbenergy/sbenergy lvl 8",
+      "file": "resources.assets",
+      "pathId": 1464,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/family_sbgems",
+      "file": "resources.assets",
+      "pathId": 1465,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/sbgems lvl 1",
+      "file": "resources.assets",
+      "pathId": 1466,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/sbgems lvl 2",
+      "file": "resources.assets",
+      "pathId": 1467,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/sbgems lvl 3",
+      "file": "resources.assets",
+      "pathId": 1468,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/sbgems lvl 4",
+      "file": "resources.assets",
+      "pathId": 1469,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/sbgems lvl 5",
+      "file": "resources.assets",
+      "pathId": 1470,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/sbgems lvl 6",
+      "file": "resources.assets",
+      "pathId": 1471,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/sbgems lvl 7",
+      "file": "resources.assets",
+      "pathId": 1472,
+      "present": false
+    },
+    {
+      "name": "resource_sbgems/sbgems lvl 8",
+      "file": "resources.assets",
+      "pathId": 1473,
+      "present": false
+    },
+    {
+      "name": "resource_timedeventxp/event xp lvl 1",
+      "file": "resources.assets",
+      "pathId": 1474,
+      "present": false
+    },
+    {
+      "name": "resource_timedeventxp/event xp lvl 2",
+      "file": "resources.assets",
+      "pathId": 1475,
+      "present": false
+    },
+    {
+      "name": "resource_timedeventxp/event xp lvl 3",
+      "file": "resources.assets",
+      "pathId": 1476,
+      "present": false
+    },
+    {
+      "name": "resource_timedeventxp/event xp lvl 4",
+      "file": "resources.assets",
+      "pathId": 1477,
+      "present": false
+    },
+    {
+      "name": "resource_timedeventxp/event xp lvl 5",
+      "file": "resources.assets",
+      "pathId": 1478,
+      "present": false
+    },
+    {
+      "name": "resource_timedeventxp/family_timedeventtoken",
+      "file": "resources.assets",
+      "pathId": 1479,
+      "present": false
+    },
+    {
+      "name": "style sheets/default style sheet",
+      "file": "resources.assets",
+      "pathId": 1513,
+      "present": false
+    },
+    {
+      "name": "textanimatorsettings",
+      "file": "resources.assets",
+      "pathId": 1509,
+      "present": false
+    }
+  ],
+  "groupCounts": {
+    "images": 4,
+    "resource_cardpacks": 25,
+    "resource_coins": 7,
+    "resource_energy": 7,
+    "resource_experience": 6,
+    "resource_gems": 8,
+    "resource_sbcoins": 9,
+    "resource_sbenergy": 9,
+    "resource_sbgems": 9,
+    "resource_timedeventxp": 6,
+    "style sheets": 1
+  }
+}

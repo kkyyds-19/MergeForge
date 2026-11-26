@@ -1,0 +1,673 @@
+{
+  "buildScenePath": "Assets/Scenes/ApplicationLoading.unity",
+  "serializedFile": "level0",
+  "roots": [
+    {
+      "name": "Main Camera",
+      "pathId": 4,
+      "transformPathId": 29,
+      "active": true,
+      "components": [
+        {
+          "pathId": 29,
+          "type": "Transform"
+        },
+        {
+          "pathId": 34,
+          "type": "Camera"
+        },
+        {
+          "pathId": 35,
+          "type": "AudioListener"
+        },
+        {
+          "pathId": 96,
+          "type": "MonoBehaviour",
+          "script": "UICamera"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "SpriteAtlasProvider",
+      "pathId": 9,
+      "transformPathId": 30,
+      "active": true,
+      "components": [
+        {
+          "pathId": 30,
+          "type": "Transform"
+        },
+        {
+          "pathId": 102,
+          "type": "MonoBehaviour",
+          "script": "SpriteAtlasProvider"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "SetupCompleteHandler",
+      "pathId": 10,
+      "transformPathId": 31,
+      "active": true,
+      "components": [
+        {
+          "pathId": 31,
+          "type": "Transform"
+        },
+        {
+          "pathId": 103,
+          "type": "MonoBehaviour",
+          "script": "LoadSceneAppSetupCompleteHandler"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "AppLauncher",
+      "pathId": 16,
+      "transformPathId": 32,
+      "active": true,
+      "components": [
+        {
+          "pathId": 32,
+          "type": "Transform"
+        },
+        {
+          "pathId": 81,
+          "type": "MonoBehaviour",
+          "script": "AppLauncher"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "MainController",
+      "pathId": 18,
+      "transformPathId": 33,
+      "active": true,
+      "components": [
+        {
+          "pathId": 33,
+          "type": "Transform"
+        },
+        {
+          "pathId": 82,
+          "type": "MonoBehaviour",
+          "script": "MainController"
+        },
+        {
+          "pathId": 122,
+          "type": "MonoBehaviour",
+          "script": "CoreSupersolidInstaller"
+        },
+        {
+          "pathId": 120,
+          "type": "MonoBehaviour",
+          "script": "AssetManagementInstaller"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Canvas",
+      "pathId": 1,
+      "transformPathId": 58,
+      "active": true,
+      "components": [
+        {
+          "pathId": 58,
+          "type": "RectTransform"
+        },
+        {
+          "pathId": 57,
+          "type": "Canvas"
+        },
+        {
+          "pathId": 89,
+          "type": "MonoBehaviour",
+          "script": "CanvasScaler"
+        },
+        {
+          "pathId": 90,
+          "type": "MonoBehaviour",
+          "script": "AssetLoadingScreen"
+        },
+        {
+          "pathId": 91,
+          "type": "MonoBehaviour",
+          "script": "SafeCanvasResizer"
+        },
+        {
+          "pathId": 92,
+          "type": "MonoBehaviour",
+          "script": "GraphicRaycaster"
+        }
+      ],
+      "children": [
+        {
+          "name": "Bg",
+          "pathId": 14,
+          "transformPathId": 68,
+          "active": true,
+          "components": [
+            {
+              "pathId": 68,
+              "type": "RectTransform"
+            },
+            {
+              "pathId": 47,
+              "type": "CanvasRenderer"
+            },
+            {
+              "pathId": 111,
+              "type": "MonoBehaviour",
+              "script": "Image"
+            },
+            {
+              "pathId": 110,
+              "type": "MonoBehaviour",
+              "script": "AspectRatioFitter"
+            },
+            {
+              "pathId": 112,
+              "type": "MonoBehaviour",
+              "script": "CachedSpriteSeasonConsumer"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Logo",
+          "pathId": 7,
+          "transformPathId": 63,
+          "active": true,
+          "components": [
+            {
+              "pathId": 63,
+              "type": "RectTransform"
+            },
+            {
+              "pathId": 42,
+              "type": "CanvasRenderer"
+            },
+            {
+              "pathId": 99,
+              "type": "MonoBehaviour",
+              "script": "Image"
+            },
+            {
+              "pathId": 100,
+              "type": "MonoBehaviour",
+              "script": "LocalizeImage"
+            }
+          ],
+          "children": [
+            {
+              "name": "Heading",
+              "pathId": 2,
+              "transformPathId": 59,
+              "active": true,
+              "components": [
+                {
+                  "pathId": 59,
+                  "type": "RectTransform"
+                },
+                {
+                  "pathId": 39,
+                  "type": "CanvasRenderer"
+                },
+                {
+                  "pathId": 94,
+                  "type": "MonoBehaviour",
+                  "script": "Image"
+                },
+                {
+                  "pathId": 93,
+                  "type": "MonoBehaviour",
+                  "script": "LocalizeImage"
+                }
+              ],
+              "children": []
+            },
+            {
+              "name": "SubHeading",
+              "pathId": 6,
+              "transformPathId": 62,
+              "active": true,
+              "components": [
+                {
+                  "pathId": 62,
+                  "type": "RectTransform"
+                },
+                {
+                  "pathId": 41,
+                  "type": "CanvasRenderer"
+                },
+                {
+                  "pathId": 98,
+                  "type": "MonoBehaviour",
+                  "script": "Image"
+                },
+                {
+                  "pathId": 97,
+                  "type": "MonoBehaviour",
+                  "script": "LocalizeImage"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SafeArea",
+          "pathId": 15,
+          "transformPathId": 69,
+          "active": true,
+          "components": [
+            {
+              "pathId": 69,
+              "type": "RectTransform"
+            },
+            {
+              "pathId": 113,
+              "type": "MonoBehaviour",
+              "script": "VerticalLayoutGroup"
+            }
+          ],
+          "children": [
+            {
+              "name": "ProgressBarPanel",
+              "pathId": 5,
+              "transformPathId": 61,
+              "active": true,
+              "components": [
+                {
+                  "pathId": 61,
+                  "type": "RectTransform"
+                }
+              ],
+              "children": [
+                {
+                  "name": "ProgressBar",
+                  "pathId": 23,
+                  "transformPathId": 76,
+                  "active": true,
+                  "components": [
+                    {
+                      "pathId": 76,
+                      "type": "RectTransform"
+                    },
+                    {
+                      "pathId": 53,
+                      "type": "CanvasRenderer"
+                    },
+                    {
+                      "pathId": 115,
+                      "type": "MonoBehaviour",
+                      "script": "ProgressBar"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "bg",
+                      "pathId": 22,
+                      "transformPathId": 80,
+                      "active": true,
+                      "components": [
+                        {
+                          "pathId": 80,
+                          "type": "RectTransform"
+                        },
+                        {
+                          "pathId": 55,
+                          "type": "CanvasRenderer"
+                        },
+                        {
+                          "pathId": 116,
+                          "type": "MonoBehaviour",
+                          "script": "Image"
+                        }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "FillContainer",
+                      "pathId": 25,
+                      "transformPathId": 78,
+                      "active": true,
+                      "components": [
+                        {
+                          "pathId": 78,
+                          "type": "RectTransform"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "name": "FillRect",
+                          "pathId": 28,
+                          "transformPathId": 72,
+                          "active": true,
+                          "components": [
+                            {
+                              "pathId": 72,
+                              "type": "RectTransform"
+                            },
+                            {
+                              "pathId": 49,
+                              "type": "CanvasRenderer"
+                            },
+                            {
+                              "pathId": 119,
+                              "type": "MonoBehaviour",
+                              "script": "Image"
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ProgressPercentageLabel",
+                      "pathId": 20,
+                      "transformPathId": 73,
+                      "active": true,
+                      "components": [
+                        {
+                          "pathId": 73,
+                          "type": "RectTransform"
+                        },
+                        {
+                          "pathId": 52,
+                          "type": "CanvasRenderer"
+                        },
+                        {
+                          "pathId": 88,
+                          "type": "MonoBehaviour",
+                          "script": "TextMeshProUGUI"
+                        },
+                        {
+                          "pathId": 121,
+                          "type": "MonoBehaviour",
+                          "script": "FormatLabel"
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "DownloadProgressBar",
+                  "pathId": 24,
+                  "transformPathId": 75,
+                  "active": true,
+                  "components": [
+                    {
+                      "pathId": 75,
+                      "type": "RectTransform"
+                    },
+                    {
+                      "pathId": 54,
+                      "type": "CanvasRenderer"
+                    },
+                    {
+                      "pathId": 114,
+                      "type": "MonoBehaviour",
+                      "script": "ProgressBar"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "bg",
+                      "pathId": 21,
+                      "transformPathId": 79,
+                      "active": true,
+                      "components": [
+                        {
+                          "pathId": 79,
+                          "type": "RectTransform"
+                        },
+                        {
+                          "pathId": 56,
+                          "type": "CanvasRenderer"
+                        },
+                        {
+                          "pathId": 117,
+                          "type": "MonoBehaviour",
+                          "script": "Image"
+                        }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "FillContainer",
+                      "pathId": 26,
+                      "transformPathId": 77,
+                      "active": true,
+                      "components": [
+                        {
+                          "pathId": 77,
+                          "type": "RectTransform"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "name": "FillRect",
+                          "pathId": 27,
+                          "transformPathId": 71,
+                          "active": true,
+                          "components": [
+                            {
+                              "pathId": 71,
+                              "type": "RectTransform"
+                            },
+                            {
+                              "pathId": 50,
+                              "type": "CanvasRenderer"
+                            },
+                            {
+                              "pathId": 118,
+                              "type": "MonoBehaviour",
+                              "script": "Image"
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ProgressPercentageLabel",
+                      "pathId": 19,
+                      "transformPathId": 74,
+                      "active": true,
+                      "components": [
+                        {
+                          "pathId": 74,
+                          "type": "RectTransform"
+                        },
+                        {
+                          "pathId": 51,
+                          "type": "CanvasRenderer"
+                        },
+                        {
+                          "pathId": 87,
+                          "type": "MonoBehaviour",
+                          "script": "TextMeshProUGUI"
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "DowloadingLabel",
+                  "pathId": 13,
+                  "transformPathId": 67,
+                  "active": true,
+                  "components": [
+                    {
+                      "pathId": 67,
+                      "type": "RectTransform"
+                    },
+                    {
+                      "pathId": 46,
+                      "type": "CanvasRenderer"
+                    },
+                    {
+                      "pathId": 85,
+                      "type": "MonoBehaviour",
+                      "script": "TextMeshProUGUI"
+                    },
+                    {
+                      "pathId": 108,
+                      "type": "MonoBehaviour",
+                      "script": "DownloadInProgressPrompt"
+                    },
+                    {
+                      "pathId": 109,
+                      "type": "MonoBehaviour",
+                      "script": "DownloadSizeLabel"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "LoadingStepName",
+                  "pathId": 17,
+                  "transformPathId": 70,
+                  "active": true,
+                  "components": [
+                    {
+                      "pathId": 70,
+                      "type": "RectTransform"
+                    },
+                    {
+                      "pathId": 48,
+                      "type": "CanvasRenderer"
+                    },
+                    {
+                      "pathId": 86,
+                      "type": "MonoBehaviour",
+                      "script": "TextMeshProUGUI"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Version",
+              "pathId": 12,
+              "transformPathId": 66,
+              "active": true,
+              "components": [
+                {
+                  "pathId": 66,
+                  "type": "RectTransform"
+                },
+                {
+                  "pathId": 45,
+                  "type": "CanvasRenderer"
+                },
+                {
+                  "pathId": 84,
+                  "type": "MonoBehaviour",
+                  "script": "TextMeshProUGUI"
+                },
+                {
+                  "pathId": 107,
+                  "type": "MonoBehaviour",
+                  "script": "FormatLabel"
+                },
+                {
+                  "pathId": 106,
+                  "type": "MonoBehaviour",
+                  "script": "ClientVersionLabel"
+                }
+              ],
+              "children": []
+            },
+            {
+              "name": "UserIdBackground",
+              "pathId": 11,
+              "transformPathId": 65,
+              "active": true,
+              "components": [
+                {
+                  "pathId": 65,
+                  "type": "RectTransform"
+                },
+                {
+                  "pathId": 44,
+                  "type": "CanvasRenderer"
+                },
+                {
+                  "pathId": 104,
+                  "type": "MonoBehaviour",
+                  "script": "NonDrawingGraphic"
+                },
+                {
+                  "pathId": 105,
+                  "type": "MonoBehaviour",
+                  "script": "Button"
+                }
+              ],
+              "children": [
+                {
+                  "name": "UserId",
+                  "pathId": 3,
+                  "transformPathId": 60,
+                  "active": true,
+                  "components": [
+                    {
+                      "pathId": 60,
+                      "type": "RectTransform"
+                    },
+                    {
+                      "pathId": 40,
+                      "type": "CanvasRenderer"
+                    },
+                    {
+                      "pathId": 83,
+                      "type": "MonoBehaviour",
+                      "script": "TextMeshProUGUI"
+                    },
+                    {
+                      "pathId": 95,
+                      "type": "MonoBehaviour",
+                      "script": "UserIdLabel"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "CopyImage",
+                  "pathId": 8,
+                  "transformPathId": 64,
+                  "active": true,
+                  "components": [
+                    {
+                      "pathId": 64,
+                      "type": "RectTransform"
+                    },
+                    {
+                      "pathId": 43,
+                      "type": "CanvasRenderer"
+                    },
+                    {
+                      "pathId": 101,
+                      "type": "MonoBehaviour",
+                      "script": "Image"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

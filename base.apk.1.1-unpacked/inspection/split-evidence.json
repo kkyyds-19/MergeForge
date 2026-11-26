@@ -1,0 +1,47 @@
+{
+  "packageName": "com.supersolid.cookandmerge",
+  "versionName": "0.81.9",
+  "versionCode": 1020138421,
+  "requiredSplitTypes": "base__abi",
+  "storeSplitsRequired": true,
+  "nativeLibrariesPresent": false,
+  "candidateAbiSplitForArm64": "split_config.arm64_v8a.apk",
+  "assetPackCandidate": {
+    "module": "UnityDataAssetPack",
+    "status": "inferred_from_unity_build_layout"
+  },
+  "conditionalAssetPackCandidates": [
+    "UnityStreamingAssetPack",
+    "UnityTextureCompressionsAssetPack"
+  ],
+  "missingSerializedExternalFiles": [
+    "resources.assets",
+    "sharedassets2.assets"
+  ],
+  "missingResourcesByFile": {
+    "resources.assets": 110
+  },
+  "assetpacksIndexReference": {
+    "name": "assetpacks",
+    "file": "resources.assets",
+    "pathId": 1511,
+    "present": false
+  },
+  "buildScenes": [
+    "Assets/Scenes/ApplicationLoading.unity",
+    "Assets/Scenes/MainMenu.unity",
+    "Assets/Scenes/Quit.unity"
+  ],
+  "sceneFilesInBaseBundle": [
+    "level0"
+  ],
+  "remoteBundleTrackingInitializer": {
+    "assemblyName": "Assembly-CSharp",
+    "nameSpace": "",
+    "className": "AssetManagementInstaller",
+    "methodName": "InstallRemoteBundleDownloadTracking",
+    "loadTypes": 1,
+    "isUnityClass": false
+  },
+  "localAddressablesCatalogCandidates": []
+}

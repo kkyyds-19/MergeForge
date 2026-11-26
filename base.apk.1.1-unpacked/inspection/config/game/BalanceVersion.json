@@ -1,0 +1,17 @@
+{
+  "name": "BalanceVersion",
+  "script": {
+    "m_ClassName": "BalanceVersionDescription",
+    "m_Namespace": "Supersolid.AssetManagement",
+    "m_AssemblyName": "Assembly-CSharp"
+  },
+  "source": {
+    "file": "sharedassets0.assets",
+    "pathId": 203
+  },
+  "unlabelledPayloadWordsLE": [
+    1,
+    0
+  ],
+  "status": "field_names_unavailable"
+}
