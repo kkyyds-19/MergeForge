@@ -7,6 +7,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
     _reporterNs.report("AlloyItem", "./AlloyGameState", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfAlloySupplyRoute(extras) {
+    _reporterNs.report("AlloySupplyRoute", "./AlloyGameState", _context.meta, extras);
+  }
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;

@@ -1,197 +1,323 @@
-export const BOARD_COLUMNS = 5;
-export const BOARD_ROWS = 5;
-export const ENERGY_CAPACITY = 12;
-export const ENERGY_INTERVAL_MS = 5000;
-export const MAX_ITEM_TIER = 3;
+import {
+    ALLOY_CHAPTERS, ALLOY_FAMILIES, ALLOY_FREE_PLAY_ORDER_COUNT,
+    ALLOY_GENERATOR_LEVELS, ALLOY_ITEMS, ALLOY_SUPPLY_ROUTES,
+} from './AlloyCampaign';
+import type { AlloyFamily, AlloyItem, AlloyOrder, AlloySupplyRoute } from './AlloyCampaign';
+import * as AlloyBoardSystem from './ecs/AlloyBoardSystem';
+import type { AlloyDropResult } from './ecs/AlloyBoardSystem';
+import * as AlloyEnergySystem from './ecs/AlloyEnergySystem';
+import { ENERGY_CAPACITY, ENERGY_INTERVAL_MS } from './ecs/AlloyEnergySystem';
+import * as AlloyOrderSystem from './ecs/AlloyOrderSystem';
+import * as AlloySupplySystem from './ecs/AlloySupplySystem';
+import { AlloyWorld, BOARD_COLUMNS, BOARD_ROWS } from './ecs/AlloyWorld';
+import type { AlloyTutorialStep } from './ecs/AlloyWorld';
 
-export const ALLOY_ITEMS = {
-    copper: ['铜矿', '铜锭', '跃迁核心'],
-    quartz: ['石英碎片', '石英棱柱', '谐振核心'],
-} as const;
+export type { AlloyFamily, AlloyItem, AlloyOrder, AlloySupplyRoute } from './AlloyCampaign';
+export { ALLOY_ITEMS, getAlloyItemName } from './AlloyCampaign';
+export type { AlloyDropResult } from './ecs/AlloyBoardSystem';
+export { ENERGY_CAPACITY, ENERGY_INTERVAL_MS } from './ecs/AlloyEnergySystem';
+export { BOARD_COLUMNS, BOARD_ROWS } from './ecs/AlloyWorld';
+export type { AlloyTutorialStep } from './ecs/AlloyWorld';
+export const MAX_ITEM_TIER = Math.max(...ALLOY_FAMILIES.map((family) => ALLOY_ITEMS[family].length));
 
-export type AlloyFamily = keyof typeof ALLOY_ITEMS;
-
-export interface AlloyItem {
-    readonly family: AlloyFamily;
-    readonly tier: number;
+export interface AlloyProgressSnapshot {
+    readonly version: 2;
+    readonly cells: readonly (AlloyItem | null)[];
+    readonly generatedCount: number;
+    readonly nextEnergyAtMs: number | null;
+    readonly energy: number;
+    readonly fulfilledOrders: number;
+    readonly roundNumber: number;
+    readonly roundOrderCount: number;
+    readonly generatorLevel: number;
+    readonly upgradeStamps: number;
+    readonly supplyRoute: AlloySupplyRoute;
+    readonly tutorial: AlloyTutorialStep;
 }
 
-export interface AlloyOrder {
-    readonly customer: string;
-    readonly item: AlloyItem;
-    readonly reward: number;
-}
+export const ORDERS_PER_ROUND = ALLOY_CHAPTERS[0].orders.length;
 
-export type AlloyTutorialStep = 'generate' | 'merge' | 'deliver' | 'complete';
-export type AlloyDropResult = 'move' | 'merge' | 'blocked';
-
-const ORDERS: readonly AlloyOrder[] = [
-    { customer: '轨道维修站', item: { family: 'copper', tier: 2 }, reward: 3 },
-    { customer: '极地观测站', item: { family: 'quartz', tier: 2 }, reward: 4 },
-    { customer: '航标工程队', item: { family: 'copper', tier: 3 }, reward: 6 },
-    { customer: '峡谷通讯站', item: { family: 'quartz', tier: 3 }, reward: 6 },
-];
-
-const GENERATOR_PATTERN: readonly AlloyFamily[] = ['copper', 'copper', 'quartz', 'copper', 'quartz'];
 const FIRST_ITEM_CELL = 11;
 
-export class AlloyGameState {
-    private readonly cells: (AlloyItem | null)[] = Array.from(
-        { length: BOARD_COLUMNS * BOARD_ROWS },
-        () => null,
-    );
-    private generatedCount = 0;
-    private nextEnergyAtMs: number | null = null;
-    private currentEnergy = 8;
-    private fulfilledOrders = 0;
-    private currentTutorial: AlloyTutorialStep = 'generate';
-
-    // 放入第一块教程矿石并启动体力恢复计时。
-    public constructor(nowMs: number) {
-        this.cells[FIRST_ITEM_CELL] = { family: 'copper', tier: 1 };
-        this.nextEnergyAtMs = nowMs + ENERGY_INTERVAL_MS;
-    }
-
-    // 提供当前棋盘格内容供界面绘制。
-    public get board(): readonly (AlloyItem | null)[] {
-        return this.cells;
-    }
-
-    // 返回当前可用体力。
-    public get energy(): number {
-        return this.currentEnergy;
-    }
-
-    // 返回已经交付的订单数量。
-    public get orderCount(): number {
-        return this.fulfilledOrders;
-    }
-
-    // 根据交付进度从订单队列取出当前订单。
-    public get order(): AlloyOrder {
-        return ORDERS[this.fulfilledOrders % ORDERS.length];
-    }
-
-    // 返回下一次采集会生成的矿物类型。
-    public get nextFamily(): AlloyFamily {
-        return GENERATOR_PATTERN[this.generatedCount % GENERATOR_PATTERN.length];
-    }
-
-    // 返回当前新手引导步骤。
-    public get tutorial(): AlloyTutorialStep {
-        return this.currentTutorial;
-    }
-
-    // 按经过的时间恢复体力，满体力时停止计时。
-    public recoverEnergy(nowMs: number): void {
-        if (this.nextEnergyAtMs === null || nowMs < this.nextEnergyAtMs) {
-            return;
-        }
-        const recovered = 1 + Math.floor((nowMs - this.nextEnergyAtMs) / ENERGY_INTERVAL_MS);
-        this.currentEnergy = Math.min(ENERGY_CAPACITY, this.currentEnergy + recovered);
-        this.nextEnergyAtMs = this.currentEnergy === ENERGY_CAPACITY
-            ? null
-            : this.nextEnergyAtMs + recovered * ENERGY_INTERVAL_MS;
-    }
-
-    // 计算距下一点体力恢复还剩几秒。
-    public secondsUntilEnergy(nowMs: number): number {
-        return this.nextEnergyAtMs === null ? 0 : Math.max(0, Math.ceil((this.nextEnergyAtMs - nowMs) / 1000));
-    }
-
-    // 在首个空格生成矿物，成功后扣除一点体力。
-    public generate(nowMs: number): number | 'noEnergy' | 'full' {
-        this.recoverEnergy(nowMs);
-        const cell = this.cells.indexOf(null);
-        if (cell === -1) {
-            return 'full';
-        }
-        if (this.currentEnergy === 0) {
-            return 'noEnergy';
-        }
-        this.cells[cell] = { family: this.nextFamily, tier: 1 };
-        this.generatedCount += 1;
-        this.currentEnergy -= 1;
-        if (this.nextEnergyAtMs === null) {
-            this.nextEnergyAtMs = nowMs + ENERGY_INTERVAL_MS;
-        }
-        if (this.currentTutorial === 'generate') {
-            this.currentTutorial = 'merge';
-        }
-        return cell;
-    }
-
-    // 将物品移入空格或把两件同类同阶物品合成为高一阶物品。
-    public drop(from: number, to: number): AlloyDropResult {
-        const source = this.cells[from];
-        if (!this.isCell(from) || !this.isCell(to) || from === to || !source) {
-            return 'blocked';
-        }
-        const target = this.cells[to];
-        if (target && !this.canMerge(from, to)) {
-            return 'blocked';
-        }
-        this.cells[from] = null;
-        this.cells[to] = target ? { family: source.family, tier: source.tier + 1 } : source;
-        if (target && this.currentTutorial === 'merge' && this.canDeliver()) {
-            this.currentTutorial = 'deliver';
-        }
-        return target ? 'merge' : 'move';
-    }
-
-    // 判断两个不同格子里的物品能否合成。
-    public canMerge(from: number, to: number): boolean {
-        const source = this.cells[from];
-        const target = this.cells[to];
-        return from !== to && !!source && !!target && source.family === target.family
-            && source.tier === target.tier && source.tier < MAX_ITEM_TIER;
-    }
-
-    // 查找一件符合当前订单要求的物品。
-    public getOrderCell(): number {
-        const required = this.order.item;
-        return this.cells.findIndex((item) => item?.family === required.family && item.tier === required.tier);
-    }
-
-    // 判断当前棋盘能否交付订单。
-    public canDeliver(): boolean {
-        return this.getOrderCell() !== -1;
-    }
-
-    // 消耗所需物品、发放体力奖励并切换到下一张订单。
-    public deliver(nowMs: number): AlloyOrder | null {
-        const cell = this.getOrderCell();
-        if (cell === -1) {
-            return null;
-        }
-        this.recoverEnergy(nowMs);
-        const completedOrder = this.order;
-        this.cells[cell] = null;
-        this.fulfilledOrders += 1;
-        this.currentEnergy = Math.min(ENERGY_CAPACITY, this.currentEnergy + completedOrder.reward);
-        if (this.currentEnergy === ENERGY_CAPACITY) {
-            this.nextEnergyAtMs = null;
-        }
-        this.currentTutorial = 'complete';
-        return completedOrder;
-    }
-
-    // 在教程完成后回收多余物品，给采集腾出空格。
-    public recycle(cell: number): boolean {
-        if (this.currentTutorial !== 'complete' || !this.isCell(cell) || !this.cells[cell]) {
-            return false;
-        }
-        this.cells[cell] = null;
-        return true;
-    }
-
-    // 确认索引是棋盘上的有效整数格。
-    private isCell(index: number): boolean {
-        return Number.isInteger(index) && index >= 0 && index < this.cells.length;
-    }
+// 判断存档里的数字能否安全地作为非负整数计数。
+function isProgressCount(value: unknown): value is number {
+    return typeof value === 'number' && Number.isSafeInteger(value) && value >= 0;
 }
 
-// 根据物品的系列和阶段返回界面使用的名称。
-export function getAlloyItemName(item: AlloyItem): string {
-    return ALLOY_ITEMS[item.family][item.tier - 1];
+// 检查单格存档是否为空格，或包含受支持的系列与等级。
+function isSavedCell(value: unknown): value is AlloyItem | null {
+    if (value === null) {
+        return true;
+    }
+    if (typeof value !== 'object' || !value) {
+        return false;
+    }
+    const { family, tier } = value as Partial<AlloyItem>;
+    return (family === 'copper' || family === 'quartz' || family === 'berry')
+        && isProgressCount(tier) && tier >= 1 && tier <= ALLOY_ITEMS[family].length;
+}
+
+export class AlloyGameState {
+    private readonly world = new AlloyWorld();
+
+    // 初始化独立的玩法世界，放入教程道具并启动体力恢复。
+    public constructor(nowMs: number) {
+        this.world.setItem(FIRST_ITEM_CELL, { family: 'copper', tier: 1 });
+        this.world.session.energy.nextRecoveryAtMs = nowMs + ENERGY_INTERVAL_MS;
+    }
+
+    // 校验并迁移存档，把字段恢复到玩法世界的对应组件。
+    public static restore(value: unknown, nowMs: number): AlloyGameState | null {
+        if (typeof value !== 'object' || !value) {
+            return null;
+        }
+        const snapshot = value as Partial<Omit<AlloyProgressSnapshot, 'version'> & { version: number; settledRounds: number }>;
+        const { cells, generatedCount, nextEnergyAtMs, energy, fulfilledOrders, tutorial } = snapshot;
+        if ((snapshot.version !== 1 && snapshot.version !== 2) || !Array.isArray(cells) || cells.length !== BOARD_COLUMNS * BOARD_ROWS
+            || !Array.from(cells).every(isSavedCell) || !isProgressCount(generatedCount) || !isProgressCount(energy)
+            || energy > ENERGY_CAPACITY || !isProgressCount(fulfilledOrders)
+            || !(tutorial === 'generate' || tutorial === 'merge' || tutorial === 'deliver' || tutorial === 'complete')
+            || (energy === ENERGY_CAPACITY ? nextEnergyAtMs !== null : !isProgressCount(nextEnergyAtMs))
+            || (tutorial === 'complete') !== (fulfilledOrders > 0)
+            || (tutorial === 'generate') !== (generatedCount === 0)) {
+            return null;
+        }
+        const state = new AlloyGameState(nowMs);
+        const { world } = state;
+        const session = world.session;
+        cells.forEach((item, index) => { world.setItem(index, item ? { ...item } : null); });
+        session.generator.count = generatedCount;
+        session.energy.amount = energy;
+        session.energy.nextRecoveryAtMs = nextEnergyAtMs === null
+            ? null
+            : Math.min(nextEnergyAtMs!, nowMs + ENERGY_INTERVAL_MS);
+        session.progress.deliveredTotal = fulfilledOrders;
+        session.tutorial.step = tutorial;
+        if (snapshot.version === 1) {
+            const { settledRounds } = snapshot;
+            if (!isProgressCount(settledRounds)) {
+                return null;
+            }
+            const oldRoundOrders = fulfilledOrders - settledRounds * ORDERS_PER_ROUND;
+            if (oldRoundOrders < 0 || oldRoundOrders > ORDERS_PER_ROUND) {
+                return null;
+            }
+            session.progress.chapter = settledRounds > 0 ? 2 : 1;
+            session.progress.deliveredInChapter = settledRounds > 0 ? 0 : oldRoundOrders;
+            session.progress.stamps = fulfilledOrders;
+        } else {
+            const { roundNumber, roundOrderCount, generatorLevel, upgradeStamps, supplyRoute } = snapshot;
+            if (!isProgressCount(roundNumber) || roundNumber < 1 || !isProgressCount(roundOrderCount)
+                || !isProgressCount(generatorLevel) || generatorLevel < 1
+                || generatorLevel > ALLOY_GENERATOR_LEVELS.length || ALLOY_GENERATOR_LEVELS[generatorLevel - 1].chapter > roundNumber
+                || !isProgressCount(upgradeStamps) || upgradeStamps > fulfilledOrders
+                || !supplyRoute || ALLOY_SUPPLY_ROUTES.indexOf(supplyRoute) === -1
+                || (roundNumber === 1 && supplyRoute !== 'mixed')) {
+                return null;
+            }
+            const completedStoryOrders = ALLOY_CHAPTERS.slice(0, roundNumber - 1)
+                .reduce((sum, chapter) => sum + chapter.orders.length, 0);
+            const completedFreeRounds = Math.max(0, roundNumber - ALLOY_CHAPTERS.length - 1);
+            if (roundOrderCount > AlloyOrderSystem.getRoundOrderTotal(roundNumber)
+                || completedStoryOrders + completedFreeRounds * ALLOY_FREE_PLAY_ORDER_COUNT + roundOrderCount > fulfilledOrders) {
+                return null;
+            }
+            session.progress.chapter = roundNumber;
+            session.progress.deliveredInChapter = roundOrderCount;
+            session.progress.stamps = upgradeStamps;
+            session.generator.level = generatorLevel;
+            session.generator.route = supplyRoute;
+        }
+        state.recoverEnergy(nowMs);
+        return state;
+    }
+
+    // 将世界组件投影为原有格式的存档，并复制道具避免引用外泄。
+    public getSnapshot(): AlloyProgressSnapshot {
+        const { energy, generator, progress, tutorial } = this.world.session;
+        return {
+            version: 2,
+            cells: this.board.map((item) => item ? { ...item } : null),
+            generatedCount: generator.count,
+            nextEnergyAtMs: energy.nextRecoveryAtMs,
+            energy: energy.amount,
+            fulfilledOrders: progress.deliveredTotal,
+            roundNumber: progress.chapter,
+            roundOrderCount: progress.deliveredInChapter,
+            generatorLevel: generator.level,
+            upgradeStamps: progress.stamps,
+            supplyRoute: generator.route,
+            tutorial: tutorial.step,
+        };
+    }
+
+    // 按格序提供给场景绘制的棋盘投影。
+    public get board(): readonly (AlloyItem | null)[] {
+        return this.world.readBoard();
+    }
+
+    // 返回体力组件中当前可用的体力。
+    public get energy(): number {
+        return this.world.session.energy.amount;
+    }
+
+    // 返回累计交付的订单数。
+    public get orderCount(): number {
+        return this.world.session.progress.deliveredTotal;
+    }
+
+    // 返回当前剧情关卡或自由营业轮次的连续编号。
+    public get roundNumber(): number {
+        return this.world.session.progress.chapter;
+    }
+
+    // 返回本轮已经交付的订单数。
+    public get roundOrderCount(): number {
+        return this.world.session.progress.deliveredInChapter;
+    }
+
+    // 返回本轮需要完成的订单数。
+    public get roundOrderTotal(): number {
+        return AlloyOrderSystem.getRoundOrderTotal(this.roundNumber);
+    }
+
+    // 读取订单系统生成的当前关卡标题。
+    public get roundTitle(): string {
+        return AlloyOrderSystem.getRoundTitle(this.world);
+    }
+
+    // 读取结算页面需要显示的下一站名称。
+    public get nextRoundName(): string {
+        return AlloyOrderSystem.getNextRoundName(this.world);
+    }
+
+    // 读取剧情是否已经通关。
+    public get campaignComplete(): boolean {
+        return AlloyOrderSystem.isCampaignComplete(this.world);
+    }
+
+    // 读取当前轮次是否正在等待结算。
+    public get roundComplete(): boolean {
+        return AlloyOrderSystem.isRoundComplete(this.world);
+    }
+
+    // 让订单系统从已结算的轮次推进到下一轮。
+    public continueRound(): boolean {
+        return AlloyOrderSystem.continueRound(this.world);
+    }
+
+    // 获取当前订单，供界面展示交付要求。
+    public get order(): AlloyOrder {
+        return AlloyOrderSystem.getOrder(this.world);
+    }
+
+    // 获取下一次补货使用的道具系列。
+    public get nextFamily(): AlloyFamily {
+        return AlloySupplySystem.getNextFamily(this.world);
+    }
+
+    // 获取下一件补货道具的系列和阶数。
+    public get nextItem(): AlloyItem {
+        return AlloySupplySystem.getNextItem(this.world);
+    }
+
+    // 返回生成器组件中当前的补货台等级。
+    public get generatorLevel(): number {
+        return this.world.session.generator.level;
+    }
+
+    // 返回进度组件中剩余的升级印章。
+    public get upgradeStamps(): number {
+        return this.world.session.progress.stamps;
+    }
+
+    // 返回下一次升级费用，满级时返回空值。
+    public get nextUpgradeCost(): number | null {
+        return AlloySupplySystem.getNextUpgrade(this.world)?.cost ?? null;
+    }
+
+    // 返回开放下一次升级所需的关卡。
+    public get nextUpgradeChapter(): number | null {
+        return AlloySupplySystem.getNextUpgrade(this.world)?.chapter ?? null;
+    }
+
+    // 判断下一次补货台升级是否已开放。
+    public get generatorUpgradeUnlocked(): boolean {
+        return AlloySupplySystem.isUpgradeUnlocked(this.world);
+    }
+
+    // 提交升级操作并返回新的补货台等级。
+    public upgradeGenerator(): number | null {
+        return AlloySupplySystem.upgradeGenerator(this.world);
+    }
+
+    // 判断当前关卡是否开放定向补货。
+    public get canSelectSupplyRoute(): boolean {
+        return AlloySupplySystem.canSelectSupplyRoute(this.world);
+    }
+
+    // 返回生成器组件中选定的补货线路。
+    public get supplyRoute(): AlloySupplyRoute {
+        return this.world.session.generator.route;
+    }
+
+    // 提交换线操作并返回新线路。
+    public cycleSupplyRoute(): AlloySupplyRoute | null {
+        return AlloySupplySystem.cycleSupplyRoute(this.world);
+    }
+
+    // 返回教程组件中当前的新手引导步骤。
+    public get tutorial(): AlloyTutorialStep {
+        return this.world.session.tutorial.step;
+    }
+
+    // 让体力系统补发当前时刻已经到期的体力。
+    public recoverEnergy(nowMs: number): void {
+        AlloyEnergySystem.recoverEnergy(this.world, nowMs);
+    }
+
+    // 查询距离下一次体力恢复还剩几秒。
+    public secondsUntilEnergy(nowMs: number): number {
+        return AlloyEnergySystem.secondsUntilEnergy(this.world, nowMs);
+    }
+
+    // 提交补货操作并返回落点或补货失败原因。
+    public generate(nowMs: number): number | 'noEnergy' | 'full' | 'roundComplete' {
+        return AlloySupplySystem.generate(this.world, nowMs);
+    }
+
+    // 提交一次拖拽落格，返回棋盘系统处理结果。
+    public drop(from: number, to: number): AlloyDropResult {
+        return AlloyBoardSystem.drop(this.world, from, to);
+    }
+
+    // 查询两个棋盘格中的道具是否可以合成。
+    public canMerge(from: number, to: number): boolean {
+        return AlloyBoardSystem.canMerge(this.world, from, to);
+    }
+
+    // 查询首件订单道具所在的格子，供引导高亮使用。
+    public getOrderCell(): number {
+        return AlloyOrderSystem.getOrderCell(this.world);
+    }
+
+    // 查询棋盘是否备齐当前订单需要的物品。
+    public canDeliver(): boolean {
+        return AlloyOrderSystem.canDeliver(this.world);
+    }
+
+    // 提交订单并返回成功交付的订单内容。
+    public deliver(nowMs: number): AlloyOrder | null {
+        return AlloyOrderSystem.deliver(this.world, nowMs);
+    }
+
+    // 查询指定格子是否满足回收条件。
+    public canRecycle(cell: number): boolean {
+        return AlloyBoardSystem.canRecycle(this.world, cell);
+    }
+
+    // 提交指定格子的回收操作。
+    public recycle(cell: number): boolean {
+        return AlloyBoardSystem.recycle(this.world, cell);
+    }
 }

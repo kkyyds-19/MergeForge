@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, AudioClip, AudioSource, Color, Component, Graphics, Label, Node, profiler, UITransform, Vec3, view, ALLOY_COLORS, createAlloyLabel, createAlloyNode, createAlloyPlate, paintAlloyItem, paintAlloyPlate, AlloyGameState, BOARD_COLUMNS, BOARD_ROWS, ENERGY_CAPACITY, getAlloyItemName, AlloySdkAdapter, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, C, CENTER, CELL_SIZE, CELL_STEP, GUIDE, AlloyGame;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, AudioClip, AudioSource, Color, Component, instantiate, Label, Node, Prefab, profiler, Sprite, SpriteAtlas, SpriteFrame, sys, UITransform, Vec2, Vec3, view, ALLOY_ITEM_FRAMES, ALLOY_CHAPTERS, ALLOY_ROUTE_LABELS, AlloyGameState, ENERGY_CAPACITY, getAlloyItemName, AlloyLayout, AlloySdkAdapter, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _crd, ccclass, property, PROGRESS_KEY, COLORS, GUIDE, AlloyGame;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -9,44 +9,20 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
-  function _reportPossibleCrUseOfALLOY_COLORS(extras) {
-    _reporterNs.report("ALLOY_COLORS", "./AlloyArt", _context.meta, extras);
+  function _reportPossibleCrUseOfALLOY_ITEM_FRAMES(extras) {
+    _reporterNs.report("ALLOY_ITEM_FRAMES", "./AlloyArt", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfcreateAlloyLabel(extras) {
-    _reporterNs.report("createAlloyLabel", "./AlloyArt", _context.meta, extras);
+  function _reportPossibleCrUseOfALLOY_CHAPTERS(extras) {
+    _reporterNs.report("ALLOY_CHAPTERS", "./AlloyCampaign", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfcreateAlloyNode(extras) {
-    _reporterNs.report("createAlloyNode", "./AlloyArt", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfcreateAlloyPlate(extras) {
-    _reporterNs.report("createAlloyPlate", "./AlloyArt", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfpaintAlloyItem(extras) {
-    _reporterNs.report("paintAlloyItem", "./AlloyArt", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfpaintAlloyPlate(extras) {
-    _reporterNs.report("paintAlloyPlate", "./AlloyArt", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfAlloyPlate(extras) {
-    _reporterNs.report("AlloyPlate", "./AlloyArt", _context.meta, extras);
+  function _reportPossibleCrUseOfALLOY_ROUTE_LABELS(extras) {
+    _reporterNs.report("ALLOY_ROUTE_LABELS", "./AlloyCampaign", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfAlloyGameState(extras) {
     _reporterNs.report("AlloyGameState", "./AlloyGameState", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfBOARD_COLUMNS(extras) {
-    _reporterNs.report("BOARD_COLUMNS", "./AlloyGameState", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfBOARD_ROWS(extras) {
-    _reporterNs.report("BOARD_ROWS", "./AlloyGameState", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfENERGY_CAPACITY(extras) {
@@ -63,6 +39,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
   function _reportPossibleCrUseOfAlloyTutorialStep(extras) {
     _reporterNs.report("AlloyTutorialStep", "./AlloyGameState", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfAlloyLayout(extras) {
+    _reporterNs.report("AlloyLayout", "./AlloyLayout", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfAlloySdkAdapter(extras) {
@@ -85,62 +65,71 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       AudioSource = _cc.AudioSource;
       Color = _cc.Color;
       Component = _cc.Component;
-      Graphics = _cc.Graphics;
+      instantiate = _cc.instantiate;
       Label = _cc.Label;
       Node = _cc.Node;
+      Prefab = _cc.Prefab;
       profiler = _cc.profiler;
+      Sprite = _cc.Sprite;
+      SpriteAtlas = _cc.SpriteAtlas;
+      SpriteFrame = _cc.SpriteFrame;
+      sys = _cc.sys;
       UITransform = _cc.UITransform;
+      Vec2 = _cc.Vec2;
       Vec3 = _cc.Vec3;
       view = _cc.view;
     }, function (_unresolved_2) {
-      ALLOY_COLORS = _unresolved_2.ALLOY_COLORS;
-      createAlloyLabel = _unresolved_2.createAlloyLabel;
-      createAlloyNode = _unresolved_2.createAlloyNode;
-      createAlloyPlate = _unresolved_2.createAlloyPlate;
-      paintAlloyItem = _unresolved_2.paintAlloyItem;
-      paintAlloyPlate = _unresolved_2.paintAlloyPlate;
+      ALLOY_ITEM_FRAMES = _unresolved_2.ALLOY_ITEM_FRAMES;
     }, function (_unresolved_3) {
-      AlloyGameState = _unresolved_3.AlloyGameState;
-      BOARD_COLUMNS = _unresolved_3.BOARD_COLUMNS;
-      BOARD_ROWS = _unresolved_3.BOARD_ROWS;
-      ENERGY_CAPACITY = _unresolved_3.ENERGY_CAPACITY;
-      getAlloyItemName = _unresolved_3.getAlloyItemName;
+      ALLOY_CHAPTERS = _unresolved_3.ALLOY_CHAPTERS;
+      ALLOY_ROUTE_LABELS = _unresolved_3.ALLOY_ROUTE_LABELS;
     }, function (_unresolved_4) {
-      AlloySdkAdapter = _unresolved_4.AlloySdkAdapter;
+      AlloyGameState = _unresolved_4.AlloyGameState;
+      ENERGY_CAPACITY = _unresolved_4.ENERGY_CAPACITY;
+      getAlloyItemName = _unresolved_4.getAlloyItemName;
+    }, function (_unresolved_5) {
+      AlloyLayout = _unresolved_5.AlloyLayout;
+    }, function (_unresolved_6) {
+      AlloySdkAdapter = _unresolved_6.AlloySdkAdapter;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "b938dki/EhNVbckTw4a6DIE", "AlloyGame", undefined);
 
-      __checkObsolete__(['_decorator', 'AudioClip', 'AudioSource', 'Color', 'Component', 'EventTouch', 'Graphics', 'Label', 'Node', 'profiler', 'UITransform', 'Vec3', 'view']);
+      __checkObsolete__(['_decorator', 'AudioClip', 'AudioSource', 'Color', 'Component', 'EventTouch', 'instantiate', 'Label', 'Node', 'Prefab', 'profiler', 'Sprite', 'SpriteAtlas', 'SpriteFrame', 'sys', 'UITransform', 'Vec2', 'Vec3', 'view']);
 
       ({
         ccclass,
         property
       } = _decorator);
-      C = _crd && ALLOY_COLORS === void 0 ? (_reportPossibleCrUseOfALLOY_COLORS({
-        error: Error()
-      }), ALLOY_COLORS) : ALLOY_COLORS;
-      CENTER = Label.HorizontalAlign.CENTER;
-      CELL_SIZE = 82;
-      CELL_STEP = 88;
+      PROGRESS_KEY = 'ProjectAlloy.progress.v1';
+      COLORS = {
+        activeText: new Color(58, 42, 31),
+        mutedText: new Color(97, 79, 66),
+        inactive: new Color(219, 208, 193),
+        green: new Color(165, 219, 153),
+        orange: new Color(255, 198, 119),
+        emptyTile: new Color(233, 223, 207),
+        filledTile: new Color(255, 250, 237),
+        blocked: new Color(247, 176, 160)
+      };
       GUIDE = {
         generate: {
-          title: '1 / 3   采集矿物',
-          instruction: '点击右侧或下方高亮的采集按钮。'
+          title: '1 / 3   补一份食材',
+          instruction: '点一下补货台的按钮。'
         },
         merge: {
-          title: '2 / 3   合成铜锭',
-          instruction: '将一块铜矿拖到另一块铜矿上。'
+          title: '2 / 3   合成贝果',
+          instruction: '把一团面团拖到另一团面团上。'
         },
         deliver: {
-          title: '3 / 3   交付订单',
-          instruction: '点击交付，提交铜锭并领取体力。'
+          title: '3 / 3   交付首单',
+          instruction: '点击交付，把贝果送给顾客。'
         },
         complete: {
-          title: '工坊操作',
-          instruction: '同类同阶可合成，点选多余物品可回收。'
+          title: '餐坊操作',
+          instruction: '同类同阶可合成。点选多余道具后可回收。'
         }
       };
 
@@ -149,7 +138,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         tooltip: '有效操作后开始循环播放的背景音乐。'
       }), _dec3 = property({
         type: AudioClip,
-        tooltip: '成功采集矿物时播放的音效。'
+        tooltip: '成功补货时播放的音效。'
       }), _dec4 = property({
         type: AudioClip,
         tooltip: '两件物品成功合成时播放的音效。'
@@ -161,6 +150,32 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           error: Error()
         }), AlloySdkAdapter) : AlloySdkAdapter,
         tooltip: '供试玩广告平台接收玩法事件的 SDK 适配组件。'
+      }), _dec7 = property({
+        type: Prefab,
+        tooltip: '横屏时使用的餐坊布局，可双击预制体调整位置和换图。'
+      }), _dec8 = property({
+        type: Prefab,
+        tooltip: '竖屏时使用的餐坊布局，可双击预制体调整位置和换图。'
+      }), _dec9 = property({
+        type: Sprite,
+        tooltip: '主场景背景图，运行时按照画布尺寸铺满。'
+      }), _dec10 = property({
+        type: SpriteAtlas,
+        tooltip: '棋盘道具与订单共用的默认道具图集。'
+      }), _dec11 = property({
+        type: SpriteAtlas,
+        tooltip: '后续关卡的高阶面点、咖啡和莓果道具图集。'
+      }), _dec12 = property({
+        type: [SpriteFrame],
+        tooltip: '按从面团到烘焙礼篮的阶数顺序覆盖面点图片。'
+      }), _dec13 = property({
+        type: [SpriteFrame],
+        tooltip: '按从咖啡豆到咖啡品鉴组的阶数顺序覆盖咖啡图片。'
+      }), _dec14 = property({
+        type: [SpriteFrame],
+        tooltip: '按从草莓到莓果庆典蛋糕的阶数顺序覆盖莓果图片。'
+      }), _dec15 = property({
+        tooltip: '保存棋盘、体力、关卡和补货台进度，关闭后每次载入从试营业开始。'
       }), _dec(_class = (_class2 = class AlloyGame extends Component {
         constructor(...args) {
           super(...args);
@@ -175,44 +190,51 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _initializerDefineProperty(this, "sdkAdapter", _descriptor5, this);
 
+          _initializerDefineProperty(this, "landscapeLayout", _descriptor6, this);
+
+          _initializerDefineProperty(this, "portraitLayout", _descriptor7, this);
+
+          _initializerDefineProperty(this, "backdrop", _descriptor8, this);
+
+          _initializerDefineProperty(this, "itemAtlas", _descriptor9, this);
+
+          _initializerDefineProperty(this, "campaignAtlas", _descriptor10, this);
+
+          _initializerDefineProperty(this, "copperItemFrames", _descriptor11, this);
+
+          _initializerDefineProperty(this, "quartzItemFrames", _descriptor12, this);
+
+          _initializerDefineProperty(this, "berryItemFrames", _descriptor13, this);
+
+          _initializerDefineProperty(this, "persistProgress", _descriptor14, this);
+
           this.state = void 0;
           this.audio = void 0;
           this.audioUnlocked = false;
           this.musicRequested = false;
           this.muted = false;
-          this.content = void 0;
-          this.backdrop = void 0;
+          this.playfield = null;
           this.portrait = void 0;
-          this.boardNode = void 0;
-          this.cells = [];
           this.selected = -1;
           this.gesture = null;
-          this.ghost = void 0;
-          this.ghostIcon = void 0;
-          this.energyLabel = void 0;
-          this.energyMeter = void 0;
-          this.orderLabel = void 0;
-          this.orderItemLabel = void 0;
-          this.orderRewardLabel = void 0;
-          this.orderIcon = void 0;
-          this.supplyLabel = void 0;
-          this.supplyIcon = void 0;
-          this.guideTitle = void 0;
-          this.guideInstruction = void 0;
-          this.statusLabel = void 0;
-          this.deliverControl = void 0;
-          this.generateControl = void 0;
-          this.recycleControl = void 0;
-          this.muteControl = void 0;
-          this.status = '等待采集';
+          this.restartPending = false;
+          this.status = '等待补货';
           this.energyDisplay = '';
         }
 
-        // 初始化棋盘和音频通道，确保载入时没有任何自动播放。
+        // 恢复进度或开启新局，并初始化静音的音频通道。
         onLoad() {
-          this.state = new (_crd && AlloyGameState === void 0 ? (_reportPossibleCrUseOfAlloyGameState({
+          const now = Date.now();
+          const restored = this.loadProgress(now);
+          this.state = restored != null ? restored : new (_crd && AlloyGameState === void 0 ? (_reportPossibleCrUseOfAlloyGameState({
             error: Error()
-          }), AlloyGameState) : AlloyGameState)(Date.now());
+          }), AlloyGameState) : AlloyGameState)(now);
+
+          if (restored) {
+            this.status = '已恢复上次的营业进度';
+          }
+
+          this.saveProgress();
           const audioNode = new Node('WorkshopAudio');
           audioNode.active = false;
           this.node.addChild(audioNode);
@@ -222,6 +244,34 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this.audio.volume = 0.55;
           this.audio.clip = this.musicClip;
           audioNode.active = true;
+        } // 从当前设备读取存档，兼容空存档、损坏数据和受限的浏览器环境。
+
+
+        loadProgress(now) {
+          if (!this.persistProgress) {
+            return null;
+          }
+
+          try {
+            const contents = sys.localStorage.getItem(PROGRESS_KEY);
+            return contents ? (_crd && AlloyGameState === void 0 ? (_reportPossibleCrUseOfAlloyGameState({
+              error: Error()
+            }), AlloyGameState) : AlloyGameState).restore(JSON.parse(contents), now) : null;
+          } catch {
+            return null;
+          }
+        } // 一次性保存完整进度，设备存储不可用时继续当前局。
+
+
+        saveProgress() {
+          if (!this.persistProgress) {
+            return;
+          }
+
+          try {
+            sys.localStorage.setItem(PROGRESS_KEY, JSON.stringify(this.state.getSnapshot()));
+          } catch {// 浏览器限制存储时仍可完成当前试玩。
+          }
         } // 订阅画布尺寸变化并摆放横屏或竖屏界面。
 
 
@@ -229,8 +279,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           view.on('canvas-resize', this.layout, this);
           this.layout();
 
-          if (this.content) {
-            this.content.active = true;
+          if (this.playfield) {
+            this.playfield.node.active = true;
           }
         } // 停止接收尺寸事件，并清理进行中的拖拽和背景音乐。
 
@@ -239,8 +289,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           view.off('canvas-resize', this.layout, this);
           this.clearGesture();
 
-          if (this.content) {
-            this.content.active = false;
+          if (this.playfield) {
+            this.playfield.node.active = false;
           }
 
           this.musicRequested = false;
@@ -257,276 +307,316 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
 
         update() {
-          if (this.content) {
+          if (this.playfield) {
             this.refreshEnergy();
           }
-        } // 按可用视口选择布局，缩放整套控件并重绘背景。
+        } // 根据画布比例装载对应的预制体，并按设计尺寸等比缩放。
 
 
         layout() {
+          var _this$backdrop;
+
           const visible = view.getVisibleSize();
 
           if (visible.width <= 0 || visible.height <= 0) {
             return;
           }
 
-          const portrait = visible.width / visible.height < 1.08;
-          const width = portrait ? 620 : 1160;
-          const height = portrait ? 1090 : 688;
-
-          if (!this.backdrop) {
-            this.backdrop = (_crd && createAlloyNode === void 0 ? (_reportPossibleCrUseOfcreateAlloyNode({
-              error: Error()
-            }), createAlloyNode) : createAlloyNode)(this.node, 'Backdrop', 0, 0, 0, 0).addComponent(Graphics);
+          if ((_this$backdrop = this.backdrop) != null && _this$backdrop.spriteFrame) {
+            const aspect = this.backdrop.spriteFrame.originalSize.width / this.backdrop.spriteFrame.originalSize.height;
+            const width = Math.max(visible.width, visible.height * aspect);
+            this.backdrop.getComponent(UITransform).setContentSize(width, width / aspect);
           }
 
-          this.backdrop.clear();
-          this.backdrop.fillColor = Color.fromHEX(new Color(), C.background);
-          this.backdrop.rect(-visible.width / 2, -visible.height / 2, visible.width, visible.height);
-          this.backdrop.fill();
+          const portrait = visible.width / visible.height < 1.08;
 
-          if (!this.content || this.portrait !== portrait) {
-            this.clearGesture();
+          if (!this.playfield || this.portrait !== portrait) {
+            const prefab = portrait ? this.portraitLayout : this.landscapeLayout;
 
-            if (this.content) {
-              this.content.active = false;
-              this.content.destroy();
+            if (!prefab) {
+              return;
             }
 
-            this.content = (_crd && createAlloyNode === void 0 ? (_reportPossibleCrUseOfcreateAlloyNode({
+            this.clearGesture();
+
+            if (this.playfield) {
+              this.playfield.node.active = false;
+              this.playfield.node.destroy();
+            }
+
+            const root = instantiate(prefab);
+            this.node.addChild(root);
+            this.playfield = root.getComponent(_crd && AlloyLayout === void 0 ? (_reportPossibleCrUseOfAlloyLayout({
               error: Error()
-            }), createAlloyNode) : createAlloyNode)(this.node, 'AlloyPlayfield', 0, 0, width, height);
+            }), AlloyLayout) : AlloyLayout);
             this.portrait = portrait;
-            this.buildHud(this.content, portrait);
-            this.buildBoard(this.content, portrait);
-            this.buildOrder(this.content, portrait);
-            this.buildGenerator(this.content, portrait);
-            this.buildGuide(this.content, portrait);
+            this.bindLayout(this.playfield);
+            this.energyDisplay = '';
             this.refresh();
           }
 
-          const scale = Math.min(visible.width / width, visible.height / height);
-          this.content.setScale(scale, scale, 1);
-        } // 创建标题、体力读数和音频开关。
+          const design = this.playfield.getComponent(UITransform).contentSize;
+          const scale = Math.min(visible.width / design.width, visible.height / design.height);
+          this.playfield.node.setScale(scale, scale, 1);
+        } // 绑定棋盘、订单、补货台升级和结算弹窗的触摸操作。
 
 
-        buildHud(parent, portrait) {
-          const titleX = portrait ? -86 : -326;
-          const topY = portrait ? 497 : 292;
-          (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(parent, 'Title', '晶核工坊', titleX, topY, 426, 58, 46, C.text, undefined, true);
-          (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(parent, 'Subtitle', '采集矿物 · 合成晶核 · 完成委托', titleX, topY - 40, 426, 26, 19, C.secondary);
-          const energy = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-            error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(parent, 'EnergyCard', portrait ? -95 : 238, portrait ? 405 : 285, 405, 62, C.panel, C.border);
-          this.energyLabel = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(energy.node, 'EnergyValue', '', 0, 11, 365, 25, 18, C.aqua);
-          this.energyMeter = (_crd && createAlloyNode === void 0 ? (_reportPossibleCrUseOfcreateAlloyNode({
-            error: Error()
-          }), createAlloyNode) : createAlloyNode)(energy.node, 'EnergyMeter', 0, -14, 365, 10).addComponent(Graphics);
-          this.energyDisplay = '';
-          this.muteControl = this.makeControl(parent, 'AudioToggle', portrait ? 225 : 509, topY, 110, 44, this.toggleMute);
-        } // 构建棋盘格、物品图标、回收操作和跟手预览。
+        bindLayout(field) {
+          const board = field.board;
+          const bounds = field.tiles.map(tile => tile.getComponent(UITransform).getBoundingBox());
+          const left = Math.min(...bounds.map(rect => rect.xMin)) - 4;
+          const right = Math.max(...bounds.map(rect => rect.xMax)) + 4;
+          const bottom = Math.min(...bounds.map(rect => rect.yMin)) - 4;
+          const top = Math.max(...bounds.map(rect => rect.yMax)) + 4;
+          const transform = board.getComponent(UITransform);
+          transform.setContentSize(right - left, top - bottom);
+          transform.setAnchorPoint(-left / (right - left), -bottom / (top - bottom));
+          board.on(Node.EventType.TOUCH_START, this.onBoardStart, this);
+          board.on(Node.EventType.TOUCH_MOVE, this.onBoardMove, this);
+          board.on(Node.EventType.TOUCH_END, this.onBoardEnd, this);
+          board.on(Node.EventType.TOUCH_CANCEL, this.onBoardCancel, this);
+          field.generateButton.node.on(Node.EventType.TOUCH_END, this.generate, this);
+          field.routeButton.node.on(Node.EventType.TOUCH_END, this.changeSupplyRoute, this);
+          field.upgradeButton.node.on(Node.EventType.TOUCH_END, this.upgradeGenerator, this);
+          field.deliverButton.node.on(Node.EventType.TOUCH_END, this.deliver, this);
+          field.recycleButton.node.on(Node.EventType.TOUCH_END, this.recycle, this);
+          field.muteButton.node.on(Node.EventType.TOUCH_END, this.toggleMute, this);
+          field.restartButton.node.on(Node.EventType.TOUCH_END, this.openRestart, this);
+          field.dialogPrimary.node.on(Node.EventType.TOUCH_END, this.confirmDialog, this);
+          field.dialogSecondary.node.on(Node.EventType.TOUCH_END, this.chooseDialogSecondary, this);
+        } // 优先显示检查器绑定的图片，并从基础或关卡图集补齐未覆盖的阶数。
 
 
-        buildBoard(parent, portrait) {
-          const panel = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-            error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(parent, 'BoardCard', portrait ? 0 : -258, portrait ? 112 : -44, 594, portrait ? 502 : 550, C.panel, C.border, 22);
-          const titleY = portrait ? 220 : 236;
-          (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(panel.node, 'BoardTitle', '合成棋盘', -132, titleY, 258, 37, 27, C.text, undefined, true);
-          this.recycleControl = this.makeControl(panel.node, 'Recycle', 219, titleY, 114, 36, this.recycle);
-          this.boardNode = (_crd && createAlloyNode === void 0 ? (_reportPossibleCrUseOfcreateAlloyNode({
-            error: Error()
-          }), createAlloyNode) : createAlloyNode)(panel.node, 'BoardInput', 0, portrait ? -23 : -13, (_crd && BOARD_COLUMNS === void 0 ? (_reportPossibleCrUseOfBOARD_COLUMNS({
-            error: Error()
-          }), BOARD_COLUMNS) : BOARD_COLUMNS) * CELL_STEP, (_crd && BOARD_ROWS === void 0 ? (_reportPossibleCrUseOfBOARD_ROWS({
-            error: Error()
-          }), BOARD_ROWS) : BOARD_ROWS) * CELL_STEP);
-          this.boardNode.on(Node.EventType.TOUCH_START, this.onBoardStart, this);
-          this.boardNode.on(Node.EventType.TOUCH_MOVE, this.onBoardMove, this);
-          this.boardNode.on(Node.EventType.TOUCH_END, this.onBoardEnd, this);
-          this.boardNode.on(Node.EventType.TOUCH_CANCEL, this.onBoardCancel, this);
-          this.cells = [];
+        paintItem(sprite, item) {
+          var _ref, _ref2, _overrides, _this$itemAtlas, _this$campaignAtlas;
 
-          for (let row = 0; row < (_crd && BOARD_ROWS === void 0 ? (_reportPossibleCrUseOfBOARD_ROWS({
-            error: Error()
-          }), BOARD_ROWS) : BOARD_ROWS); row += 1) {
-            for (let column = 0; column < (_crd && BOARD_COLUMNS === void 0 ? (_reportPossibleCrUseOfBOARD_COLUMNS({
-              error: Error()
-            }), BOARD_COLUMNS) : BOARD_COLUMNS); column += 1) {
-              const index = row * (_crd && BOARD_COLUMNS === void 0 ? (_reportPossibleCrUseOfBOARD_COLUMNS({
-                error: Error()
-              }), BOARD_COLUMNS) : BOARD_COLUMNS) + column;
-              const x = (column - ((_crd && BOARD_COLUMNS === void 0 ? (_reportPossibleCrUseOfBOARD_COLUMNS({
-                error: Error()
-              }), BOARD_COLUMNS) : BOARD_COLUMNS) - 1) / 2) * CELL_STEP;
-              const y = (((_crd && BOARD_ROWS === void 0 ? (_reportPossibleCrUseOfBOARD_ROWS({
-                error: Error()
-              }), BOARD_ROWS) : BOARD_ROWS) - 1) / 2 - row) * CELL_STEP;
-              const plate = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-                error: Error()
-              }), createAlloyPlate) : createAlloyPlate)(this.boardNode, `Cell-${index}`, x, y, CELL_SIZE, CELL_SIZE, C.inset, C.border, 13);
-              const icon = (_crd && createAlloyNode === void 0 ? (_reportPossibleCrUseOfcreateAlloyNode({
-                error: Error()
-              }), createAlloyNode) : createAlloyNode)(plate.node, 'Item', 0, 3, 56, 56).addComponent(Graphics);
-              const tier = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-                error: Error()
-              }), createAlloyLabel) : createAlloyLabel)(plate.node, 'Tier', '', 0, -28, 76, 19, 13, C.secondary, CENTER);
-              this.cells.push({
-                plate,
-                icon,
-                tier
-              });
-            }
+          if (!item) {
+            sprite.spriteFrame = null;
+            return;
           }
 
-          this.ghost = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
+          const overrides = item.family === 'copper' ? this.copperItemFrames : item.family === 'quartz' ? this.quartzItemFrames : this.berryItemFrames;
+          const name = (_crd && ALLOY_ITEM_FRAMES === void 0 ? (_reportPossibleCrUseOfALLOY_ITEM_FRAMES({
             error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(this.boardNode, 'DragPreview', 0, 0, CELL_SIZE, CELL_SIZE, C.panel, C.aqua, 13);
-          this.ghostIcon = (_crd && createAlloyNode === void 0 ? (_reportPossibleCrUseOfcreateAlloyNode({
-            error: Error()
-          }), createAlloyNode) : createAlloyNode)(this.ghost.node, 'DragItem', 0, 0, 64, 64).addComponent(Graphics);
-          this.ghost.node.active = false;
-        } // 构建当前客户、所需物品、体力奖励及交付按钮。
+          }), ALLOY_ITEM_FRAMES) : ALLOY_ITEM_FRAMES)[item.family][item.tier - 1];
+          sprite.spriteFrame = (_ref = (_ref2 = (_overrides = overrides[item.tier - 1]) != null ? _overrides : (_this$itemAtlas = this.itemAtlas) == null ? void 0 : _this$itemAtlas.getSpriteFrame(name)) != null ? _ref2 : (_this$campaignAtlas = this.campaignAtlas) == null ? void 0 : _this$campaignAtlas.getSpriteFrame(name)) != null ? _ref : null;
+        } // 用底图染色和文字颜色反馈按钮的可用状态。
 
 
-        buildOrder(parent, portrait) {
-          const width = portrait ? 594 : 466;
-          const card = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-            error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(parent, 'OrderCard', portrait ? 0 : 286, portrait ? -222 : 144, width, portrait ? 138 : 174, C.panel, C.border, 22);
-          const left = -width / 2;
-          const icon = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-            error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(card.node, 'OrderItemPlate', left + 57, portrait ? -6 : -10, 68, 68, C.inset, C.border, 14);
-          this.orderIcon = (_crd && createAlloyNode === void 0 ? (_reportPossibleCrUseOfcreateAlloyNode({
-            error: Error()
-          }), createAlloyNode) : createAlloyNode)(icon.node, 'OrderItem', 0, 0, 56, 56).addComponent(Graphics);
-          this.orderLabel = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(card.node, 'OrderCustomer', '', left + 181, portrait ? 45 : 58, 322, 30, 21, C.text, undefined, true);
-          this.orderItemLabel = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(card.node, 'OrderRequirement', '', left + 206, portrait ? 10 : 11, 204, 30, 24, C.text, undefined, true);
-          this.orderRewardLabel = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(card.node, 'OrderReward', '', left + 204, -26, 200, 26, 17, C.orange);
-          this.deliverControl = this.makeControl(card.node, 'Deliver', width / 2 - 87, portrait ? -15 : -13, 132, 49, this.deliver);
-        } // 构建采集台、下一种矿物提示和采集按钮。
-
-
-        buildGenerator(parent, portrait) {
-          const width = portrait ? 594 : 466;
-          const card = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-            error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(parent, 'GeneratorCard', portrait ? 0 : 286, portrait ? -360 : -28, width, portrait ? 113 : 145, C.panel, C.border, 22);
-          const left = -width / 2;
-          const icon = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-            error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(card.node, 'SupplyItemPlate', left + 57, 0, 68, 68, C.inset, C.border, 14);
-          this.supplyIcon = (_crd && createAlloyNode === void 0 ? (_reportPossibleCrUseOfcreateAlloyNode({
-            error: Error()
-          }), createAlloyNode) : createAlloyNode)(icon.node, 'SupplyItem', 0, 0, 56, 56).addComponent(Graphics);
-          (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(card.node, 'GeneratorTitle', '矿物采集台', left + 200, 17, 192, 32, 23, C.text, undefined, true);
-          this.supplyLabel = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(card.node, 'GeneratorNext', '', left + 200, -17, 192, 25, 17, C.secondary);
-          this.generateControl = this.makeControl(card.node, 'Generate', width / 2 - 87, 0, 132, 49, this.generate);
-        } // 建立引导标题、当前操作说明和反馈提示区。
-
-
-        buildGuide(parent, portrait) {
-          const width = portrait ? 594 : 466;
-          const card = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-            error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(parent, 'GuideCard', portrait ? 0 : 286, portrait ? -482 : -202, width, portrait ? 105 : 168, C.panel, C.border, 22);
-          this.guideTitle = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(card.node, 'GuideStep', '', 0, portrait ? 31 : 48, width - 46, 32, 22, C.aqua, undefined, true);
-          this.guideInstruction = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(card.node, 'GuideInstruction', '', 0, portrait ? 0 : 8, width - 46, 31, 19, C.text);
-          this.statusLabel = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(card.node, 'Feedback', '', 0, portrait ? -31 : -43, width - 46, 28, 17, C.secondary);
-        } // 创建仅在手指或鼠标在按钮内释放时触发的控件。
-
-
-        makeControl(parent, name, x, y, width, height, action) {
-          const plate = (_crd && createAlloyPlate === void 0 ? (_reportPossibleCrUseOfcreateAlloyPlate({
-            error: Error()
-          }), createAlloyPlate) : createAlloyPlate)(parent, name, x, y, width, height, C.inset, C.border, 12);
-          plate.node.on(Node.EventType.TOUCH_END, action, this);
-          const label = (_crd && createAlloyLabel === void 0 ? (_reportPossibleCrUseOfcreateAlloyLabel({
-            error: Error()
-          }), createAlloyLabel) : createAlloyLabel)(plate.node, 'Caption', '', 0, 0, width - 10, height - 4, 19, C.text, CENTER, true);
-          return {
-            plate,
-            label,
-            width,
-            height
-          };
-        } // 根据操作可用性与高亮色更新按钮样式。
-
-
-        paintControl(control, text, emphasis) {
-          (_crd && paintAlloyPlate === void 0 ? (_reportPossibleCrUseOfpaintAlloyPlate({
-            error: Error()
-          }), paintAlloyPlate) : paintAlloyPlate)(control.plate.graphics, control.width, control.height, emphasis != null ? emphasis : C.inset, emphasis != null ? emphasis : C.border, 12);
-          control.label.color = Color.fromHEX(new Color(), emphasis ? C.darkText : C.secondary);
-          control.label.string = text;
-        } // 重绘资源、订单和引导提示，展示最新的玩法状态。
+        paintControl(button, text, emphasis) {
+          button.color = emphasis != null ? emphasis : COLORS.inactive;
+          const label = button.getComponentInChildren(Label);
+          label.color = emphasis ? COLORS.activeText : COLORS.mutedText;
+          label.string = text;
+        } // 把棋盘、单品或双品订单和当前关卡进度更新到当前预制体。
 
 
         refresh() {
+          const field = this.playfield;
           this.paintBoard();
           this.refreshEnergy();
           const {
             order,
             orderCount,
-            nextFamily,
-            tutorial
+            nextItem,
+            tutorial,
+            roundNumber,
+            roundOrderCount,
+            roundOrderTotal
           } = this.state;
-          (_crd && paintAlloyItem === void 0 ? (_reportPossibleCrUseOfpaintAlloyItem({
-            error: Error()
-          }), paintAlloyItem) : paintAlloyItem)(this.orderIcon, order.item);
-          this.orderLabel.string = `订单 ${orderCount + 1} · ${order.customer}`;
-          this.orderItemLabel.string = (_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
+          this.paintItem(field.orderIcon, order.item);
+          const displayedOrder = this.state.roundComplete ? orderCount : orderCount + 1;
+          field.orderLabel.string = `订单 ${displayedOrder} · ${order.customer}`;
+          field.orderItemLabel.string = (_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
             error: Error()
           }), getAlloyItemName) : getAlloyItemName)(order.item);
-          this.orderRewardLabel.string = `奖励 +${order.reward} 体力`;
-          this.paintControl(this.deliverControl, '交付', this.state.canDeliver() ? C.aqua : null);
+          field.extraOrderIcon.node.active = !!order.extraItem;
+          field.extraOrderLabel.node.active = !!order.extraItem;
+
+          if (order.extraItem) {
+            this.paintItem(field.extraOrderIcon, order.extraItem);
+            field.extraOrderLabel.string = (_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
+              error: Error()
+            }), getAlloyItemName) : getAlloyItemName)(order.extraItem);
+          }
+
+          field.orderRewardLabel.string = `+${order.reward} 体力 · +1 印章`;
+          const stage = roundNumber <= (_crd && ALLOY_CHAPTERS === void 0 ? (_reportPossibleCrUseOfALLOY_CHAPTERS({
+            error: Error()
+          }), ALLOY_CHAPTERS) : ALLOY_CHAPTERS).length ? `第 ${roundNumber} 关` : '自由营业';
+          field.roundProgress.string = `${stage} · ${roundOrderCount} / ${roundOrderTotal}`;
+          this.paintControl(field.deliverButton, '交付', this.state.canDeliver() ? COLORS.green : null);
           this.refreshGenerator();
-          const supply = {
-            family: nextFamily,
-            tier: 1
-          };
-          (_crd && paintAlloyItem === void 0 ? (_reportPossibleCrUseOfpaintAlloyItem({
+          this.paintItem(field.supplyIcon, nextItem);
+          field.supplyLabel.string = `下一件  ${(_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
             error: Error()
-          }), paintAlloyItem) : paintAlloyItem)(this.supplyIcon, supply);
-          this.supplyLabel.string = `下一件  ${(_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
+          }), getAlloyItemName) : getAlloyItemName)(nextItem)}`;
+          field.guideTitle.string = tutorial === 'complete' ? this.state.roundTitle : GUIDE[tutorial].title;
+          field.guideInstruction.string = this.state.canSelectSupplyRoute && tutorial === 'complete' ? '点线路切换食材，交付赚印章升级。' : GUIDE[tutorial].instruction;
+          field.statusLabel.string = this.status;
+          this.paintControl(field.muteButton, this.muted ? '声音关' : '声音开', null);
+          this.refreshDialog();
+        } // 判断结算或重开确认是否正在占用操作区。
+
+
+        get dialogOpen() {
+          return this.restartPending || this.state.roundComplete;
+        } // 显示关卡结算、剧情通关结果或重开确认。
+
+
+        refreshDialog() {
+          const field = this.playfield;
+          field.roundDialog.active = this.dialogOpen;
+
+          if (!this.dialogOpen) {
+            return;
+          }
+
+          const {
+            roundNumber,
+            campaignComplete,
+            roundOrderCount,
+            nextRoundName
+          } = this.state;
+          const finale = campaignComplete && roundNumber === (_crd && ALLOY_CHAPTERS === void 0 ? (_reportPossibleCrUseOfALLOY_CHAPTERS({
             error: Error()
-          }), getAlloyItemName) : getAlloyItemName)(supply)}`;
-          this.guideTitle.string = GUIDE[tutorial].title;
-          this.guideInstruction.string = GUIDE[tutorial].instruction;
-          this.statusLabel.string = this.status;
-          this.paintControl(this.muteControl, this.muted ? '声音关' : '声音开', null);
-        } // 根据体力和空格情况刷新采集按钮。
+          }), ALLOY_CHAPTERS) : ALLOY_CHAPTERS).length;
+          field.dialogTitle.string = this.restartPending ? '重新开局？' : finale ? '街角餐坊通关' : `${this.state.roundTitle}完成`;
+          field.dialogDetail.string = this.restartPending ? '棋盘、订单和补货台会重置。' : `已交付 ${roundOrderCount} 单 · 下一站 ${nextRoundName}`;
+          const continueText = roundNumber < (_crd && ALLOY_CHAPTERS === void 0 ? (_reportPossibleCrUseOfALLOY_CHAPTERS({
+            error: Error()
+          }), ALLOY_CHAPTERS) : ALLOY_CHAPTERS).length ? '进入下一关' : '自由营业';
+          this.paintControl(field.dialogPrimary, this.restartPending ? '确认重开' : continueText, this.restartPending ? COLORS.orange : COLORS.green);
+          this.paintControl(field.dialogSecondary, this.restartPending ? '取消' : '重新开局', null);
+        } // 打开重开确认，当前操作完成后再允许重置。
+
+
+        openRestart() {
+          if (this.gesture || this.restartPending) {
+            return;
+          }
+
+          this.restartPending = true;
+          this.refreshDialog();
+        } // 取消重开确认，或从结算页进入重开确认。
+
+
+        chooseDialogSecondary() {
+          if (this.restartPending) {
+            this.restartPending = false;
+            this.refreshDialog();
+          } else if (this.state.roundComplete) {
+            this.openRestart();
+          }
+        } // 确认重置或前往下一关，并在更新存档后发送对应事件。
+
+
+        confirmDialog() {
+          let event;
+
+          if (this.restartPending) {
+            event = {
+              type: 'game_restarted',
+              previousOrderCount: this.state.orderCount
+            };
+            this.state = new (_crd && AlloyGameState === void 0 ? (_reportPossibleCrUseOfAlloyGameState({
+              error: Error()
+            }), AlloyGameState) : AlloyGameState)(Date.now());
+            this.restartPending = false;
+            this.selected = -1;
+            this.status = '新的一局开始了';
+          } else if (this.state.continueRound()) {
+            event = {
+              type: 'round_continued',
+              roundNumber: this.state.roundNumber,
+              orderCount: this.state.orderCount
+            };
+            this.selected = -1;
+            this.status = this.state.roundNumber === 2 ? '已解锁莓果和定向补货' : '新一轮营业已开启';
+          } else {
+            return;
+          }
+
+          this.unlockAudio();
+          this.saveProgress();
+          this.refresh();
+          this.track(event);
+        } // 显示补货、线路和升级按钮的当前状态及升级费用。
 
 
         refreshGenerator() {
-          const ready = this.state.energy > 0 && this.state.board.indexOf(null) !== -1;
-          this.paintControl(this.generateControl, '采集 −1', ready ? C.orange : null);
-        } // 更新体力恢复计时，并仅在读数变化时重绘体力条。
+          const field = this.playfield;
+          const {
+            generatorLevel,
+            upgradeStamps,
+            nextUpgradeCost,
+            nextUpgradeChapter,
+            generatorUpgradeUnlocked,
+            canSelectSupplyRoute,
+            supplyRoute
+          } = this.state;
+          const ready = !this.dialogOpen && this.state.energy > 0 && this.state.board.indexOf(null) !== -1;
+          field.generatorTitle.string = `补货台 Lv.${generatorLevel} · ${upgradeStamps} 印章`;
+          this.paintControl(field.generateButton, '补货 −1', ready ? COLORS.orange : null);
+          field.routeButton.node.active = canSelectSupplyRoute;
+          this.paintControl(field.routeButton, `线路 ${(_crd && ALLOY_ROUTE_LABELS === void 0 ? (_reportPossibleCrUseOfALLOY_ROUTE_LABELS({
+            error: Error()
+          }), ALLOY_ROUTE_LABELS) : ALLOY_ROUTE_LABELS)[supplyRoute]}`, COLORS.green);
+          const upgradeLabel = nextUpgradeCost === null ? '已满级' : generatorUpgradeUnlocked ? `升级 · ${nextUpgradeCost} 印章` : `第 ${nextUpgradeChapter} 关可升级`;
+          const canUpgrade = !this.dialogOpen && generatorUpgradeUnlocked && nextUpgradeCost !== null && upgradeStamps >= nextUpgradeCost;
+          this.paintControl(field.upgradeButton, upgradeLabel, canUpgrade ? COLORS.orange : null);
+        } // 切换定向补货线路，保存选择并更新下一件预览。
+
+
+        changeSupplyRoute() {
+          if (this.dialogOpen || this.gesture) {
+            return;
+          }
+
+          const route = this.state.cycleSupplyRoute();
+
+          if (!route) {
+            return;
+          }
+
+          this.unlockAudio();
+          this.status = `补货线路 · ${(_crd && ALLOY_ROUTE_LABELS === void 0 ? (_reportPossibleCrUseOfALLOY_ROUTE_LABELS({
+            error: Error()
+          }), ALLOY_ROUTE_LABELS) : ALLOY_ROUTE_LABELS)[route]}`;
+          this.saveProgress();
+          this.refresh();
+          this.track({
+            type: 'supply_route_changed',
+            route,
+            roundNumber: this.state.roundNumber
+          });
+        } // 扣除印章提升补货产出，保存等级并通知 SDK。
+
+
+        upgradeGenerator() {
+          if (this.dialogOpen || this.gesture) {
+            return;
+          }
+
+          const level = this.state.upgradeGenerator();
+
+          if (level === null) {
+            this.status = this.state.nextUpgradeCost === null ? '补货台已满级' : this.state.generatorUpgradeUnlocked ? '交付订单可获得升级印章' : '推进关卡后可升级补货台';
+            this.refresh();
+            return;
+          }
+
+          this.unlockAudio();
+          this.status = level === 2 ? '升级成功 · 每三次产出高一阶' : level === 3 ? '升级成功 · 补货从二阶开始' : '升级成功 · 每三次产出三阶道具';
+          this.saveProgress();
+          this.refresh();
+          this.track({
+            type: 'generator_upgraded',
+            level,
+            roundNumber: this.state.roundNumber,
+            remainingStamps: this.state.upgradeStamps
+          });
+        } // 更新体力恢复计时和预制体中的体力格。
 
 
         refreshEnergy() {
@@ -544,89 +634,58 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             return;
           }
 
+          const field = this.playfield;
           this.energyDisplay = display;
-          this.energyLabel.string = display;
-          this.energyMeter.clear();
-
-          for (let index = 0; index < (_crd && ENERGY_CAPACITY === void 0 ? (_reportPossibleCrUseOfENERGY_CAPACITY({
-            error: Error()
-          }), ENERGY_CAPACITY) : ENERGY_CAPACITY); index += 1) {
-            this.energyMeter.fillColor = Color.fromHEX(new Color(), index < energy ? C.aqua : C.border);
-            this.energyMeter.roundRect(-182 + index * 30.5, -3.5, 26, 7, 3);
-            this.energyMeter.fill();
-          }
-
+          field.energyLabel.string = display;
+          field.energyPips.forEach((pip, index) => {
+            pip.color = index < energy ? COLORS.green : COLORS.inactive;
+          });
           this.refreshGenerator();
-        } // 更新物品剪影、选中状态、合成目标和引导边框。
+        } // 更新每格道具、可合成目标和教程高亮。
 
 
         paintBoard() {
+          var _this$gesture;
+
+          const field = this.playfield;
           const {
             board,
             tutorial
           } = this.state;
           const orderCell = tutorial === 'deliver' ? this.state.getOrderCell() : -1;
+          const dragging = (_this$gesture = this.gesture) != null && _this$gesture.dragging ? this.gesture : null;
 
           for (let index = 0; index < board.length; index += 1) {
-            var _this$gesture;
-
             const item = board[index];
-            const cell = this.cells[index];
-            const dragging = (_this$gesture = this.gesture) != null && _this$gesture.dragging ? this.gesture : null;
             const hovered = (dragging == null ? void 0 : dragging.hover) === index;
             const validTarget = !!hovered && dragging.from !== index && (!item || this.state.canMerge(dragging.from, index));
             const tutorialPair = (item == null ? void 0 : item.family) === 'copper' && item.tier === 1 && tutorial === 'merge';
             const highlight = index === this.selected || validTarget || index === orderCell || tutorialPair;
             const visibleItem = (dragging == null ? void 0 : dragging.from) === index ? null : item;
-            (_crd && paintAlloyPlate === void 0 ? (_reportPossibleCrUseOfpaintAlloyPlate({
-              error: Error()
-            }), paintAlloyPlate) : paintAlloyPlate)(cell.plate.graphics, CELL_SIZE, CELL_SIZE, highlight ? '#24364A' : item ? '#202F40' : C.inset, highlight ? C.aqua : hovered ? C.orange : C.border, 13);
-            (_crd && paintAlloyItem === void 0 ? (_reportPossibleCrUseOfpaintAlloyItem({
-              error: Error()
-            }), paintAlloyItem) : paintAlloyItem)(cell.icon, visibleItem);
-            cell.tier.string = visibleItem ? `T${visibleItem.tier}` : '';
+            field.tiles[index].color = hovered && !validTarget ? COLORS.blocked : item ? COLORS.filledTile : COLORS.emptyTile;
+            field.focusFrames[index].node.active = highlight;
+            this.paintItem(field.items[index], visibleItem);
+            field.tiers[index].string = visibleItem ? `T${visibleItem.tier}` : '';
           }
 
-          const canRecycle = this.selected !== -1 && tutorial === 'complete';
-          this.paintControl(this.recycleControl, '回收', canRecycle ? C.orange : null);
-        } // 将触点的 UI 坐标换算为棋盘局部坐标。
+          this.paintControl(field.recycleButton, '回收', this.state.canRecycle(this.selected) ? COLORS.orange : null);
+        } // 将触点从画布坐标转换到棋盘节点坐标。
 
 
         getBoardPoint(event) {
           const point = event.getUILocation();
-          return this.boardNode.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(point.x, point.y, 0));
-        } // 按棋盘坐标返回格子索引，格子之间的缝隙不参与落点判定。
+          return this.playfield.board.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(point.x, point.y, 0));
+        } // 用预制体格子的实际位置和尺寸判断落点。
 
 
         getCell(point) {
-          const colX = point.x + (_crd && BOARD_COLUMNS === void 0 ? (_reportPossibleCrUseOfBOARD_COLUMNS({
-            error: Error()
-          }), BOARD_COLUMNS) : BOARD_COLUMNS) * CELL_STEP / 2;
-          const rowY = (_crd && BOARD_ROWS === void 0 ? (_reportPossibleCrUseOfBOARD_ROWS({
-            error: Error()
-          }), BOARD_ROWS) : BOARD_ROWS) * CELL_STEP / 2 - point.y;
-          const column = Math.floor(colX / CELL_STEP);
-          const row = Math.floor(rowY / CELL_STEP);
-
-          if (column < 0 || column >= (_crd && BOARD_COLUMNS === void 0 ? (_reportPossibleCrUseOfBOARD_COLUMNS({
-            error: Error()
-          }), BOARD_COLUMNS) : BOARD_COLUMNS) || row < 0 || row >= (_crd && BOARD_ROWS === void 0 ? (_reportPossibleCrUseOfBOARD_ROWS({
-            error: Error()
-          }), BOARD_ROWS) : BOARD_ROWS)) {
-            return -1;
-          }
-
-          const margin = (CELL_STEP - CELL_SIZE) / 2;
-          const x = colX - column * CELL_STEP;
-          const y = rowY - row * CELL_STEP;
-          return Math.min(x, y, CELL_STEP - x, CELL_STEP - y) >= margin ? row * (_crd && BOARD_COLUMNS === void 0 ? (_reportPossibleCrUseOfBOARD_COLUMNS({
-            error: Error()
-          }), BOARD_COLUMNS) : BOARD_COLUMNS) + column : -1;
-        } // 记录单指棋盘操作的起点，忽略并发触点。
+          const location = new Vec2(point.x, point.y);
+          return this.playfield.tiles.findIndex(tile => tile.getComponent(UITransform).getBoundingBox().contains(location));
+        } // 记录单指棋盘操作的起点，在弹窗和并发触点期间忽略输入。
 
 
         onBoardStart(event) {
-          if (this.gesture) {
+          if (this.gesture || this.dialogOpen) {
             return;
           }
 
@@ -670,13 +729,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           if (firstDrag) {
             gesture.dragging = true;
             this.selected = -1;
-            this.ghost.node.active = true;
-            (_crd && paintAlloyItem === void 0 ? (_reportPossibleCrUseOfpaintAlloyItem({
-              error: Error()
-            }), paintAlloyItem) : paintAlloyItem)(this.ghostIcon, item);
+            this.playfield.dragPreview.node.active = true;
+            this.paintItem(this.playfield.dragPreview, item);
           }
 
-          this.ghost.node.setPosition(point.x, point.y, 0);
+          this.playfield.dragPreview.node.setPosition(point.x, point.y, 0);
           const hover = this.getCell(point);
 
           if (firstDrag || hover !== gesture.hover) {
@@ -729,12 +786,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
 
         clearGesture() {
+          var _this$playfield;
+
           this.gesture = null;
 
-          if (this.ghost) {
-            this.ghost.node.active = false;
+          if ((_this$playfield = this.playfield) != null && _this$playfield.dragPreview) {
+            this.playfield.dragPreview.node.active = false;
           }
-        } // 提交落格并按移动或合成结果提示玩家。
+        } // 提交落格并保存棋盘，合成时播放音效并发送事件。
 
 
         drop(from, to) {
@@ -751,6 +810,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this.status = result === 'merge' ? `合成成功 · ${(_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
             error: Error()
           }), getAlloyItemName) : getAlloyItemName)(item)}` : '物品已移动';
+          this.saveProgress();
 
           if (result === 'merge') {
             this.playEffect(this.mergeClip);
@@ -760,11 +820,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               }
             });
           }
-        } // 尝试采集矿物并反馈体力不足或棋盘已满的情况。
+        } // 补货成功后保存进度，并反馈体力不足或棋盘已满的情况。
 
 
         generate() {
-          if (this.gesture) {
+          if (this.gesture || this.dialogOpen) {
             return;
           }
 
@@ -774,9 +834,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             this.unlockAudio();
             this.selected = -1;
             const item = this.state.board[result];
-            this.status = `采集成功 · ${(_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
+            this.status = `补货成功 · ${(_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
               error: Error()
             }), getAlloyItemName) : getAlloyItemName)(item)}`;
+            this.saveProgress();
             this.playEffect(this.generateClip);
             this.track({
               type: 'item_generated',
@@ -789,11 +850,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }
 
           this.refresh();
-        } // 交付满足要求的物品并推进订单和新手引导。
+        } // 一次性交付订单的全部物品，保存奖励并发送结算或通关事件。
 
 
         deliver() {
-          if (this.gesture) {
+          if (this.gesture || this.dialogOpen) {
             return;
           }
 
@@ -803,13 +864,18 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           if (completed) {
             this.unlockAudio();
             this.selected = -1;
-            this.status = tutorialWasActive ? '新手引导完成 · 下一张订单已到达' : `已交付 · +${completed.reward} 体力`;
+            this.status = tutorialWasActive ? '新手引导完成 · 下一张订单已到达' : `已交付 · +${completed.reward} 体力 · +1 印章`;
+            this.saveProgress();
             this.playEffect(this.orderClip);
             this.track({
               type: 'order_delivered',
               orderCount: this.state.orderCount,
               item: { ...completed.item
-              }
+              },
+              ...(completed.extraItem ? {
+                extraItem: { ...completed.extraItem
+                }
+              } : {})
             });
 
             if (tutorialWasActive) {
@@ -817,18 +883,40 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                 type: 'tutorial_completed'
               });
             }
+
+            if (this.state.roundComplete) {
+              this.track({
+                type: 'round_completed',
+                roundNumber: this.state.roundNumber,
+                orderCount: this.state.orderCount
+              });
+
+              if (this.state.roundNumber === (_crd && ALLOY_CHAPTERS === void 0 ? (_reportPossibleCrUseOfALLOY_CHAPTERS({
+                error: Error()
+              }), ALLOY_CHAPTERS) : ALLOY_CHAPTERS).length) {
+                this.track({
+                  type: 'campaign_completed',
+                  roundNumber: this.state.roundNumber,
+                  orderCount: this.state.orderCount
+                });
+              }
+            }
           } else {
-            this.status = `还需要 ${(_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
+            const {
+              item,
+              extraItem
+            } = this.state.order;
+            this.status = extraItem ? '棋盘上需要同时备齐两件物品。' : `还需要 ${(_crd && getAlloyItemName === void 0 ? (_reportPossibleCrUseOfgetAlloyItemName({
               error: Error()
-            }), getAlloyItemName) : getAlloyItemName)(this.state.order.item)}`;
+            }), getAlloyItemName) : getAlloyItemName)(item)}`;
           }
 
           this.refresh();
-        } // 清除一个选中的多余物品并更新棋盘。
+        } // 回收选中的道具并保存棋盘，在教程中提示可回收的条件。
 
 
         recycle() {
-          if (this.gesture) {
+          if (this.gesture || this.dialogOpen) {
             return;
           }
 
@@ -836,8 +924,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             this.unlockAudio();
             this.selected = -1;
             this.status = '物品已回收';
+            this.saveProgress();
           } else {
-            this.status = this.state.tutorial === 'complete' ? '先点选要回收的物品。' : '完成新手引导后可回收。';
+            this.status = this.state.tutorial === 'complete' || this.state.board.indexOf(null) === -1 ? '先点选要回收的物品。' : '完成首单或棋盘填满后可回收。';
           }
 
           this.refresh();
@@ -854,7 +943,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             this.unlockAudio();
           }
 
-          this.paintControl(this.muteControl, this.muted ? '声音关' : '声音开', null);
+          this.paintControl(this.playfield.muteButton, this.muted ? '声音关' : '声音开', null);
         } // 只在有效点击或触摸的回调中开启音频并同步启动音乐。
 
 
@@ -919,6 +1008,69 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         writable: true,
         initializer: function () {
           return null;
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "landscapeLayout", [_dec7], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "portraitLayout", [_dec8], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "backdrop", [_dec9], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "itemAtlas", [_dec10], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "campaignAtlas", [_dec11], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "copperItemFrames", [_dec12], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return [];
+        }
+      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "quartzItemFrames", [_dec13], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return [];
+        }
+      }), _descriptor13 = _applyDecoratedDescriptor(_class2.prototype, "berryItemFrames", [_dec14], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return [];
+        }
+      }), _descriptor14 = _applyDecoratedDescriptor(_class2.prototype, "persistProgress", [_dec15], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return true;
         }
       })), _class2)) || _class));
 

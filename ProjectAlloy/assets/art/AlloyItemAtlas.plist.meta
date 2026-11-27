@@ -1,0 +1,293 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "62315": {
+      "importer": "sprite-frame",
+      "uuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0@62315",
+      "displayName": "",
+      "id": "62315",
+      "name": "CoffeeBeans",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 4,
+        "trimY": 164,
+        "width": 144,
+        "height": 144,
+        "rawWidth": 144,
+        "rawHeight": 144,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "41c3344f-49fa-455b-88c9-50cfecea3d99@6c48a",
+        "atlasUuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d9b2d": {
+      "importer": "sprite-frame",
+      "uuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0@d9b2d",
+      "displayName": "",
+      "id": "d9b2d",
+      "name": "Dough",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 4,
+        "trimY": 4,
+        "width": 144,
+        "height": 144,
+        "rawWidth": 144,
+        "rawHeight": 144,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "41c3344f-49fa-455b-88c9-50cfecea3d99@6c48a",
+        "atlasUuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8aabb": {
+      "importer": "sprite-frame",
+      "uuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0@8aabb",
+      "displayName": "",
+      "id": "8aabb",
+      "name": "Bagel",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 164,
+        "trimY": 4,
+        "width": 144,
+        "height": 144,
+        "rawWidth": 144,
+        "rawHeight": 144,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "41c3344f-49fa-455b-88c9-50cfecea3d99@6c48a",
+        "atlasUuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f6f3e": {
+      "importer": "sprite-frame",
+      "uuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0@f6f3e",
+      "displayName": "",
+      "id": "f6f3e",
+      "name": "BreakfastSandwich",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 324,
+        "trimY": 4,
+        "width": 144,
+        "height": 144,
+        "rawWidth": 144,
+        "rawHeight": 144,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "41c3344f-49fa-455b-88c9-50cfecea3d99@6c48a",
+        "atlasUuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8e643": {
+      "importer": "sprite-frame",
+      "uuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0@8e643",
+      "displayName": "",
+      "id": "8e643",
+      "name": "Espresso",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 164,
+        "trimY": 164,
+        "width": 144,
+        "height": 144,
+        "rawWidth": 144,
+        "rawHeight": 144,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "41c3344f-49fa-455b-88c9-50cfecea3d99@6c48a",
+        "atlasUuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "044db": {
+      "importer": "sprite-frame",
+      "uuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0@044db",
+      "displayName": "",
+      "id": "044db",
+      "name": "Latte",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 324,
+        "trimY": 164,
+        "width": 144,
+        "height": 144,
+        "rawWidth": 144,
+        "rawHeight": 144,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "41c3344f-49fa-455b-88c9-50cfecea3d99@6c48a",
+        "atlasUuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "AlloyItemAtlas.png",
+    "format": 2,
+    "uuid": "b92b035d-2198-461c-b7fa-2e6524de7bc0",
+    "textureUuid": "41c3344f-49fa-455b-88c9-50cfecea3d99@6c48a"
+  }
+}
