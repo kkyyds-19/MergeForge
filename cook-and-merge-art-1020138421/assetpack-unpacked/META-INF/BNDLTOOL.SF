@@ -1,0 +1,372 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: b9ksFt1nzXbTfLDdkJ+kCK0ThtI=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: mVQopZmwoud13dWE1nUqy0d1Jp4=
+
+Name: assets/UnityServicesProjectConfiguration.json
+SHA1-Digest: 2sZuiyERL0Q+SG6bMHrqcFvceqE=
+
+Name: assets/aa/80ce4eea9e2df1674a2f02a513bb4bcc_monoscripts_78b1caa66
+ 982b0ff3a47de886fbf13df.bundle
+SHA1-Digest: eg7bZy9h3nG0ChJXpZ/mbjQgyEo=
+
+Name: assets/aa/80ce4eea9e2df1674a2f02a513bb4bcc_unitybuiltinassets_0d
+ 527f966b522e3737973d3b7c605f23.bundle
+SHA1-Digest: H++8YBeDq9CUtILy0Js2b3HkXS8=
+
+Name: assets/aa/AddressablesLink/link.xml
+SHA1-Digest: EiXTfkZMLRhM9pDVuLli8ECLAqY=
+
+Name: assets/aa/animationben_assets_all_f8b109b99ac8cadbd63dcc0bdaca44
+ 9b.bundle
+SHA1-Digest: 2ODF5f9fTHgDdihmzw7Lu5dxzpA=
+
+Name: assets/aa/animationblake_assets_all_1f5b0c68e6e2652f13f4a9eafe11
+ 1b4f.bundle
+SHA1-Digest: /ogYTVbTwuvNFvLYgKYwMDRMcdU=
+
+Name: assets/aa/animationbuddy_assets_all_d538fbe5f8c5a7b504ee4c1c1a1a
+ 4f1a.bundle
+SHA1-Digest: 8CTAFgggTGpVI1gn8aIgsCNB5ss=
+
+Name: assets/aa/animationdon_assets_all_5fd2bc03965234dd2086e1e8133820
+ 23.bundle
+SHA1-Digest: 8OUF0K4AqifS1Ig+TcxmzYbc88s=
+
+Name: assets/aa/animationgranny_assets_all_31d4ebe2e9671b394d6b7de4152
+ bbef0.bundle
+SHA1-Digest: cZMapI/uwliHGn9mK7GXHCkvVEg=
+
+Name: assets/aa/animationkate_assets_all_20c96377ddf736f99ce4a30152510
+ b27.bundle
+SHA1-Digest: RThwszu1r5aap6qmW6HVdUjbPIA=
+
+Name: assets/aa/animationmaya_assets_all_c27b526febec86bf5f0dc04518065
+ f47.bundle
+SHA1-Digest: U2FyvpkFno4L1oukyPlCO3npy/0=
+
+Name: assets/aa/animationpierre_assets_all_b594003d514cae6ee961759c098
+ 4d24c.bundle
+SHA1-Digest: SLMC1qenO4PH4ZOt+9oSbuB9O0k=
+
+Name: assets/aa/animationrex_assets_all_4be059b281cc3ac2f44216397e50a9
+ 7b.bundle
+SHA1-Digest: XzeUZvoHYgdjuT3cJWL9E1Cs2F0=
+
+Name: assets/aa/animationrin_assets_all_991775cc9c5c9281049d53f177fd5b
+ 4b.bundle
+SHA1-Digest: UcnpKXNByDMW7C68Ql3TL1e0Tmk=
+
+Name: assets/aa/area01reworka_assets_all_a6984ab764fb39296d3b01a0c09a5
+ ea5.bundle
+SHA1-Digest: 2uwLXuE1Kd1SipxHw/C550YcUu4=
+
+Name: assets/aa/area02reworka_assets_all_4f148fdf0be38c05f8dc50bcfc97c
+ 0da.bundle
+SHA1-Digest: loLfIcVMdkGkyRpbwG0dfhOddsI=
+
+Name: assets/aa/area03reworka_assets_all_103e7276ca867ee3bd2aa776ee1e8
+ df4.bundle
+SHA1-Digest: YCC/+jQkjaoKoNubJk98PqSAUVA=
+
+Name: assets/aa/area04reworka_assets_all_afd4cf551712aea0129c784b141c9
+ 2f5.bundle
+SHA1-Digest: d/zO9EQVruLj9xbIZujKRzcHfyQ=
+
+Name: assets/aa/audio_assets_all_f744908c47c3dbe06bdc6bcea4f6c001.bund
+ le
+SHA1-Digest: QMJ558tOSAPnUYcvPu0x4YTDY6A=
+
+Name: assets/aa/balancedata_assets_all_44d1ac1ec3ee2e5663999d754dd5021
+ 1.bundle
+SHA1-Digest: YI4XbgeacJe/isxIVheoGnSRHIY=
+
+Name: assets/aa/cardeventsharedlocal_assets_all_abe37aebdada8590263308
+ 6b89c1c53f.bundle
+SHA1-Digest: 94N0YaHRfmZqbtahLZFXqBt0CUM=
+
+Name: assets/aa/cardeventv1sharedlocal_assets_all_e68894fb907245f270b7
+ 47018775a9f9.bundle
+SHA1-Digest: LMAKzqXDX+FGeQAbnPlBMnwDzI0=
+
+Name: assets/aa/catalog.bin
+SHA1-Digest: vIukVxC1Op3PuGI6aGa6HRc7Pf0=
+
+Name: assets/aa/catalog.hash
+SHA1-Digest: +RV6Rkv+AaxTQNJID/mvUi9N35Y=
+
+Name: assets/aa/characters_assets_all_b3aa2212e66399ef2c20d382864e0a11
+ .bundle
+SHA1-Digest: HSMn1TYSNH1Z7flGT0K7clT0D0A=
+
+Name: assets/aa/christmas2026_assets_all_5602e296f89b48c59462e78cded13
+ 058.bundle
+SHA1-Digest: epf8tKl4rhRBAm73GZgcgmB3+Mc=
+
+Name: assets/aa/common_assets_assets_assetbundles_animations_areas_ani
+ mations_generic_animations_common_7ead04f327507845c7a4aff04d37bf39.bu
+ ndle
+SHA1-Digest: FHo3iTNYnOBOudWgl8p/39k7yuk=
+
+Name: assets/aa/common_assets_assets_assetbundles_animations_areas_ani
+ mations_rigs_animations_common_70a5b1d7ef64225e01b29c76507e9b47.bundl
+ e
+SHA1-Digest: iii9YQHPRK18QlGH+xoTh2KETdo=
+
+Name: assets/aa/common_assets_assets_assetbundles_common_b2c19ee712df9
+ 00c2c142d5a3bc25939.bundle
+SHA1-Digest: kari6m2MjTAtHT6sTYOZi+GH+h8=
+
+Name: assets/aa/common_assets_assets_textmeshpro_shaders_tmp_sdf-mobil
+ e.shader_5597f75303e30084dfc3962d96dc2f8e.bundle
+SHA1-Digest: 0gw+vGeVWxzm/LQzVng+82n7JYc=
+
+Name: assets/aa/cosmeticslocal_assets_all_5556a8cf8049f02be12f586c0594
+ 8366.bundle
+SHA1-Digest: /nWyrHuHOgzKip+QfYjnYlX1mWs=
+
+Name: assets/aa/customers_assets_all_15cad6f64f6e4d2cc30cad1e19aa1dae.
+ bundle
+SHA1-Digest: 5EDPmv+Ua5uvG9/r264bDhzCkqA=
+
+Name: assets/aa/debug_assets_all_bfc96f1ebb87e4d4a235dde69f99e96f.bund
+ le
+SHA1-Digest: gDy1Z2qretLR8cMAQN3oK36Mlj4=
+
+Name: assets/aa/defaultseason_assets_all_6974c113e57253461dd1c3804c55c
+ 396.bundle
+SHA1-Digest: XJlfC8RD2xtMk9bHSD7CZZk35f8=
+
+Name: assets/aa/diggingminigameeventlocal_assets_all_4a0dedfa0519f80f6
+ 554fe64c279bb93.bundle
+SHA1-Digest: J918aSULaWL6/dc9CPmlmVsNl9c=
+
+Name: assets/aa/dishdrop_assets_all_8b6409f10c4b13df3e36740784f3b68f.b
+ undle
+SHA1-Digest: JzjLozlhk8nB/Wl0fSXAvQBn2NY=
+
+Name: assets/aa/localevents_assets_assets_assetbundles_events_chefscup
+ _b48caa69a262fe14d616ce548f6a63df.bundle
+SHA1-Digest: L95CuHv4IAFSGazA2GLYWukEe1Q=
+
+Name: assets/aa/localevents_assets_assets_assetbundles_events_cookoff_
+ 2226164336303a4c700257237f054596.bundle
+SHA1-Digest: sTsGUNd5wM7wHbO6lOlhiyjmiys=
+
+Name: assets/aa/localevents_assets_assets_assetbundles_events_gourmetl
+ eague_0a9a7a2959dd7c30b29f1b95d678b675.bundle
+SHA1-Digest: s2W4VKkONliScEv0t1m58ICtEuo=
+
+Name: assets/aa/localevents_assets_assets_assetbundles_events_loyalty_
+ bce0a5ae5ad4951631f09448e1c32503.bundle
+SHA1-Digest: F6FpSgP3dsw4wsKqVaVEagDRoh4=
+
+Name: assets/aa/localevents_assets_assets_assetbundles_events_picnic_7
+ 8f956290046371ef961b176fb1a71d7.bundle
+SHA1-Digest: CkTqtQ5/WYKiJ4/LparHT5FbxKE=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_bakersbuild_b45a3a0af442f2ab0fd1d9f730548946.bundle
+SHA1-Digest: 2pkqwCWB5HDvfCcD9kCE5/qUVQs=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_common_0e1fdc36cf89e44e7431673de68dd7b1.bundle
+SHA1-Digest: Cir8kZug+oj6GZOUpWMGOp4HMWM=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_crafting_crochet_3b530c2043744ad7afb70d3ce86ead37.bundle
+SHA1-Digest: WHAKEy0iPSRCyWyH0V9SOG3VYcg=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_crafting_jewellery_2c03f8956a756f26d808896272b8b839.bund
+ le
+SHA1-Digest: KJUiIcKOuIxd/cuwEL1j8gUBDGI=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_crafting_kintsugi_5ba19351a16ee27c22fb6af4f590c3bc.bundl
+ e
+SHA1-Digest: MBt4YS4Wr2rmVeCdXEDoSNnrtgk=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_crafting_sculpture_53e4caf3ddec773268d50135d4ba1590.bund
+ le
+SHA1-Digest: ZvsJdqtS+UWDpvNSWBM8h/rt52M=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_eventpass_e2c2453f06dbc924e11b7ab60751be2c.bundle
+SHA1-Digest: IR4G+86oOysaHcHJ2AMFUeOoKRI=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_kartdash_8c2b2acec0df3cfa23dad15619fe7c4b.bundle
+SHA1-Digest: 6drzd4A3I2jesVtJktQqFY9JIn8=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_lanerace_33274bffd4527d3100fd9d0f0b549b14.bundle
+SHA1-Digest: uo2IJTt4rG3wvn8p7eehjXyhDUQ=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_maes_flowers_6992c9eec06aabb706975f1b4b201cd9.bundle
+SHA1-Digest: STvSe8eczSzHVlGd1Iy7M/BisVA=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_maes_sandcastles_500fa6570826c08268fa345b9ec6fccc.bundle
+SHA1-Digest: DPKUtMdaFgXWL7I3ltBUyGnUOOM=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_maes_teddybar_de4c9510929ebfa2104ff7c7d26232b2.bundle
+SHA1-Digest: FDh/UBNnrmfmnJOiNcdxH6g29Zw=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_pinatabuilder_02890452b9c8cb6228e58c37252fde1d.bundle
+SHA1-Digest: 6sSjmEAyZpWiMDdeBpFiwLQYVu8=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_racoonrush_bigday_7755782393f479a433c799c6491d98ac.bundl
+ e
+SHA1-Digest: CQF05Ak1ZgEC3Z5pRsUTNYrQBKY=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_racoonrush_summersports_e930d9307b62eaa702b3ca5639deaa8b
+ .bundle
+SHA1-Digest: ItfGUZ/pMlCLNMzVwbKrnW4hZS4=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_treasurehunt_atlantis_e31b7ed9e01c098c47ff0f1b40402aa6.b
+ undle
+SHA1-Digest: obsPvHo9A3ADyRhrCSBw9qPpVCI=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_treasurehunt_lavalair_c6bf4bdf75170c4df2dfd09cd206e4e6.b
+ undle
+SHA1-Digest: C+X8RX/OLJUh5GAzjxkKjJqiMZA=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_treasurehunt_snow_a121693126e8b0a6fba53ffe7162e962.bundl
+ e
+SHA1-Digest: k/fos1tD2pVrkesQR6DSD++p1gU=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_treasurehunt_temple_54b15b8a5f27258562aa22d74acfc4ca.bun
+ dle
+SHA1-Digest: ghR11LwFRKry4l89p6OL+obDi5Q=
+
+Name: assets/aa/minigameeventslocal_assets_assets_assetbundles_minigam
+ eeventslocal_treasurehunt_vault_d54957a5b51996b6b24916fc3ffa7d56.bund
+ le
+SHA1-Digest: aZ7Lc5p5CyPW3/jmRwbzNTJUGRQ=
+
+Name: assets/aa/offers2511blackfridaycyberweek_assets_all_5ce6ae8ae82d
+ a0ac4573874e35769d1a.bundle
+SHA1-Digest: eciTzcLFuMRpdhZZW1Mu1m3PQFk=
+
+Name: assets/aa/offers2512boxingday_assets_all_257b46bf09e240f48fd1e44
+ b383c3885.bundle
+SHA1-Digest: Ca3MsQuN2AvEDqPypOBIH3cUgD0=
+
+Name: assets/aa/offers2608labourday_assets_all_51ced346919b10ec5b4bca5
+ 66c369f2b.bundle
+SHA1-Digest: hQtIrtjfjCyNqStrxPJhQxnMxb4=
+
+Name: assets/aa/offers2611lanternwalks_assets_all_84679e57fb06d83a28ca
+ bcf2b42990de.bundle
+SHA1-Digest: JUsL0q+pXUhYw5aR4hV6hvGPZ4o=
+
+Name: assets/aa/offers2611newyork_assets_all_5a6aadb4746502966988598a1
+ 6c60b72.bundle
+SHA1-Digest: 3XZ5woL/TGIK6o7znhB2Ciby2tE=
+
+Name: assets/aa/offers2611thanksgiving_assets_all_ff7ffc58b131eb740392
+ 15e69416cdcf.bundle
+SHA1-Digest: xlIuI/DTX0OqwEk709gnyxF+RgI=
+
+Name: assets/aa/offers2612newyearhealthkick_assets_all_08bfab1a1380dcf
+ 2347359e478c26486.bundle
+SHA1-Digest: UgFzTm9yqu9yYN75Vo2z3AaIWbg=
+
+Name: assets/aa/offers2612xmas_assets_all_395e057216166127acaa4f619431
+ 7b7d.bundle
+SHA1-Digest: jmqNTGOM9h0D6h26b3doIEOc/ps=
+
+Name: assets/aa/offers2701icefestival_assets_all_84f81e21cbfafda78c44a
+ b1716fd0a90.bundle
+SHA1-Digest: RIVLrqkvY+qrc+ZO7RtkJlOKgTU=
+
+Name: assets/aa/plugins_assets_all_acecfa7617fb6fd0eb2ec62265e21363.bu
+ ndle
+SHA1-Digest: nU+moIw6rwguE00SWFJOKVwKtR8=
+
+Name: assets/aa/settings.json
+SHA1-Digest: y75k0aNP9sOONp4z9PtqRx9C06o=
+
+Name: assets/aa/socialslocal_assets_all_7042fed02b4fd3ca55062fde2cbbcf
+ d1.bundle
+SHA1-Digest: UOVI/277hU0kteGQWgsmhwOvdWo=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_boosters.spr
+ iteatlas_7b71a5d17f2093c81bfb89b8fb18356a.bundle
+SHA1-Digest: DJ0IysXJDO84GbGodMtVgxtqsdM=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_combined_boo
+ kcase.spriteatlas_fdbc8744c873f38466eb01e1d0841dee.bundle
+SHA1-Digest: OyUsFxsUTqF5EwQE8DSB8cyDy4Q=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_combined_bre
+ adoven.spriteatlas_9110308ff0087f2a40326f099d7786e5.bundle
+SHA1-Digest: b0CtUXaz9uZtZ2sAd80zWQnYt9o=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_combined_bre
+ akfastcounter.spriteatlas_229b9549f7edf834a1ffda5a54bc7e0f.bundle
+SHA1-Digest: BHsN4Day3IkrhGEzL7FMkfBLZIc=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_combined_des
+ sertmixer.spriteatlas_121308fafc597057f8e4455f2a5a4d18.bundle
+SHA1-Digest: OiqdoCYWx/+wKqx1N9L1nzGd7ME=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_combined_dri
+ nkstray.spriteatlas_2755482ae8ad54735a232f7a2249955e.bundle
+SHA1-Digest: ONLUHKgS0K2rkqL8DXgcjaKMXNg=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_combined_fru
+ ittree.spriteatlas_903ed68850e4e12d12e7e4f0886eaa37.bundle
+SHA1-Digest: l3DtPIpuH1Dv5o76fj8XhOVpqsY=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_combined_gar
+ denbed.spriteatlas_fa0ab046403b83694423e0303712958d.bundle
+SHA1-Digest: n3OiRdmh1rjFGGb+DO3yE8F5AA0=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_crates.sprit
+ eatlas_fa485ec9edd10acb2d1eddc6d77f9d17.bundle
+SHA1-Digest: /NYjOAYJjmtUG6LypWh+yA/QxsQ=
+
+Name: assets/aa/spriteatlases_assets_assets_spriteatlases_resources.sp
+ riteatlas_d9b5c77a08fba6ec2bcfa3c5421d2fc0.bundle
+SHA1-Digest: PB8ytsHYmJ1bw5FWaWHCu2GvzNY=
+
+Name: assets/aa/textmeshpro_assets_all_52a9e99f0f2231d64d5281751fa9f62
+ f.bundle
+SHA1-Digest: RAZHP0TMIEtxrkjuHiJJaOJTHyM=
+
+Name: assets/aa/textures_assets_all_c29d5bb4a96e73be568a1c21f78fcf06.b
+ undle
+SHA1-Digest: Y64LQf33awO3hsg17P9wwfM9Bls=
+
+Name: assets/aa/todoevent_assets_all_83bee61d965d0d6ad445eb442b9e5a9a.
+ bundle
+SHA1-Digest: O67XEuxjfQljNp/hSm1Js3x+2QE=
+
+Name: assets/aa/viewreferences_assets_all_2c7f81d78f312aafad5daa7eeaf9
+ 2650.bundle
+SHA1-Digest: hOx0H1wqJs6sLmUoC3FoWb0JgKI=
+
+Name: assets/bin/Data/datapack.unity3d
+SHA1-Digest: OSLyHtAebL1eVGm9jHlkQX8KY6Y=
+
+Name: assets/google-services-desktop.json
+SHA1-Digest: A/UlBEuxqIPvHKfj9VoLBtF7ZjE=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+

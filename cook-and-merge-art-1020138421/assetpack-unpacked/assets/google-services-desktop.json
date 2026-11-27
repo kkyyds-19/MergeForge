@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "663168746858",
+    "project_id": "cook-merge-12785551",
+    "storage_bucket": "cook-merge-12785551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663168746858:android:b6a99e97862f96a6141113",
+        "android_client_info": {
+          "package_name": "com.supersolid.cookandmerge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663168746858-8tdsskiqeffgleq05pesokfhrq88j859.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFd-QCw7Po6nvOP364wRBurlAEW6zXLnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663168746858-8tdsskiqeffgleq05pesokfhrq88j859.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

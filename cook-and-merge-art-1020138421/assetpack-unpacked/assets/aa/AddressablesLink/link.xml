@@ -1,0 +1,2027 @@
+<linker>
+  <assembly fullname="AllIn1SpriteShaderAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AllIn1SpriteShader.AllIn1Shader" preserve="all" />
+  </assembly>
+  <assembly fullname="AppsFlyer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AppsFlyerSDK.AppsFlyer" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AbTestStateItemDescription" preserve="all" />
+    <type fullname="AdAvailabilityDisplay" preserve="all" />
+    <type fullname="AdConversionBubbleDescription" preserve="all" />
+    <type fullname="AddInventorySlotsToAnalyticsEvent" preserve="all" />
+    <type fullname="AddShopOfferGroupDispayToAnalyticsEvent" preserve="all" />
+    <type fullname="AddShopOfferGroupNameToAnalyticsEvent" preserve="all" />
+    <type fullname="AddShopOfferIdToAnalyticsEvent" preserve="all" />
+    <type fullname="AddShopOfferNameToAnalyticsEvent" preserve="all" />
+    <type fullname="AddShopOfferTimeLeftToAnalyticsEvent" preserve="all" />
+    <type fullname="AddShopOfferTrackNameToAnalyticsEvent" preserve="all" />
+    <type fullname="AddStoreTypeToAnalyticsEvent" preserve="all" />
+    <type fullname="AdLoadFlashCardDisplayer" preserve="all" />
+    <type fullname="AdUnitDebugEntry" preserve="all" />
+    <type fullname="AdUnitsDebugMenu" preserve="all" />
+    <type fullname="AdUnitSegmentDescription" preserve="all" />
+    <type fullname="AggregatedCounterDisplay" preserve="all" />
+    <type fullname="AlignmentContainer" preserve="all" />
+    <type fullname="AllowCarrierDownload" preserve="all" />
+    <type fullname="AmbienceAudioChannelService" preserve="all" />
+    <type fullname="AnimatedItemDescriptionListDisplay" preserve="all" />
+    <type fullname="AnimatePlayButton" preserve="all" />
+    <type fullname="AnimationCurveDefinition" preserve="all" />
+    <type fullname="AnimationEventAsset" preserve="all" />
+    <type fullname="AnimationEventReceiver" preserve="all" />
+    <type fullname="AnimatorParameter" preserve="all" />
+    <type fullname="AnimatorStateLoopDelay" preserve="all" />
+    <type fullname="AnimatorViewClosingBehaviour" preserve="all" />
+    <type fullname="AppLovinAdProviderDescription" preserve="all" />
+    <type fullname="AppointmentCostDescription" preserve="all" />
+    <type fullname="AppointmentDisplay" preserve="all" />
+    <type fullname="AppointmentOrderViewComponent" preserve="all" />
+    <type fullname="AppsFlyerBehaviour" preserve="all" />
+    <type fullname="AreaBoardBackgroundRenderer" preserve="all" />
+    <type fullname="AreaGroupAreasCompleteDisplay" preserve="all" />
+    <type fullname="AreaGroupCompleteDisplay" preserve="all" />
+    <type fullname="AreaGroupItemDescription" preserve="all" />
+    <type fullname="AreaGroupNameDisplay" preserve="all" />
+    <type fullname="AreaGroupUnlockedDisplay" preserve="all" />
+    <type fullname="AreaItemDescription" preserve="all" />
+    <type fullname="AreaItemDisplay" preserve="all" />
+    <type fullname="AreaNameDisplay" preserve="all" />
+    <type fullname="AreaProgressDisplay" preserve="all" />
+    <type fullname="AreaProgressWidget" preserve="all" />
+    <type fullname="AreaRenderer" preserve="all" />
+    <type fullname="AreaRewardsView" preserve="all" />
+    <type fullname="AreaSectionRenderer" preserve="all" />
+    <type fullname="AreaTransitionView" preserve="all" />
+    <type fullname="AssetReferenceSpriteSeasonConsumer" preserve="all" />
+    <type fullname="AsyncButton" preserve="all" />
+    <type fullname="AudioDropListener" preserve="all" />
+    <type fullname="AudioFadeManager" preserve="all" />
+    <type fullname="AudioMergeListener" preserve="all" />
+    <type fullname="AudioMixingListener" preserve="all" />
+    <type fullname="AudioService" preserve="all" />
+    <type fullname="AutoDestroyParticleSystem" preserve="all" />
+    <type fullname="AutoPlayer" preserve="all" />
+    <type fullname="AutoUpgradeBoosterIcon" preserve="all" />
+    <type fullname="AutoUpgradeRewardletSequenceSubDisplay" preserve="all" />
+    <type fullname="AvailableHelpRequestNotificationIcon" preserve="all" />
+    <type fullname="BackstepBoosterEffectDescription" preserve="all" />
+    <type fullname="BackToBoardHintDescription" preserve="all" />
+    <type fullname="BadgeCosmeticItemDescription" preserve="all" />
+    <type fullname="BadgeDisplay" preserve="all" />
+    <type fullname="BadgeInfoOverlay" preserve="all" />
+    <type fullname="BadgeInteractor" preserve="all" />
+    <type fullname="BakersBuildsButtonNotificationModule" preserve="all" />
+    <type fullname="BakersBuildsChatSitePreviewView" preserve="all" />
+    <type fullname="BakersBuildsCollapseMenuDisplay" preserve="all" />
+    <type fullname="BakersBuildsCosmeticBadge" preserve="all" />
+    <type fullname="BakersBuildsCountdownDisplay" preserve="all" />
+    <type fullname="BakersBuildsEventCarouselMenuButton" preserve="all" />
+    <type fullname="BakersBuildsEventPassButton" preserve="all" />
+    <type fullname="BakersBuildsEventPassButtonNotificationModule" preserve="all" />
+    <type fullname="BakersBuildsEventView" preserve="all" />
+    <type fullname="BakersBuildsHelpRequestHintDescription" preserve="all" />
+    <type fullname="BakersBuildsHelpRequestNotificationIcon" preserve="all" />
+    <type fullname="BakersBuildsMinigameEventHomeScreenButton" preserve="all" />
+    <type fullname="BakersBuildsMinigameEventItemDescription" preserve="all" />
+    <type fullname="BakersBuildsMinigameRewardDisplay" preserve="all" />
+    <type fullname="BakersBuildsMinigameStarterRewardsView" preserve="all" />
+    <type fullname="BakersBuildsPopupView" preserve="all" />
+    <type fullname="BakersBuildsProgressBar" preserve="all" />
+    <type fullname="BakersBuildsProgressBarCardPackDisplay" preserve="all" />
+    <type fullname="BakersBuildsProgressDecorationEntry" preserve="all" />
+    <type fullname="BakersBuildsProgressSignatureEntry" preserve="all" />
+    <type fullname="BakersBuildsProgressSignatureSiteEntry" preserve="all" />
+    <type fullname="BakersBuildsProgressSiteEntry" preserve="all" />
+    <type fullname="BakersBuildsProgressStageEntry" preserve="all" />
+    <type fullname="BakersBuildsProgressView" preserve="all" />
+    <type fullname="BakersBuildsPurchaseDecorationDialogueView" preserve="all" />
+    <type fullname="BakersBuildsSceneContext" preserve="all" />
+    <type fullname="BakersBuildsShopOfferPopupView" preserve="all" />
+    <type fullname="BakersBuildsSignatureDecorationHighlightScriptStep" preserve="all" />
+    <type fullname="BakersBuildsSignatureRewardsView" preserve="all" />
+    <type fullname="BakersBuildsSiteEntry" preserve="all" />
+    <type fullname="BakersBuildsTransition" preserve="all" />
+    <type fullname="BakersBuildsVariantSelectionEntry" preserve="all" />
+    <type fullname="BakersBuildsVariantSelectionView" preserve="all" />
+    <type fullname="BannerCharacterController" preserve="all" />
+    <type fullname="BasicDialogueCharacterController" preserve="all" />
+    <type fullname="BlockingLayer" preserve="all" />
+    <type fullname="BoardableDebugInfo" preserve="all" />
+    <type fullname="BoardableItemDescription" preserve="all" />
+    <type fullname="BoardableMigrationDescription" preserve="all" />
+    <type fullname="BoardableOrderRewardDisplay" preserve="all" />
+    <type fullname="BoardableRewardsButton" preserve="all" />
+    <type fullname="BoardableSeenItemDescription" preserve="all" />
+    <type fullname="BoardablesStackedListener" preserve="all" />
+    <type fullname="BoardAdsDescription" preserve="all" />
+    <type fullname="BoardAnimatedMessage" preserve="all" />
+    <type fullname="BoardAnimatedObject" preserve="all" />
+    <type fullname="BoardAnimatedRewardlet" preserve="all" />
+    <type fullname="BoardBubbleDescription" preserve="all" />
+    <type fullname="BoardCellOverlayRectTransform" preserve="all" />
+    <type fullname="BoardCellSwipeTween" preserve="all" />
+    <type fullname="BoardDefinitionNextObscuredRegionProvider" preserve="all" />
+    <type fullname="BoardDisplay" preserve="all" />
+    <type fullname="BoardFullListener" preserve="all" />
+    <type fullname="BoardItemDescription" preserve="all" />
+    <type fullname="BoardItemDisplay" preserve="all" />
+    <type fullname="BoardItemRewardletsDirector" preserve="all" />
+    <type fullname="BoardItemRewardletSequenceDefinition" preserve="all" />
+    <type fullname="BoardItemRewardletSequenceDisplay" preserve="all" />
+    <type fullname="BoardLoader" preserve="all" />
+    <type fullname="BoardMessagesListener" preserve="all" />
+    <type fullname="BoardMigrationItemDescription" preserve="all" />
+    <type fullname="BoardRewardletsShower" preserve="all" />
+    <type fullname="BoardScrollingConfigDescription" preserve="all" />
+    <type fullname="BoardTimeSkipBoosterEffectDescription" preserve="all" />
+    <type fullname="BoardUIAnalyticsEventTrigger" preserve="all" />
+    <type fullname="BoardViewInputBlockingLayer" preserve="all" />
+    <type fullname="BoosterEffect" preserve="all" />
+    <type fullname="BoosterEffectActivatedListener" preserve="all" />
+    <type fullname="BoosterRewardTimeDisplay" preserve="all" />
+    <type fullname="BubbleAdUnitItemDescription" preserve="all" />
+    <type fullname="BubbleBehaviour" preserve="all" />
+    <type fullname="BubbleBoardableItemDescription" preserve="all" />
+    <type fullname="BubbleExpiredListener" preserve="all" />
+    <type fullname="BubbleItemVisibility" preserve="all" />
+    <type fullname="BubbleLevelDisplay" preserve="all" />
+    <type fullname="BubbleNameDisplay" preserve="all" />
+    <type fullname="BubbleNameLevelDisplay" preserve="all" />
+    <type fullname="BubblePurchasedListener" preserve="all" />
+    <type fullname="BubbleVoucherItemDescription" preserve="all" />
+    <type fullname="BucketRewardsItemDescription" preserve="all" />
+    <type fullname="BuffItemRewardView" preserve="all" />
+    <type fullname="BuffItemsDisplay" preserve="all" />
+    <type fullname="BuffItemView" preserve="all" />
+    <type fullname="BuyStashSlot" preserve="all" />
+    <type fullname="CafeCraftingEventCarouselMenuButton" preserve="all" />
+    <type fullname="CafeCraftingInfoDisplay" preserve="all" />
+    <type fullname="CafeCraftingMinigameEventItemDescription" preserve="all" />
+    <type fullname="CanvasCameraFinder" preserve="all" />
+    <type fullname="CardDisplay" preserve="all" />
+    <type fullname="CardEventAlbumCompleteView" preserve="all" />
+    <type fullname="CardEventAlbumView" preserve="all" />
+    <type fullname="CardEventBoardScreenDisplay" preserve="all" />
+    <type fullname="CardEventCompleteSetRewardsView" preserve="all" />
+    <type fullname="CardEventCompleteView" preserve="all" />
+    <type fullname="CardEventConfigDescription" preserve="all" />
+    <type fullname="CardEventCountdownDisplay" preserve="all" />
+    <type fullname="CardEventDebugMenu" preserve="all" />
+    <type fullname="CardEventDialogueViewParamsHandler" preserve="all" />
+    <type fullname="CardEventDuplicateHideTarget" preserve="all" />
+    <type fullname="CardEventHomeScreenDisplay" preserve="all" />
+    <type fullname="CardEventHowToPlayDupesView" preserve="all" />
+    <type fullname="CardEventItemDescription" preserve="all" />
+    <type fullname="CardEventJokerChooseView" preserve="all" />
+    <type fullname="CardEventJokerClaimView" preserve="all" />
+    <type fullname="CardEventJokerInfoView" preserve="all" />
+    <type fullname="CardEventOpenPackView" preserve="all" />
+    <type fullname="CardEventPopupView" preserve="all" />
+    <type fullname="CardEventReceivedCardsView" preserve="all" />
+    <type fullname="CardEventRepeatInfiniteView" preserve="all" />
+    <type fullname="CardEventRepeatView" preserve="all" />
+    <type fullname="CardEventRewardletCacheListDisplay" preserve="all" />
+    <type fullname="CardEventScrollSnap" preserve="all" />
+    <type fullname="CardEventSetCardsDisplay" preserve="all" />
+    <type fullname="CardEventSetDisplayContainer" preserve="all" />
+    <type fullname="CardEventSetHeaderDisplay" preserve="all" />
+    <type fullname="CardEventSetsView" preserve="all" />
+    <type fullname="CardEventStateDisplay" preserve="all" />
+    <type fullname="CardEventTitleLoader" preserve="all" />
+    <type fullname="CardEventView" preserve="all" />
+    <type fullname="CardPackButton" preserve="all" />
+    <type fullname="CardPackDisplay" preserve="all" />
+    <type fullname="CardPackItemDescription" preserve="all" />
+    <type fullname="CardPackItemInfoView" preserve="all" />
+    <type fullname="CardPackLabel" preserve="all" />
+    <type fullname="CardPackOrderRewardDisplay" preserve="all" />
+    <type fullname="CardPackRewardInfoContentEntry" preserve="all" />
+    <type fullname="CardPackRewardInfoDisplay" preserve="all" />
+    <type fullname="CardPackRewardInfoDisplayDetailV1" preserve="all" />
+    <type fullname="CardPackRewardInfoDisplayDetailV2" preserve="all" />
+    <type fullname="CardPackSequenceSubDisplay" preserve="all" />
+    <type fullname="CardPackTokenDescription" preserve="all" />
+    <type fullname="CardPackTokenSchemaDescription" preserve="all" />
+    <type fullname="CardPackTokenSchemaV2Description" preserve="all" />
+    <type fullname="CardPackV2ItemDescription" preserve="all" />
+    <type fullname="CardPreviewDisplay" preserve="all" />
+    <type fullname="CardRarityDescription" preserve="all" />
+    <type fullname="CardRarityTag" preserve="all" />
+    <type fullname="CardSetButton" preserve="all" />
+    <type fullname="CardSetDescription" preserve="all" />
+    <type fullname="CardSetIconDisplay" preserve="all" />
+    <type fullname="CardTypeDisplay" preserve="all" />
+    <type fullname="CarouselConfigDescription" preserve="all" />
+    <type fullname="CarouselController" preserve="all" />
+    <type fullname="CarouselMenuButton" preserve="all" />
+    <type fullname="CarouselMenuController" preserve="all" />
+    <type fullname="CarouselProgressController" preserve="all" />
+    <type fullname="CarouselProgressRewardletSequenceDefinition" preserve="all" />
+    <type fullname="CarouselProgressRewardletSequenceDisplay" preserve="all" />
+    <type fullname="CFX_AutoDestructShuriken" preserve="all" />
+    <type fullname="ChangeNameView" preserve="all" />
+    <type fullname="ChangePlayerNameButton" preserve="all" />
+    <type fullname="CharacterController" preserve="all" />
+    <type fullname="CharacterDescription" preserve="all" />
+    <type fullname="CharacterDialogue" preserve="all" />
+    <type fullname="CharacterDialogueEntry" preserve="all" />
+    <type fullname="CharacterFrame" preserve="all" />
+    <type fullname="CharacterStateDescription" preserve="all" />
+    <type fullname="CharacterView" preserve="all" />
+    <type fullname="ChatProfanityFilterInputField" preserve="all" />
+    <type fullname="CheckingOrdersHintDescription" preserve="all" />
+    <type fullname="ChefsCupEventButton" preserve="all" />
+    <type fullname="ChefsCupEventCarouselMenuButton" preserve="all" />
+    <type fullname="ChefsCupEventItemDescription" preserve="all" />
+    <type fullname="ChefsCupEventLeaderboardView" preserve="all" />
+    <type fullname="ChefsCupEventView" preserve="all" />
+    <type fullname="ChefsCupTrophyToDoChallengeDescription" preserve="all" />
+    <type fullname="ChestAdUnitItemDescription" preserve="all" />
+    <type fullname="ChestBoardableItemBehaviour" preserve="all" />
+    <type fullname="ChestBoardableItemDescription" preserve="all" />
+    <type fullname="ChestBoardableItemVisibility" preserve="all" />
+    <type fullname="ChestProducerItemsDisplay" preserve="all" />
+    <type fullname="ChoiceChestItemBehaviour" preserve="all" />
+    <type fullname="ChoiceChestItemDescription" preserve="all" />
+    <type fullname="ChoiceChestItemDisplay" preserve="all" />
+    <type fullname="ChoiceChestView" preserve="all" />
+    <type fullname="ChoiceSlotDescription" preserve="all" />
+    <type fullname="ClaimHelpView" preserve="all" />
+    <type fullname="ClaimLimitedFreeRewardView" preserve="all" />
+    <type fullname="ClearChefsCupCachedLocalUserRankScriptStep" preserve="all" />
+    <type fullname="ClearedItemListener" preserve="all" />
+    <type fullname="ClearSlotBehaviour" preserve="all" />
+    <type fullname="ClientVersionLabel" preserve="all" />
+    <type fullname="CloseBoardViewMenuKeyButtonShortcut" preserve="all" />
+    <type fullname="CollapsedMenuDisplay" preserve="all" />
+    <type fullname="CollapsedMenuElementAppointmentDisplay" preserve="all" />
+    <type fullname="ComebackNotificationDescription" preserve="all" />
+    <type fullname="CompleteAreaAchievementDescription" preserve="all" />
+    <type fullname="CompleteLoyaltyEventMilestoneToDoChallengeDescription" preserve="all" />
+    <type fullname="CompleteOrderAchievementDescription" preserve="all" />
+    <type fullname="CompleteOrderListener" preserve="all" />
+    <type fullname="CompleteOrderToDoChallengeDescription" preserve="all" />
+    <type fullname="CompleteStarTaskToDoChallengeDescription" preserve="all" />
+    <type fullname="CompletingStarOrderHintButtonPrompt" preserve="all" />
+    <type fullname="CompletingStarOrderHintDescription" preserve="all" />
+    <type fullname="CompletingStarOrderHintViewComponent" preserve="all" />
+    <type fullname="CompletingTaskHintViewComponent" preserve="all" />
+    <type fullname="CompletingTasksHintDescription" preserve="all" />
+    <type fullname="ConfirmationView" preserve="all" />
+    <type fullname="ConfirmChangeNameView" preserve="all" />
+    <type fullname="ConnectionStatusIndicator" preserve="all" />
+    <type fullname="ConsumableBehaviour" preserve="all" />
+    <type fullname="ConsumableEventRewardMultiplierDisplay" preserve="all" />
+    <type fullname="ConsumableHintDescription" preserve="all" />
+    <type fullname="ConsumableHintViewComponent" preserve="all" />
+    <type fullname="ConsumableItemIconDisplay" preserve="all" />
+    <type fullname="ConsumableItemValueDisplay" preserve="all" />
+    <type fullname="ContainersItemParentProvider" preserve="all" />
+    <type fullname="CookOffTrophyToDoChallengeDescription" preserve="all" />
+    <type fullname="CoOpEventMilestoneSummary" preserve="all" />
+    <type fullname="CoordinatesDebugComponentView" preserve="all" />
+    <type fullname="CopyTextFromLabel" preserve="all" />
+    <type fullname="CosmeticBadgeDisplay" preserve="all" />
+    <type fullname="CosmeticRewardHighlighter" preserve="all" />
+    <type fullname="CosmeticRewardletSequenceSubDisplay" preserve="all" />
+    <type fullname="CosmeticRewardListDisplay" preserve="all" />
+    <type fullname="CostDisplay" preserve="all" />
+    <type fullname="CountLabel" preserve="all" />
+    <type fullname="CountryCodeUpdateGuildPermissionButton" preserve="all" />
+    <type fullname="CraftingMinigameRewardDisplay" preserve="all" />
+    <type fullname="CrashReportsManager" preserve="all" />
+    <type fullname="CreateGuildPermissionButton" preserve="all" />
+    <type fullname="CreateItemAchievementDescription" preserve="all" />
+    <type fullname="CreateItemEventPassTaskDescription" preserve="all" />
+    <type fullname="CreateItemToDoChallengeDescription" preserve="all" />
+    <type fullname="CurrencyBarDisplayComponent" preserve="all" />
+    <type fullname="CurrencyBarIconDisplay" preserve="all" />
+    <type fullname="CurrencyBarView" preserve="all" />
+    <type fullname="CurrencyConfirmationSettings" preserve="all" />
+    <type fullname="CurrencyFamilyValueDisplay" preserve="all" />
+    <type fullname="CurrencyTooltipSelectionGraphicHandler" preserve="all" />
+    <type fullname="CurtainAnimator" preserve="all" />
+    <type fullname="CurvedUITagPath" preserve="all" />
+    <type fullname="CustomerAnimator" preserve="all" />
+    <type fullname="CustomerItemDescription" preserve="all" />
+    <type fullname="CustomerVFX" preserve="all" />
+    <type fullname="CutoutMaskedImage" preserve="all" />
+    <type fullname="DailyDealsAvailabilityIndicator" preserve="all" />
+    <type fullname="DebugButton" preserve="all" />
+    <type fullname="DebugEntryView" preserve="all" />
+    <type fullname="DebugKeyboardShortcutListener" preserve="all" />
+    <type fullname="DebugMenu" preserve="all" />
+    <type fullname="DecorationSiteDescription" preserve="all" />
+    <type fullname="DecorationStageDescription" preserve="all" />
+    <type fullname="DefaultBoardDescription" preserve="all" />
+    <type fullname="DefaultProductShopModuleDescription" preserve="all" />
+    <type fullname="DefaultProductStoreModuleViewEntry" preserve="all" />
+    <type fullname="DefaultProductStoreViewEntry" preserve="all" />
+    <type fullname="DefaultShopSectionItemDescription" preserve="all" />
+    <type fullname="DelayAsyncButtonModule" preserve="all" />
+    <type fullname="DescriptionIconDisplay" preserve="all" />
+    <type fullname="DescriptionOrderRewardDisplay" preserve="all" />
+    <type fullname="DestroyedItemListener" preserve="all" />
+    <type fullname="DialogueAnimationEntry" preserve="all" />
+    <type fullname="DialogueCharacterController" preserve="all" />
+    <type fullname="DialogueCharacterDescription" preserve="all" />
+    <type fullname="DialogueSequence" preserve="all" />
+    <type fullname="DiggingChestAnimator" preserve="all" />
+    <type fullname="DiggingEventButtonNotificationModule" preserve="all" />
+    <type fullname="DiggingEventCarouselButtonNotificationModule" preserve="all" />
+    <type fullname="DiggingEventCarouselMenuButton" preserve="all" />
+    <type fullname="DiggingGemAnimator" preserve="all" />
+    <type fullname="DiggingMinigameBlockingLayer" preserve="all" />
+    <type fullname="DiggingMinigameBoardPieceDescription" preserve="all" />
+    <type fullname="DiggingMinigameBoardPieceDisplay" preserve="all" />
+    <type fullname="DiggingMinigameCamera" preserve="all" />
+    <type fullname="DiggingMinigameCellOverlayRectTransform" preserve="all" />
+    <type fullname="DiggingMinigameChestDisplay" preserve="all" />
+    <type fullname="DiggingMinigameEventBoardPickaxe" preserve="all" />
+    <type fullname="DiggingMinigameEventBoardView" preserve="all" />
+    <type fullname="DiggingMinigameEventCell" preserve="all" />
+    <type fullname="DiggingMinigameEventHomeScreenDisplay" preserve="all" />
+    <type fullname="DiggingMinigameEventItemDescription" preserve="all" />
+    <type fullname="DiggingMinigameEventLevelCompleteEventListener" preserve="all" />
+    <type fullname="DiggingMinigameEventLevelCompleteRewardView" preserve="all" />
+    <type fullname="DiggingMinigameEventLevelDisplay" preserve="all" />
+    <type fullname="DiggingMinigameEventLevelRewardDisplay" preserve="all" />
+    <type fullname="DiggingMinigameEventLevelStartEventListener" preserve="all" />
+    <type fullname="DiggingMinigameEventProgressDisplay" preserve="all" />
+    <type fullname="DiggingMinigameEventRoom" preserve="all" />
+    <type fullname="DiggingMinigameEventRoomsManager" preserve="all" />
+    <type fullname="DiggingMinigameEventScreenDisplay" preserve="all" />
+    <type fullname="DiggingMinigameEventStartView" preserve="all" />
+    <type fullname="DiggingMinigameOrderRewardDisplay" preserve="all" />
+    <type fullname="DiggingMinigameSceneContext" preserve="all" />
+    <type fullname="DiggingMinigameTapSwipeTween" preserve="all" />
+    <type fullname="DiggingMinigameTokenCountDisplay" preserve="all" />
+    <type fullname="DiggingMinigameTokenRewardInfoDisplay" preserve="all" />
+    <type fullname="DigHintDescription" preserve="all" />
+    <type fullname="DigHintViewComponent" preserve="all" />
+    <type fullname="DishDropDeluxeEligibilityDisplay" preserve="all" />
+    <type fullname="DishDropDeluxeHudDisplay" preserve="all" />
+    <type fullname="DishDropDeluxeRewardDisplay" preserve="all" />
+    <type fullname="DishDropDeluxeRewardsView" preserve="all" />
+    <type fullname="DishDropDeluxeView" preserve="all" />
+    <type fullname="DishDropDisplay" preserve="all" />
+    <type fullname="DishDropHudDisplay" preserve="all" />
+    <type fullname="DishDropHudTooltip" preserve="all" />
+    <type fullname="DishDropItemDescription" preserve="all" />
+    <type fullname="DishDropOrderRewardDisplay" preserve="all" />
+    <type fullname="DishDropPointAllocationView" preserve="all" />
+    <type fullname="DishDropView" preserve="all" />
+    <type fullname="DisplacedItemListener" preserve="all" />
+    <type fullname="DoubleTroubleEventButtonNotificationModule" preserve="all" />
+    <type fullname="DoubleTroubleEventCarouselMenuButton" preserve="all" />
+    <type fullname="DoubleTroubleMinigameEventBoardView" preserve="all" />
+    <type fullname="DoubleTroubleMinigameEventHomeScreenButton" preserve="all" />
+    <type fullname="DoubleTroubleMinigameEventItemDescription" preserve="all" />
+    <type fullname="DoubleTroubleMinigameStartView" preserve="all" />
+    <type fullname="DownloadableAssetsSettingsDescription" preserve="all" />
+    <type fullname="DownloadSizeLabel" preserve="all" />
+    <type fullname="DropdownDebugComponentView" preserve="all" />
+    <type fullname="DroppedItemListener" preserve="all" />
+    <type fullname="EditBadgeSection" preserve="all" />
+    <type fullname="EditFrameSection" preserve="all" />
+    <type fullname="EditPictureSection" preserve="all" />
+    <type fullname="EditProfileView" preserve="all" />
+    <type fullname="EmptySlotListener" preserve="all" />
+    <type fullname="EnergyAdsSection" preserve="all" />
+    <type fullname="EpicToonFX.ETFXLightFade" preserve="all" />
+    <type fullname="ErrorView" preserve="all" />
+    <type fullname="EventButtonAppointmentModule" preserve="all" />
+    <type fullname="EventButtonCardPackRewardModule" preserve="all" />
+    <type fullname="EventButtonClaimModule" preserve="all" />
+    <type fullname="EventButtonFlowModule" preserve="all" />
+    <type fullname="EventButtonLeaderboardModule" preserve="all" />
+    <type fullname="EventEndingNotificationDescription" preserve="all" />
+    <type fullname="EventMilestoneSummaryStateDisplay" preserve="all" />
+    <type fullname="EventPassHintDisplay" preserve="all" />
+    <type fullname="EventPassPurchaseStateDisplay" preserve="all" />
+    <type fullname="EventPassRewardletSequenceDefinition" preserve="all" />
+    <type fullname="EventPassRewardletSequenceDisplay" preserve="all" />
+    <type fullname="EventPassTaskDisplay" preserve="all" />
+    <type fullname="EventPassTasksListDisplay" preserve="all" />
+    <type fullname="EventPassView" preserve="all" />
+    <type fullname="EventPendingPrizeItemDescription" preserve="all" />
+    <type fullname="EventRecordItemDescription" preserve="all" />
+    <type fullname="EventRewardMultiplierBuffInfoIcon" preserve="all" />
+    <type fullname="EventRewardMultiplierBuffItemDescription" preserve="all" />
+    <type fullname="EventRewardMultiplierBuffItemDislay" preserve="all" />
+    <type fullname="EventRewardMultiplierBuffItemInfo" preserve="all" />
+    <type fullname="EventRewardMultiplierBuffItemRewardInfoDisplay" preserve="all" />
+    <type fullname="EventRewardMultiplierRewardletSequenceSubDisplay" preserve="all" />
+    <type fullname="EventRewardsDialogueCharacterController" preserve="all" />
+    <type fullname="EventStarterRewardsDialogueCharacterController" preserve="all" />
+    <type fullname="EventStartNotificationDescription" preserve="all" />
+    <type fullname="EventStartPopupView" preserve="all" />
+    <type fullname="ExperimentVariantLabel" preserve="all" />
+    <type fullname="FamilyIconsDisplay" preserve="all" />
+    <type fullname="FarmyardFunCollapseMenuDisplay" preserve="all" />
+    <type fullname="FarmyardFunEventButtonNotificationModule" preserve="all" />
+    <type fullname="FarmyardFunEventCarouselMenuButton" preserve="all" />
+    <type fullname="FarmyardFunEventPassButtonNotificationModule" preserve="all" />
+    <type fullname="FarmyardFunMinigameEventBoardView" preserve="all" />
+    <type fullname="FarmyardFunMinigameEventHomeScreenButton" preserve="all" />
+    <type fullname="FarmyardFunMinigameEventItemDescription" preserve="all" />
+    <type fullname="FarmyardFunMinigameRewardDisplay" preserve="all" />
+    <type fullname="FarmyardFunObscuredRegionAnimator" preserve="all" />
+    <type fullname="FarmyardFunOffBoardSlotInteractableHandler" preserve="all" />
+    <type fullname="FarmyardFunShopOfferButton" preserve="all" />
+    <type fullname="FeatureFlagDescription" preserve="all" />
+    <type fullname="FieldGeneratorDisplay" preserve="all" />
+    <type fullname="FieldGeneratorSubDisplay" preserve="all" />
+    <type fullname="FinalEventButton" preserve="all" />
+    <type fullname="FinalEventCarouselMenuButton" preserve="all" />
+    <type fullname="FinalEventIntroView" preserve="all" />
+    <type fullname="FinalEventItemDescription" preserve="all" />
+    <type fullname="FinalEventLeaderboardView" preserve="all" />
+    <type fullname="FinalEventView" preserve="all" />
+    <type fullname="FindTimedEventSummaryButtonScriptStep" preserve="all" />
+    <type fullname="FirebaseTokenText" preserve="all" />
+    <type fullname="FirstUnselectedBakersBuildsDecorationVariantHighlightTransformScriptStep" preserve="all" />
+    <type fullname="FitToScreen" preserve="all" />
+    <type fullname="FixedMenu" preserve="all" />
+    <type fullname="FlashSaleIconManager" preserve="all" />
+    <type fullname="FlashSaleItemDisplayButton" preserve="all" />
+    <type fullname="FlashSaleItemIndicator" preserve="all" />
+    <type fullname="FlexibleLayoutGroup" preserve="all" />
+    <type fullname="ForceTutorialButton" preserve="all" />
+    <type fullname="FormatAppointmentDisplay" preserve="all" />
+    <type fullname="FormatLabel" preserve="all" />
+    <type fullname="FramerateStatsView" preserve="all" />
+    <type fullname="FriendCodeLabel" preserve="all" />
+    <type fullname="FriendConfirmationView" preserve="all" />
+    <type fullname="FriendInviteEntry" preserve="all" />
+    <type fullname="FriendInviteListDisplay" preserve="all" />
+    <type fullname="FriendInvitesNotificationIcon" preserve="all" />
+    <type fullname="FriendInvitesSections" preserve="all" />
+    <type fullname="FriendsConfigItemDescription" preserve="all" />
+    <type fullname="FriendSearchEntry" preserve="all" />
+    <type fullname="FriendSearchSection" preserve="all" />
+    <type fullname="FriendsListDisplay" preserve="all" />
+    <type fullname="FriendsListEntry" preserve="all" />
+    <type fullname="FriendsListPanel" preserve="all" />
+    <type fullname="FriendUIMessageHandler" preserve="all" />
+    <type fullname="FullBoardSkipBoosterView" preserve="all" />
+    <type fullname="GainCardToDoChallengeDescription" preserve="all" />
+    <type fullname="GameDateTimeLabel" preserve="all" />
+    <type fullname="GameShopOfferButton" preserve="all" />
+    <type fullname="GameStatisticsItemDescription" preserve="all" />
+    <type fullname="GameTaskItemDescription" preserve="all" />
+    <type fullname="GameTransitionView2" preserve="all" />
+    <type fullname="GameVersionText" preserve="all" />
+    <type fullname="GameView" preserve="all" />
+    <type fullname="GameViewEventButton" preserve="all" />
+    <type fullname="GameViewTaskButton" preserve="all" />
+    <type fullname="GeminiDialogueView" preserve="all" />
+    <type fullname="GenerateHintDescription" preserve="all" />
+    <type fullname="GenerateHintViewComponent" preserve="all" />
+    <type fullname="GenerationIconsDisplay" preserve="all" />
+    <type fullname="GenerationWeightingDisplay" preserve="all" />
+    <type fullname="GeneratorAvailableDisplay" preserve="all" />
+    <type fullname="GeneratorChargedNotificationDescription" preserve="all" />
+    <type fullname="GeneratorCostIconDisplay" preserve="all" />
+    <type fullname="GeneratorItemVisibility" preserve="all" />
+    <type fullname="GeneratorPartsManualMigrationDescription" preserve="all" />
+    <type fullname="GenericMessageView" preserve="all" />
+    <type fullname="GiftErrorView" preserve="all" />
+    <type fullname="GiftView" preserve="all" />
+    <type fullname="GlassStarOrderRewardDisplay" preserve="all" />
+    <type fullname="GlassStarRewardComboTaskDescription" preserve="all" />
+    <type fullname="GraphicsAPILabel" preserve="all" />
+    <type fullname="GroupOrderRewardDisplay" preserve="all" />
+    <type fullname="GroupScriptStep" preserve="all" />
+    <type fullname="GuildActivityLevelDisplay" preserve="all" />
+    <type fullname="GuildCoOpEventButton" preserve="all" />
+    <type fullname="GuildCoOpEventButtonNotificationIcon" preserve="all" />
+    <type fullname="GuildCoOpEventButtonNotificationModule" preserve="all" />
+    <type fullname="GuildCoOpEventCarouselMenuButton" preserve="all" />
+    <type fullname="GuildCoOpEventItemDescription" preserve="all" />
+    <type fullname="GuildCoOpEventLeaderboardView" preserve="all" />
+    <type fullname="GuildCoOpEventView" preserve="all" />
+    <type fullname="GuildCoOpMilestoneRewardsView" preserve="all" />
+    <type fullname="GuildCountryCodeDisplay" preserve="all" />
+    <type fullname="GuildCountryCodeEntryListDisplay" preserve="all" />
+    <type fullname="GuildCreationPanel" preserve="all" />
+    <type fullname="GuildDisplay" preserve="all" />
+    <type fullname="GuildEditView" preserve="all" />
+    <type fullname="GuildEntryListDisplay" preserve="all" />
+    <type fullname="GuildGiftDescription" preserve="all" />
+    <type fullname="GuildJoinPanel" preserve="all" />
+    <type fullname="GuildLeaderboardDataDisplay" preserve="all" />
+    <type fullname="GuildLeaderboardEntryListDisplay" preserve="all" />
+    <type fullname="GuildLogoDisplay" preserve="all" />
+    <type fullname="GuildLogoEntryListDisplay" preserve="all" />
+    <type fullname="GuildLogoView" preserve="all" />
+    <type fullname="GuildPermissionConfirmationView" preserve="all" />
+    <type fullname="GuildRegionView" preserve="all" />
+    <type fullname="GuildsButton" preserve="all" />
+    <type fullname="GuildSearchPanel" preserve="all" />
+    <type fullname="GuildsPanel" preserve="all" />
+    <type fullname="GuildStandaloneButton" preserve="all" />
+    <type fullname="GuildStandaloneView" preserve="all" />
+    <type fullname="GuildsView" preserve="all" />
+    <type fullname="GuildUIAnalyticsEventTrigger" preserve="all" />
+    <type fullname="GuildUserDisplay" preserve="all" />
+    <type fullname="GuildUserEntryListDisplay" preserve="all" />
+    <type fullname="GuildUserPanel" preserve="all" />
+    <type fullname="GuildVersusEventButton" preserve="all" />
+    <type fullname="GuildVersusEventButtonNotificationIcon" preserve="all" />
+    <type fullname="GuildVersusEventCarouselMenuButton" preserve="all" />
+    <type fullname="GuildVersusEventItemDescription" preserve="all" />
+    <type fullname="GuildVersusEventLeaderboardView" preserve="all" />
+    <type fullname="GuildVersusEventView" preserve="all" />
+    <type fullname="HelpRequestButton" preserve="all" />
+    <type fullname="HelpRequestEnergyPurchaseView" preserve="all" />
+    <type fullname="HideViewDialogueBehaviour" preserve="all" />
+    <type fullname="HighlightAffordableBakersBuildDecorationScriptStep" preserve="all" />
+    <type fullname="HighlightRevealableSlotScriptStep" preserve="all" />
+    <type fullname="HighlightValidMergeOnPointerOver" preserve="all" />
+    <type fullname="HomeScreenIconGroup" preserve="all" />
+    <type fullname="HomeScreenOffersCollapsedMenuDisplay" preserve="all" />
+    <type fullname="HomeView" preserve="all" />
+    <type fullname="HomeViewEventActiveButton" preserve="all" />
+    <type fullname="HomeViewEventExpiredButton" preserve="all" />
+    <type fullname="HomeViewEventFutureButton" preserve="all" />
+    <type fullname="HomeViewEventPendingButton" preserve="all" />
+    <type fullname="HomeViewGameObjectsHub" preserve="all" />
+    <type fullname="HomeViewTaskButton" preserve="all" />
+    <type fullname="HorizontalScrollSnap" preserve="all" />
+    <type fullname="HowToPlayDialogueCharacterController" preserve="all" />
+    <type fullname="HowToPlayPushFlowScriptStep" preserve="all" />
+    <type fullname="HybridModeConfigDescription" preserve="all" />
+    <type fullname="IapCostDisplay" preserve="all" />
+    <type fullname="IapDescription" preserve="all" />
+    <type fullname="IapShopModuleDescription" preserve="all" />
+    <type fullname="IapStoreModuleViewEntry" preserve="all" />
+    <type fullname="IapStoreViewEntry" preserve="all" />
+    <type fullname="IapTransactionItemDescription" preserve="all" />
+    <type fullname="IconLabel" preserve="all" />
+    <type fullname="IncreasingChanceCardPackV2ItemDescription" preserve="all" />
+    <type fullname="InfiniteEnergyBuffItemDescription" preserve="all" />
+    <type fullname="InfiniteEnergyBuffItemDisplay" preserve="all" />
+    <type fullname="InfiniteEnergyRewardletSequenceSubDisplay" preserve="all" />
+    <type fullname="InfiniteProducerBuffInfoView" preserve="all" />
+    <type fullname="InfiniteProducerBuffItemDescription" preserve="all" />
+    <type fullname="InfiniteProducerBuffItemDisplay" preserve="all" />
+    <type fullname="InfoPanelItemGroupDisplay" preserve="all" />
+    <type fullname="InfoRewardDescriptionDisplay" preserve="all" />
+    <type fullname="InfoRewardDisplay" preserve="all" />
+    <type fullname="InfoTooltipRewardDescriptionDisplay" preserve="all" />
+    <type fullname="InitialItemsDescription" preserve="all" />
+    <type fullname="InputFieldDebugComponentView" preserve="all" />
+    <type fullname="InspirationStrikesEventCarouselMenuButton" preserve="all" />
+    <type fullname="InspirationStrikesEventProgressPresenter" preserve="all" />
+    <type fullname="InspirationStrikesMinigameEndView" preserve="all" />
+    <type fullname="InspirationStrikesMinigameEventItemDescription" preserve="all" />
+    <type fullname="InspirationStrikesMinigameMilestonesProgressView" preserve="all" />
+    <type fullname="InspirationStrikesMinigameRewardDisplay" preserve="all" />
+    <type fullname="InstantClaimChestRewardletSequenceSubDisplay" preserve="all" />
+    <type fullname="InstantCommandTutorialDescription" preserve="all" />
+    <type fullname="InterstitialAdTrigger" preserve="all" />
+    <type fullname="InterstitialAdUnitDebugEntry" preserve="all" />
+    <type fullname="InterstitialAdUnitItemDescription" preserve="all" />
+    <type fullname="ItemConsumedListener" preserve="all" />
+    <type fullname="ItemDescription" preserve="all" />
+    <type fullname="ItemDescriptionDisplay" preserve="all" />
+    <type fullname="ItemDescriptionGroupDisplay" preserve="all" />
+    <type fullname="ItemDescriptionListDisplay" preserve="all" />
+    <type fullname="ItemDescriptionSectionShower" preserve="all" />
+    <type fullname="ItemDescriptionView" preserve="all" />
+    <type fullname="ItemDisplay" preserve="all" />
+    <type fullname="ItemDisplayAutoInitializer" preserve="all" />
+    <type fullname="ItemDisplayWithConsumers" preserve="all" />
+    <type fullname="ItemGroupDisplay" preserve="all" />
+    <type fullname="ItemInfoBoardView" preserve="all" />
+    <type fullname="ItemInfoOverlayDebug" preserve="all" />
+    <type fullname="ItemInfoViewTutorialButtonPrompt" preserve="all" />
+    <type fullname="ItemLevelDisplay" preserve="all" />
+    <type fullname="ItemMovedToStashListener" preserve="all" />
+    <type fullname="ItemNameDebugLabel" preserve="all" />
+    <type fullname="ItemNameDisplay" preserve="all" />
+    <type fullname="ItemNameLevelDisplay" preserve="all" />
+    <type fullname="ItemReplacedListener" preserve="all" />
+    <type fullname="ItemRetrievedFromStashListener" preserve="all" />
+    <type fullname="ItemSectionShower" preserve="all" />
+    <type fullname="ItemSelectionDescription" preserve="all" />
+    <type fullname="ItemsMergedListener" preserve="all" />
+    <type fullname="ItemSoldListener" preserve="all" />
+    <type fullname="ItemUnsoldGlobalListener" preserve="all" />
+    <type fullname="ItemUnsoldListener" preserve="all" />
+    <type fullname="ItemValueAmountDisplay" preserve="all" />
+    <type fullname="ItemValueVisibility" preserve="all" />
+    <type fullname="JoinPublicGuildPermissionButton" preserve="all" />
+    <type fullname="JokerCardButton" preserve="all" />
+    <type fullname="JokerCardDescription" preserve="all" />
+    <type fullname="JokerCardDisplay" preserve="all" />
+    <type fullname="JokerExplainedExampleDisplay" preserve="all" />
+    <type fullname="JokerPointDescription" preserve="all" />
+    <type fullname="JokerPointOrderRewardDisplay" preserve="all" />
+    <type fullname="JokerShopButton" preserve="all" />
+    <type fullname="JokerShopDescription" preserve="all" />
+    <type fullname="JokerShopProductDescription" preserve="all" />
+    <type fullname="JokerShopProductDisplay" preserve="all" />
+    <type fullname="JokerShopRewardsView" preserve="all" />
+    <type fullname="JokerShopView" preserve="all" />
+    <type fullname="KartDashCurrencyCountLabel" preserve="all" />
+    <type fullname="KartDashEventCarouselMenuButton" preserve="all" />
+    <type fullname="KartDashEventProgressPresenter" preserve="all" />
+    <type fullname="KartDashGlassStarsCountLabel" preserve="all" />
+    <type fullname="KartDashGrandPrixView" preserve="all" />
+    <type fullname="KartDashLaneRacerDisplay" preserve="all" />
+    <type fullname="KartDashMedalDisplay" preserve="all" />
+    <type fullname="KartDashMedalsListDisplay" preserve="all" />
+    <type fullname="KartDashMedalsSequencer" preserve="all" />
+    <type fullname="KartDashMinigameEventCompleteView" preserve="all" />
+    <type fullname="KartDashMinigameEventHomeScreenButton" preserve="all" />
+    <type fullname="KartDashMinigameEventItemDescription" preserve="all" />
+    <type fullname="KartDashMinigameEventRankRewardsView" preserve="all" />
+    <type fullname="KartDashMinigameEventRewardsView" preserve="all" />
+    <type fullname="KartDashMultiplierDisplay" preserve="all" />
+    <type fullname="KartDashOrderUIController" preserve="all" />
+    <type fullname="KartDashOrderUICustomerAnimator" preserve="all" />
+    <type fullname="KartDashOrderUIElement" preserve="all" />
+    <type fullname="KartDashPlayerRankLabelDisplay" preserve="all" />
+    <type fullname="KartDashProgressButtonComponent" preserve="all" />
+    <type fullname="KartDashRaceChestAnimationHandler" preserve="all" />
+    <type fullname="KartDashRaceChestDisplay" preserve="all" />
+    <type fullname="KartDashRaceEntry" preserve="all" />
+    <type fullname="KartDashRaceLabel" preserve="all" />
+    <type fullname="KartDashRaceLaneCheckpointDisplay" preserve="all" />
+    <type fullname="KartDashRaceLaneCheckpointsDisplay" preserve="all" />
+    <type fullname="KartDashRaceLaneDisplay" preserve="all" />
+    <type fullname="KartDashRaceLanesDisplay" preserve="all" />
+    <type fullname="KartDashRacePodiumDisplay" preserve="all" />
+    <type fullname="KartDashRacerDisplay" preserve="all" />
+    <type fullname="KartDashRaceRecordItemDescription" preserve="all" />
+    <type fullname="KartDashRacesDisplay" preserve="all" />
+    <type fullname="KartDashRaceSequencer" preserve="all" />
+    <type fullname="KartDashRaceStartDisplay" preserve="all" />
+    <type fullname="KartDashRaceView" preserve="all" />
+    <type fullname="KartDashRankRewardDisplay" preserve="all" />
+    <type fullname="KartDashResourceRewardMinigameOrderRewardDisplay" preserve="all" />
+    <type fullname="KartDashRivalPaceDescription" preserve="all" />
+    <type fullname="KartDashRivalProfileDescription" preserve="all" />
+    <type fullname="KartDashSimplifiedMedalsListDisplay" preserve="all" />
+    <type fullname="KartDashVictoryLapMilestoneDisplay" preserve="all" />
+    <type fullname="KartDashVictoryLapView" preserve="all" />
+    <type fullname="KeepOnScreenHandler" preserve="all" />
+    <type fullname="KeyButtonShortcut" preserve="all" />
+    <type fullname="LaneKartDashRaceView" preserve="all" />
+    <type fullname="LaneRaceSlidingNotificationDisplay" preserve="all" />
+    <type fullname="LanguageLabel" preserve="all" />
+    <type fullname="LanguageSettingsView" preserve="all" />
+    <type fullname="LeaderboardEventProgressPresenter" preserve="all" />
+    <type fullname="LeaderboardGuildEntryDisplay" preserve="all" />
+    <type fullname="LeaderboardMultiTooltipRewardDescriptionDisplay" preserve="all" />
+    <type fullname="LeaderboardRewardsBox" preserve="all" />
+    <type fullname="LeaderboardRewardsView" preserve="all" />
+    <type fullname="LeaveGuildPermissionButton" preserve="all" />
+    <type fullname="LegacyAnimationAreaSectionAnimator" preserve="all" />
+    <type fullname="LegacyAnimationSequence" preserve="all" />
+    <type fullname="LevelUpRewardsView" preserve="all" />
+    <type fullname="LevelUpShopOfferPopupView" preserve="all" />
+    <type fullname="LimitedFreeRewardItemDescription" preserve="all" />
+    <type fullname="LoadingInfoDebugMenu" preserve="all" />
+    <type fullname="LocalizationIdentifierRandomizer" preserve="all" />
+    <type fullname="LocalizedAppointmentDisplay" preserve="all" />
+    <type fullname="LocalizeImage" preserve="all" />
+    <type fullname="LocalizeTextMeshProUGUI" preserve="all" />
+    <type fullname="LocalizeTypewriter" preserve="all" />
+    <type fullname="LocalUserProfileButton" preserve="all" />
+    <type fullname="LocalUserProfileHandleAutoInitializer" preserve="all" />
+    <type fullname="LocalUserProfileView" preserve="all" />
+    <type fullname="LockSlotListener" preserve="all" />
+    <type fullname="LockVfxListener" preserve="all" />
+    <type fullname="LoopedItemPrefabProvider" preserve="all" />
+    <type fullname="LoyaltyEventButtonNotificationModule" preserve="all" />
+    <type fullname="LoyaltyEventCarouselMenuButton" preserve="all" />
+    <type fullname="LoyaltyEventCompleteView" preserve="all" />
+    <type fullname="LoyaltyEventDisplay" preserve="all" />
+    <type fullname="LoyaltyEventHomeScreenDisplay" preserve="all" />
+    <type fullname="LoyaltyEventItemDescription" preserve="all" />
+    <type fullname="LoyaltyEventMilestoneSummary" preserve="all" />
+    <type fullname="LoyaltyEventProgressPresenter" preserve="all" />
+    <type fullname="LoyaltyEventProgressView" preserve="all" />
+    <type fullname="LoyaltyEventRulesView" preserve="all" />
+    <type fullname="LoyaltyEventSummaryView" preserve="all" />
+    <type fullname="LoyaltyEventTab" preserve="all" />
+    <type fullname="LoyaltyMilestoneDialogueCharacterController" preserve="all" />
+    <type fullname="LoyaltyRewardToDoChallengeDescription" preserve="all" />
+    <type fullname="MagnifyHitboxForMerge" preserve="all" />
+    <type fullname="MainBoardProductShopModuleDescription" preserve="all" />
+    <type fullname="MainBoardProductStoreModuleViewEntry" preserve="all" />
+    <type fullname="MainBoardProductStoreViewEntry" preserve="all" />
+    <type fullname="MainBoardShopSectionItemDescription" preserve="all" />
+    <type fullname="MakeMergeToDoChallengeDescription" preserve="all" />
+    <type fullname="ManualPopupTrigger" preserve="all" />
+    <type fullname="MecanimAreaSectionAnimator" preserve="all" />
+    <type fullname="MecanimOffBoardItemDisplay" preserve="all" />
+    <type fullname="MecanimToSpineBridge" preserve="all" />
+    <type fullname="MecanimToSpineBridgeHandle" preserve="all" />
+    <type fullname="MenuKeyButtonShortcut" preserve="all" />
+    <type fullname="MenuTab" preserve="all" />
+    <type fullname="MergeableBehaviour" preserve="all" />
+    <type fullname="MergeableFamilyItemDescription" preserve="all" />
+    <type fullname="MergeableMaxedOutDisplay" preserve="all" />
+    <type fullname="MergeHintDescription" preserve="all" />
+    <type fullname="MergeHintViewComponent" preserve="all" />
+    <type fullname="MergeRewardListener" preserve="all" />
+    <type fullname="MetaCustomizationRenderer" preserve="all" />
+    <type fullname="MetaTaskDescription" preserve="all" />
+    <type fullname="MetaTasksView" preserve="all" />
+    <type fullname="MetaTasksViewAnimator" preserve="all" />
+    <type fullname="MetaTaskViewEntry" preserve="all" />
+    <type fullname="MetaTaskViewEntryAnimator" preserve="all" />
+    <type fullname="MilestoneRewardsDialogueCharacterController" preserve="all" />
+    <type fullname="MilestoneTimedEventRewardsDisplay" preserve="all" />
+    <type fullname="MinigameBubblePurchasedRewardListener" preserve="all" />
+    <type fullname="MinigameComboTimerDisplay" preserve="all" />
+    <type fullname="MinigameEventBoardTimerDisplay" preserve="all" />
+    <type fullname="MinigameEventCompleteView" preserve="all" />
+    <type fullname="MinigameEventRewardInfoDisplay" preserve="all" />
+    <type fullname="MinigameEventRewardsView" preserve="all" />
+    <type fullname="MinigameEventTimerDisplay" preserve="all" />
+    <type fullname="MinigameItemInfoView" preserve="all" />
+    <type fullname="MinigameItemsProducedRewardListener" preserve="all" />
+    <type fullname="MinigameMilestoneDefinitionDisplay" preserve="all" />
+    <type fullname="MinigameMilestoneDisplay" preserve="all" />
+    <type fullname="MinigameMilestoneMultiplierBuffItemDescription" preserve="all" />
+    <type fullname="MinigameMilestoneProgressView" preserve="all" />
+    <type fullname="MinigameMilestoneRewardsView" preserve="all" />
+    <type fullname="MinigameMilestonesListDisplay" preserve="all" />
+    <type fullname="MinigameMilestonesProgressDisplay" preserve="all" />
+    <type fullname="MinigameOrderListDisplayEntry" preserve="all" />
+    <type fullname="MinigameOrdersDisplay" preserve="all" />
+    <type fullname="MinigameOrderView" preserve="all" />
+    <type fullname="MinigameOrderViewComponent" preserve="all" />
+    <type fullname="MinigamePuzzleDisplay" preserve="all" />
+    <type fullname="MinigamePuzzleRewardDisplay" preserve="all" />
+    <type fullname="MinigamePuzzleRewardsDisplay" preserve="all" />
+    <type fullname="MinigamePuzzleRewardsView" preserve="all" />
+    <type fullname="MinigamePuzzlesDisplay" preserve="all" />
+    <type fullname="MinigamePuzzleTileDisplay" preserve="all" />
+    <type fullname="MinigamePuzzleTileOverlayRectTransform" preserve="all" />
+    <type fullname="MinigamePuzzleView" preserve="all" />
+    <type fullname="MinigameSeenItemDisplay" preserve="all" />
+    <type fullname="MinigameSeenItemsDisplay" preserve="all" />
+    <type fullname="MinigameSeenItemView" preserve="all" />
+    <type fullname="MinigameShopModuleDescription" preserve="all" />
+    <type fullname="MinigameShopModuleViewEntry" preserve="all" />
+    <type fullname="MinigameShopSectionItemDescription" preserve="all" />
+    <type fullname="MinigameShopViewEntry" preserve="all" />
+    <type fullname="MinigameStarterRewardsView" preserve="all" />
+    <type fullname="MinigameStartView" preserve="all" />
+    <type fullname="MinigameToDoChallengeTooltip" preserve="all" />
+    <type fullname="MinigameToDoStageRewardDisplay" preserve="all" />
+    <type fullname="MinigameViewShower" preserve="all" />
+    <type fullname="MixerDifficultyDescription" preserve="all" />
+    <type fullname="MixerIngredientsHintDescription" preserve="all" />
+    <type fullname="MixerIngredientsHintViewComponent" preserve="all" />
+    <type fullname="MixerItemVisibility" preserve="all" />
+    <type fullname="MixerPopupHintDescription" preserve="all" />
+    <type fullname="MixerProgressBarDisplay" preserve="all" />
+    <type fullname="MixerSelectionGraphicHandler" preserve="all" />
+    <type fullname="MonetisationValuesDescription" preserve="all" />
+    <type fullname="MonoTouchButton" preserve="all" />
+    <type fullname="MultipleComponentDescriptionVisibility" preserve="all" />
+    <type fullname="MultiTooltipRewardDescriptionDisplay" preserve="all" />
+    <type fullname="MusicAudioChannelService" preserve="all" />
+    <type fullname="MysteryTileEventButtonNotificationModule" preserve="all" />
+    <type fullname="MysteryTileEventCarouselMenuButton" preserve="all" />
+    <type fullname="MysteryTileMinigameEventItemDescription" preserve="all" />
+    <type fullname="MysteryTileMinigameEventProgressPresenter" preserve="all" />
+    <type fullname="MysteryTileMinigameRewardDisplay" preserve="all" />
+    <type fullname="NameInputValidator" preserve="all" />
+    <type fullname="NameValidationDescription" preserve="all" />
+    <type fullname="NavigationBarButton" preserve="all" />
+    <type fullname="NavigationBarLockableButton" preserve="all" />
+    <type fullname="NavigationBarView" preserve="all" />
+    <type fullname="NewContentNeededView" preserve="all" />
+    <type fullname="NewFriendsNotificationIcon" preserve="all" />
+    <type fullname="NonDrawingGraphic" preserve="all" />
+    <type fullname="NotificationIcon" preserve="all" />
+    <type fullname="NotificationIconGroup" preserve="all" />
+    <type fullname="NullAnimationEventReceiver" preserve="all" />
+    <type fullname="ObscuredRegionDisplay" preserve="all" />
+    <type fullname="ObscuredRegionSubDisplay" preserve="all" />
+    <type fullname="OffBoardSlotDisplay" preserve="all" />
+    <type fullname="OfferShopModuleDescription" preserve="all" />
+    <type fullname="OfferViewCountDebugLabel" preserve="all" />
+    <type fullname="OfflineFriendInfoEntry" preserve="all" />
+    <type fullname="OfflineFriendsInfoDebugMenu" preserve="all" />
+    <type fullname="OnDragMover" preserve="all" />
+    <type fullname="OnlineSettingsDescription" preserve="all" />
+    <type fullname="OpenEmailButton" preserve="all" />
+    <type fullname="OpenLocalizedUrlButton" preserve="all" />
+    <type fullname="OpenUrlButton" preserve="all" />
+    <type fullname="OrderButtonPrompt" preserve="all" />
+    <type fullname="OrderDifficultyDescription" preserve="all" />
+    <type fullname="OrderDifficultyRewardsDescription" preserve="all" />
+    <type fullname="OrderGenerationDescription" preserve="all" />
+    <type fullname="OrderHintDisplay" preserve="all" />
+    <type fullname="OrderInstantClaimChestRewardsView" preserve="all" />
+    <type fullname="OrderItemDescription" preserve="all" />
+    <type fullname="OrderMergeableOverlayRectTransform" preserve="all" />
+    <type fullname="OrderMergeableView" preserve="all" />
+    <type fullname="OrderNameDebugLabel" preserve="all" />
+    <type fullname="OrderPriorityOutcomePickRuleDescription" preserve="all" />
+    <type fullname="OrderRewardDisplayDebug" preserve="all" />
+    <type fullname="OrderRewardletsDirector" preserve="all" />
+    <type fullname="OrderRewardletSequenceDefinition" preserve="all" />
+    <type fullname="OrderRewardletSequenceDisplay" preserve="all" />
+    <type fullname="OrderSpotlight" preserve="all" />
+    <type fullname="OrdersTickListener" preserve="all" />
+    <type fullname="OrdersViewController" preserve="all" />
+    <type fullname="OrderTickDisplay" preserve="all" />
+    <type fullname="OrderView" preserve="all" />
+    <type fullname="OrderViewRewardsModule" preserve="all" />
+    <type fullname="OrderViewToastRewardsDisplay" preserve="all" />
+    <type fullname="OtherSettings" preserve="all" />
+    <type fullname="OutOfCurrencyIapCollectionDescription" preserve="all" />
+    <type fullname="OutOfCurrencyPurchaseView" preserve="all" />
+    <type fullname="OutOfCurrencyView" preserve="all" />
+    <type fullname="OutOfStockShopOfferStoreViewEntry" preserve="all" />
+    <type fullname="OverlaySelector" preserve="all" />
+    <type fullname="OwnGuildView" preserve="all" />
+    <type fullname="ParticleRendererItemComponentDescriptionDisplay" preserve="all" />
+    <type fullname="ParticleSequence" preserve="all" />
+    <type fullname="PermanentShopOfferStoreModuleViewEntry" preserve="all" />
+    <type fullname="PetParlourEventCarouselMenuButton" preserve="all" />
+    <type fullname="PetParlourMinigameEventItemDescription" preserve="all" />
+    <type fullname="PetParlourMinigameEventProgressPresenter" preserve="all" />
+    <type fullname="PetParlourMinigameRewardDisplay" preserve="all" />
+    <type fullname="PhysicsRotator" preserve="all" />
+    <type fullname="PinataEventCarouselMenuButton" preserve="all" />
+    <type fullname="PinataMinigameEventItemDescription" preserve="all" />
+    <type fullname="PinataMinigameEventProgressPresenter" preserve="all" />
+    <type fullname="PinataMinigameRewardDisplay" preserve="all" />
+    <type fullname="PlayerInfoProfileSection" preserve="all" />
+    <type fullname="PlayerLevelGaugeDisplay" preserve="all" />
+    <type fullname="PlayerLevelItemDescription" preserve="all" />
+    <type fullname="PlayerLevelItemDisplay" preserve="all" />
+    <type fullname="PlayerLevelItemDisplayAutoInitializer" preserve="all" />
+    <type fullname="PlayerLevelLabelDisplay" preserve="all" />
+    <type fullname="PlayerLevelProfileSection" preserve="all" />
+    <type fullname="PlayerLevelProgressDisplay" preserve="all" />
+    <type fullname="PlayerProfileItemDescription" preserve="all" />
+    <type fullname="PlayerSettingsItemDescription" preserve="all" />
+    <type fullname="PlayLegacyAnimation" preserve="all" />
+    <type fullname="PlaySoundBehaviour" preserve="all" />
+    <type fullname="PlaySoundOnClick" preserve="all" />
+    <type fullname="PlaySoundOnRewardletEvent" preserve="all" />
+    <type fullname="PlaySoundOnTaskCompleteEvent" preserve="all" />
+    <type fullname="PopupDebugMenu" preserve="all" />
+    <type fullname="PopupItemDescription" preserve="all" />
+    <type fullname="PopupRewardlet" preserve="all" />
+    <type fullname="PopupSettingsDescription" preserve="all" />
+    <type fullname="PopupView" preserve="all" />
+    <type fullname="PredefinedLayoutGroup" preserve="all" />
+    <type fullname="PredefinedPlayerProfileDescription" preserve="all" />
+    <type fullname="PrefabTutorialDescription" preserve="all" />
+    <type fullname="PreloadAssetView" preserve="all" />
+    <type fullname="PreviewAreaGroupView" preserve="all" />
+    <type fullname="PreviewAreaView" preserve="all" />
+    <type fullname="ProducerAdUnitItemDescription" preserve="all" />
+    <type fullname="ProducerApointmentsDisplay" preserve="all" />
+    <type fullname="ProducerBehaviourController" preserve="all" />
+    <type fullname="ProducerDebugInfo" preserve="all" />
+    <type fullname="ProducerInfiniteBuffDisplay" preserve="all" />
+    <type fullname="ProducerItemDebugInfo" preserve="all" />
+    <type fullname="ProducerRewardletSequenceSubDisplay" preserve="all" />
+    <type fullname="ProducerSkipBoosterDisplay" preserve="all" />
+    <type fullname="ProfanityFilterDescription" preserve="all" />
+    <type fullname="ProfanityFilterInputField" preserve="all" />
+    <type fullname="ProfileFrameCosmeticItemDescription" preserve="all" />
+    <type fullname="ProfileIconDisplay" preserve="all" />
+    <type fullname="ProfileNamesDescription" preserve="all" />
+    <type fullname="ProfilePictureCosmeticItemDescription" preserve="all" />
+    <type fullname="ProgressBar" preserve="all" />
+    <type fullname="ProgressBarRewardDisplay" preserve="all" />
+    <type fullname="ProgressBarSocket" preserve="all" />
+    <type fullname="ProgressTimedEventToDoChallengeDescription" preserve="all" />
+    <type fullname="PromoCodeGiftView" preserve="all" />
+    <type fullname="PromoGiftDescription" preserve="all" />
+    <type fullname="PromoGiftHistoryItemDescription" preserve="all" />
+    <type fullname="ProtectDropOutcomePickRuleDescription" preserve="all" />
+    <type fullname="PulseRewardletTarget" preserve="all" />
+    <type fullname="PulseTransformEffect" preserve="all" />
+    <type fullname="PurchaseBubbleScriptStep" preserve="all" />
+    <type fullname="PurchaseRewardsView" preserve="all" />
+    <type fullname="PurchaseShopProductToDoChallengeDescription" preserve="all" />
+    <type fullname="PurchaseView" preserve="all" />
+    <type fullname="PushReferralSenderFlowButton" preserve="all" />
+    <type fullname="PuzzleHintDescription" preserve="all" />
+    <type fullname="PuzzleHintViewComponent" preserve="all" />
+    <type fullname="RaccoonRushEventCarouselMenuButton" preserve="all" />
+    <type fullname="RaccoonRushMinigameEventItemDescription" preserve="all" />
+    <type fullname="RandomiseCycleOffsetStateMachineBehaviour" preserve="all" />
+    <type fullname="RateAppPushFlowScriptStep" preserve="all" />
+    <type fullname="ReceivedCardsButton" preserve="all" />
+    <type fullname="RechargeableItemComponentDisplay" preserve="all" />
+    <type fullname="RechargeableNotificationDescription" preserve="all" />
+    <type fullname="RecipeDisplay" preserve="all" />
+    <type fullname="RecipeIngredientDisplay" preserve="all" />
+    <type fullname="ReferralDebugViewEntry" preserve="all" />
+    <type fullname="ReferralInfoView" preserve="all" />
+    <type fullname="ReferralNotificationIcon" preserve="all" />
+    <type fullname="ReferralReceiverItemDescription" preserve="all" />
+    <type fullname="ReferralReceiverView" preserve="all" />
+    <type fullname="ReferralRewardsView" preserve="all" />
+    <type fullname="ReferralSenderItemDescription" preserve="all" />
+    <type fullname="ReferralShareDescription" preserve="all" />
+    <type fullname="ReferralStageProgressView" preserve="all" />
+    <type fullname="ReferralTooltip" preserve="all" />
+    <type fullname="RemoveFromStash" preserve="all" />
+    <type fullname="RemoveUserGuildPermissionButton" preserve="all" />
+    <type fullname="RemoveUserGuildPermissionConfirmationView" preserve="all" />
+    <type fullname="RequirementsDescription" preserve="all" />
+    <type fullname="ResourceRewardMultiplierBuffInfoView" preserve="all" />
+    <type fullname="ResourceRewardMultiplierBuffItemDescription" preserve="all" />
+    <type fullname="ResourceRewardMultiplierBuffItemDisplay" preserve="all" />
+    <type fullname="RevealDiggingMinigamePieceToDoChallengeDescription" preserve="all" />
+    <type fullname="RevealText" preserve="all" />
+    <type fullname="RewardCountDisplay" preserve="all" />
+    <type fullname="RewardDescriptionDisplay" preserve="all" />
+    <type fullname="RewardDescriptionListDisplay" preserve="all" />
+    <type fullname="RewardDisplay" preserve="all" />
+    <type fullname="RewardedBoardableHintDescription" preserve="all" />
+    <type fullname="RewardedBoardableHintViewComponent" preserve="all" />
+    <type fullname="RewardedBoardableTutorialHintDescription" preserve="all" />
+    <type fullname="RewardGroupDescription" preserve="all" />
+    <type fullname="RewardInfoDisplay" preserve="all" />
+    <type fullname="Rewardlet" preserve="all" />
+    <type fullname="RewardletCacheDisplay" preserve="all" />
+    <type fullname="RewardletCollectionPoint" preserve="all" />
+    <type fullname="RewardletCollectionPointAmountDisplay" preserve="all" />
+    <type fullname="RewardletTargetReceiver" preserve="all" />
+    <type fullname="RewardletV2" preserve="all" />
+    <type fullname="RewardListDisplay" preserve="all" />
+    <type fullname="RewardsBox" preserve="all" />
+    <type fullname="RewardScreenRewardletSequenceDefinition" preserve="all" />
+    <type fullname="RewardScreenRewardletSequenceDisplay" preserve="all" />
+    <type fullname="RewardSkipVFX" preserve="all" />
+    <type fullname="RewardsView" preserve="all" />
+    <type fullname="RewardsViewEntry" preserve="all" />
+    <type fullname="SafeCanvasResizer" preserve="all" />
+    <type fullname="SandboxFlagLabel" preserve="all" />
+    <type fullname="SandcastlesEventCarouselMenuButton" preserve="all" />
+    <type fullname="SandcastlesMinigameEventItemDescription" preserve="all" />
+    <type fullname="ScaledCostItemDescription" preserve="all" />
+    <type fullname="ScriptStep" preserve="all" />
+    <type fullname="ScrollGroupPageResizer" preserve="all" />
+    <type fullname="ScrollingScalingViewComponent" preserve="all" />
+    <type fullname="SearchableDropdown" preserve="all" />
+    <type fullname="SearchableDropdownDebugComponentView" preserve="all" />
+    <type fullname="SearchableTwoInputFieldDebugComponentView" preserve="all" />
+    <type fullname="SeasonDescription" preserve="all" />
+    <type fullname="SeenItemsNextObscuredRegionProvider" preserve="all" />
+    <type fullname="SelectableCanvasInteractableHackFix" preserve="all" />
+    <type fullname="SelectableSlotBehaviour" preserve="all" />
+    <type fullname="SelectedBoardItemNameDisplay" preserve="all" />
+    <type fullname="SelectedSlotOverlayRectTransform" preserve="all" />
+    <type fullname="SelectionGraphicHandler" preserve="all" />
+    <type fullname="SendCardChooseFriendView" preserve="all" />
+    <type fullname="SendCardConfirmationView" preserve="all" />
+    <type fullname="SendCardFriendButton" preserve="all" />
+    <type fullname="SendFriendInviteUserGuildPermissionButton" preserve="all" />
+    <type fullname="SequentialDialogueCharacterController" preserve="all" />
+    <type fullname="ServerConnectionRetryView" preserve="all" />
+    <type fullname="ServerTypeLabel" preserve="all" />
+    <type fullname="SetActiveByRequirements" preserve="all" />
+    <type fullname="SetBehaviourEnabledAfterDelay" preserve="all" />
+    <type fullname="SetBehaviourEnabledByRequirements" preserve="all" />
+    <type fullname="SetGameObjectsActiveAsyncButtonModule" preserve="all" />
+    <type fullname="SetPositionByRequirements" preserve="all" />
+    <type fullname="SetShopOfferEntryUIActionToAnalyticsEvent" preserve="all" />
+    <type fullname="SettingsButton" preserve="all" />
+    <type fullname="SettingsToggle" preserve="all" />
+    <type fullname="SettingsView" preserve="all" />
+    <type fullname="SetVisibilityForDialogueSequence" preserve="all" />
+    <type fullname="SharedAreaConfigDescription" preserve="all" />
+    <type fullname="SharedSkuIapDescription" preserve="all" />
+    <type fullname="ShopDescription" preserve="all" />
+    <type fullname="ShopOfferButton" preserve="all" />
+    <type fullname="ShopOfferDebugMenu" preserve="all" />
+    <type fullname="ShopOfferEnergyPurchaseView" preserve="all" />
+    <type fullname="ShopOfferGroupCollectionDescription" preserve="all" />
+    <type fullname="ShopOfferGroupDisplayButton" preserve="all" />
+    <type fullname="ShopOfferGroupDisplayItemDescription" preserve="all" />
+    <type fullname="ShopOfferGroupDisplayPopupView" preserve="all" />
+    <type fullname="ShopOfferGroupDisplayView" preserve="all" />
+    <type fullname="ShopOfferGroupItemDescription" preserve="all" />
+    <type fullname="ShopOfferHomeView" preserve="all" />
+    <type fullname="ShopOfferItemDescription" preserve="all" />
+    <type fullname="ShopOfferPopupView" preserve="all" />
+    <type fullname="ShopOfferStoreModuleViewEntry" preserve="all" />
+    <type fullname="ShopOfferStoreViewEntry" preserve="all" />
+    <type fullname="ShopOfferTemplateDescription" preserve="all" />
+    <type fullname="ShopOfferView" preserve="all" />
+    <type fullname="ShopProductAdUnitItemDescription" preserve="all" />
+    <type fullname="ShopProductDescription" preserve="all" />
+    <type fullname="ShopProductTransactionItemDescription" preserve="all" />
+    <type fullname="ShopRefreshAdUnitItemDescription" preserve="all" />
+    <type fullname="ShopTransactionUISourceProvider" preserve="all" />
+    <type fullname="ShowCardSetWithDuplicateScriptStep" preserve="all" />
+    <type fullname="SignatureBakersBuildsDecorationVariantHighlightTransformScriptStep" preserve="all" />
+    <type fullname="SimpleProducerBehaviour" preserve="all" />
+    <type fullname="SingleItemSkipBoosterEffectDescription" preserve="all" />
+    <type fullname="SkipChestAppointmentBehaviour" preserve="all" />
+    <type fullname="SkippableAnimators" preserve="all" />
+    <type fullname="SkippableParticles" preserve="all" />
+    <type fullname="SkippableTypewriters" preserve="all" />
+    <type fullname="SkipProducerAppointmentBehaviour" preserve="all" />
+    <type fullname="SkipProducerSetupScriptStep" preserve="all" />
+    <type fullname="SkipTimerTutorialHintDescription" preserve="all" />
+    <type fullname="SkipVoucherItemDescription" preserve="all" />
+    <type fullname="SlidingNotificationOverlay" preserve="all" />
+    <type fullname="SlotBubbleDisplay" preserve="all" />
+    <type fullname="SlotCurtainDisplay" preserve="all" />
+    <type fullname="SlotDisplay" preserve="all" />
+    <type fullname="SlotDisplayTweener" preserve="all" />
+    <type fullname="SlotDisplayView" preserve="all" />
+    <type fullname="SlotDropListener" preserve="all" />
+    <type fullname="SlotFilterOverlayRectTransform" preserve="all" />
+    <type fullname="SlotFiltersOverlayRectTransform" preserve="all" />
+    <type fullname="SlotHighlight" preserve="all" />
+    <type fullname="SlotLockDisplay" preserve="all" />
+    <type fullname="SlotOverlayRectTransform" preserve="all" />
+    <type fullname="SlotRemovedFromStashDisplay" preserve="all" />
+    <type fullname="SlotSpriteIconDisplay" preserve="all" />
+    <type fullname="SlotsSwipeTween" preserve="all" />
+    <type fullname="SlotToStashSwipeTween" preserve="all" />
+    <type fullname="SocialsView" preserve="all" />
+    <type fullname="SortableElement" preserve="all" />
+    <type fullname="SortableGroup" preserve="all" />
+    <type fullname="SortOrderSync" preserve="all" />
+    <type fullname="SortOrderSyncChild" preserve="all" />
+    <type fullname="SoundAudioChannelService" preserve="all" />
+    <type fullname="SpawnPrefab" preserve="all" />
+    <type fullname="SpawnRewardletTarget" preserve="all" />
+    <type fullname="SpeechBubble" preserve="all" />
+    <type fullname="SpeechBubbleController" preserve="all" />
+    <type fullname="SpendResourceEventPassTaskDescription" preserve="all" />
+    <type fullname="SpineAnimationEventReceiver" preserve="all" />
+    <type fullname="SpineAnimator" preserve="all" />
+    <type fullname="SplineTangentHelper" preserve="all" />
+    <type fullname="SpriteIconComponentAssetDescription" preserve="all" />
+    <type fullname="SpriteItemComponentDescriptionDisplay" preserve="all" />
+    <type fullname="SpriteSeasonConsumer" preserve="all" />
+    <type fullname="StackableBoardableItemComponentDisplay" preserve="all" />
+    <type fullname="StackableBoardableItemVisibility" preserve="all" />
+    <type fullname="StackableItemComponentDisplay" preserve="all" />
+    <type fullname="StarRewardToDoChallengeDescription" preserve="all" />
+    <type fullname="StarterRewardsView" preserve="all" />
+    <type fullname="StashContentDisplay" preserve="all" />
+    <type fullname="StashCount" preserve="all" />
+    <type fullname="StashDisplay" preserve="all" />
+    <type fullname="StashDropListener" preserve="all" />
+    <type fullname="StashHintViewComponent" preserve="all" />
+    <type fullname="StashItemDescription" preserve="all" />
+    <type fullname="StashItemShower" preserve="all" />
+    <type fullname="StashLoader" preserve="all" />
+    <type fullname="StashOverlayShower" preserve="all" />
+    <type fullname="StashSpriteIconDisplay" preserve="all" />
+    <type fullname="StashView" preserve="all" />
+    <type fullname="StatefulCharacterController" preserve="all" />
+    <type fullname="StaticDialogueTrigger" preserve="all" />
+    <type fullname="StopMusicBehaviour" preserve="all" />
+    <type fullname="StoreButton" preserve="all" />
+    <type fullname="StoreEntryOverlayRectTransform" preserve="all" />
+    <type fullname="StoreView" preserve="all" />
+    <type fullname="SuggestedFriendsListEntry" preserve="all" />
+    <type fullname="SuggestedFriendsSection" preserve="all" />
+    <type fullname="SuperchargeActivationAvailableTooltip" preserve="all" />
+    <type fullname="SuperchargeActivationChangedDisplay" preserve="all" />
+    <type fullname="SuperchargeActivationChangedOverlay" preserve="all" />
+    <type fullname="SuperchargeActivationDisplay" preserve="all" />
+    <type fullname="SuperchargeItemDescription" preserve="all" />
+    <type fullname="SuperchargeToggleDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.AlbumCompleteCardEventChatMessageDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.ChatListDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.ChatViewAdapter" preserve="all" />
+    <type fullname="Supersolid.Guilds.CompleteDecorationSiteChatMessageDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.GiftChatMessageDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.GuildDescription" preserve="all" />
+    <type fullname="Supersolid.Guilds.GuildLogoDescription" preserve="all" />
+    <type fullname="Supersolid.Guilds.HelpRequestChatMessageDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.HelpRequestDescription" preserve="all" />
+    <type fullname="Supersolid.Guilds.LocalUserGuildDisplayAutoInitializer" preserve="all" />
+    <type fullname="Supersolid.Guilds.MinigameEventHelpRequestDescription" preserve="all" />
+    <type fullname="Supersolid.Guilds.RoleStatusChatMessageDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.SetCompleteCardEventChatMessageDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.StatusChatMessageDisplay" preserve="all" />
+    <type fullname="Supersolid.Guilds.TextChatMessageDisplay" preserve="all" />
+    <type fullname="SwipeDOTweenAreaSectionAnimator" preserve="all" />
+    <type fullname="SwipeUIEffect" preserve="all" />
+    <type fullname="TabToggle" preserve="all" />
+    <type fullname="TapListener" preserve="all" />
+    <type fullname="TargetedBoosterEffectBehaviour" preserve="all" />
+    <type fullname="TargetedBoosterItemDescription" preserve="all" />
+    <type fullname="TaskRewardsView" preserve="all" />
+    <type fullname="TasksButtonNotificationModule" preserve="all" />
+    <type fullname="TeamPicnicTrophyToDoChallengeDescription" preserve="all" />
+    <type fullname="TextDescriptionChestBoardableItemDisplay" preserve="all" />
+    <type fullname="TextDescriptionItemDescriptionDisplay" preserve="all" />
+    <type fullname="TextDescriptionMixerItemComponentDisplay" preserve="all" />
+    <type fullname="TextModuloInputField" preserve="all" />
+    <type fullname="TimedEventCarouselMenuButton" preserve="all" />
+    <type fullname="TimedEventCompleteMilestoneView" preserve="all" />
+    <type fullname="TimedEventCompleteView" preserve="all" />
+    <type fullname="TimedEventGameView" preserve="all" />
+    <type fullname="TimedEventInGameButton" preserve="all" />
+    <type fullname="TimedEventItemDescription" preserve="all" />
+    <type fullname="TimedEventLeaderboardCarouselMenuButton" preserve="all" />
+    <type fullname="TimedEventLeaderboardDisplay" preserve="all" />
+    <type fullname="TimedEventLeaderboardView" preserve="all" />
+    <type fullname="TimedEventMilestoneProgressDisplay" preserve="all" />
+    <type fullname="TimedEventMilestonesDisplay" preserve="all" />
+    <type fullname="TimedEventMilestoneSummary" preserve="all" />
+    <type fullname="TimedEventProductShopModuleDescription" preserve="all" />
+    <type fullname="TimedEventProductStoreModuleViewEntry" preserve="all" />
+    <type fullname="TimedEventProductStoreViewEntry" preserve="all" />
+    <type fullname="TimedEventProgressPresenter" preserve="all" />
+    <type fullname="TimedEventProgressView" preserve="all" />
+    <type fullname="TimedEventProgressViewV2" preserve="all" />
+    <type fullname="TimedEventRewardsDialogueCharacterController" preserve="all" />
+    <type fullname="TimedEventRewardsView" preserve="all" />
+    <type fullname="TimedEventShopSectionItemDescription" preserve="all" />
+    <type fullname="TimedEventStartView" preserve="all" />
+    <type fullname="TimedEventSummaryView" preserve="all" />
+    <type fullname="TimedEventTipJarButton" preserve="all" />
+    <type fullname="TimedEventTipJarView" preserve="all" />
+    <type fullname="TimedEventTokenOrderRewardDisplay" preserve="all" />
+    <type fullname="TimedEventTokenProgressDisplay" preserve="all" />
+    <type fullname="TimedEventView" preserve="all" />
+    <type fullname="TimedOrderIntroStateMachine" preserve="all" />
+    <type fullname="TimedOrderViewComponent" preserve="all" />
+    <type fullname="TipJarTimedEventRewardsDisplay" preserve="all" />
+    <type fullname="ToastRewardDisplay" preserve="all" />
+    <type fullname="ToDoChallengeDisplay" preserve="all" />
+    <type fullname="ToDoChallengeListDisplay" preserve="all" />
+    <type fullname="ToDoChallengeListFinalStageFillerDisplay" preserve="all" />
+    <type fullname="ToDoChallengeListFinalStageWrapperDisplay" preserve="all" />
+    <type fullname="ToDoChallengeTooltip" preserve="all" />
+    <type fullname="ToDoDailyRewardDisplay" preserve="all" />
+    <type fullname="ToDoDailyRewardsDisplay" preserve="all" />
+    <type fullname="ToDoEventButtonNotificationModule" preserve="all" />
+    <type fullname="ToDoEventCarouselMenuButton" preserve="all" />
+    <type fullname="ToDoEventCompleteView" preserve="all" />
+    <type fullname="ToDoEventHomeScreenButton" preserve="all" />
+    <type fullname="ToDoEventHomeScreenDisplay" preserve="all" />
+    <type fullname="ToDoEventItemDescription" preserve="all" />
+    <type fullname="ToDoEventStartView" preserve="all" />
+    <type fullname="ToDoEventV1ToV2TransitionPushFlowScriptStep" preserve="all" />
+    <type fullname="ToDoEventV1ToV2TransitionView" preserve="all" />
+    <type fullname="ToDoListView" preserve="all" />
+    <type fullname="ToDoRewardsView" preserve="all" />
+    <type fullname="ToDoSlidingNotificationDisplay" preserve="all" />
+    <type fullname="ToDoStageToggleDisplay" preserve="all" />
+    <type fullname="ToDoStageToggleListDisplay" preserve="all" />
+    <type fullname="ToDoStreakDisplay" preserve="all" />
+    <type fullname="ToDoStreakItemDescription" preserve="all" />
+    <type fullname="ToDoStreakPointRewardletSequenceSubDisplay" preserve="all" />
+    <type fullname="ToDoWeeklyRewardDisplay" preserve="all" />
+    <type fullname="ToDoWeeklyRewardsDisplay" preserve="all" />
+    <type fullname="ToggleAutoGroup" preserve="all" />
+    <type fullname="Tooltip" preserve="all" />
+    <type fullname="TooltipButtonTrigger" preserve="all" />
+    <type fullname="TooltipClickTrigger" preserve="all" />
+    <type fullname="TooltipInactivityTrigger" preserve="all" />
+    <type fullname="TooltipRewardDescriptionDisplay" preserve="all" />
+    <type fullname="TooltipToggleTrigger" preserve="all" />
+    <type fullname="TouchscreenKeyboardResizer" preserve="all" />
+    <type fullname="TownDescription" preserve="all" />
+    <type fullname="TownView" preserve="all" />
+    <type fullname="TownViewEntry" preserve="all" />
+    <type fullname="TownViewEntryTooltip" preserve="all" />
+    <type fullname="TransactionUISourceProvider" preserve="all" />
+    <type fullname="TreasureHuntCollapseMenuDisplay" preserve="all" />
+    <type fullname="TreasureHuntEventButtonNotificationModule" preserve="all" />
+    <type fullname="TreasureHuntEventCarouselMenuButton" preserve="all" />
+    <type fullname="TreasureHuntEventPassButtonNotificationModule" preserve="all" />
+    <type fullname="TreasureHuntEventPassHintDescription" preserve="all" />
+    <type fullname="TreasureHuntMinigameEventBoardView" preserve="all" />
+    <type fullname="TreasureHuntMinigameEventHomeScreenButton" preserve="all" />
+    <type fullname="TreasureHuntMinigameEventItemDescription" preserve="all" />
+    <type fullname="TreasureHuntMinigameRewardDisplay" preserve="all" />
+    <type fullname="TreasureHuntMinigameStarterRewardsView" preserve="all" />
+    <type fullname="TriggerMusicBehaviour" preserve="all" />
+    <type fullname="TrophyOrderRewardDisplay" preserve="all" />
+    <type fullname="TutorialButtonInvoker" preserve="all" />
+    <type fullname="TutorialButtonPrompt" preserve="all" />
+    <type fullname="TutorialCharacterController" preserve="all" />
+    <type fullname="TutorialFollowRectTransform" preserve="all" />
+    <type fullname="TutorialHintDescription" preserve="all" />
+    <type fullname="TutorialScriptManager" preserve="all" />
+    <type fullname="TutorialSpotlight" preserve="all" />
+    <type fullname="TutorialStateItemDescription" preserve="all" />
+    <type fullname="TwoInputFieldDebugComponentView" preserve="all" />
+    <type fullname="UIAnalyticsEventTrigger" preserve="all" />
+    <type fullname="UITagOverlayRectTransform" preserve="all" />
+    <type fullname="UITagRewardletInitializer" preserve="all" />
+    <type fullname="UnansweredHelpRequestNotificationIcon" preserve="all" />
+    <type fullname="UnavailableProducerOutcomePickRuleDescription" preserve="all" />
+    <type fullname="UnclaimedHelpRequestNotificationIcon" preserve="all" />
+    <type fullname="UndoClearSlotBehaviour" preserve="all" />
+    <type fullname="UndoMergeBehaviour" preserve="all" />
+    <type fullname="UndoMergeGlobalListener" preserve="all" />
+    <type fullname="UniqueFinalItemPrefabProvider" preserve="all" />
+    <type fullname="UnityEventSelectionListener" preserve="all" />
+    <type fullname="UnityOnEnableEvent" preserve="all" />
+    <type fullname="UnlockFriendsPushFlowScriptStep" preserve="all" />
+    <type fullname="UnlockGuildsPushFlowScriptStep" preserve="all" />
+    <type fullname="UpdateGuildPermissionButton" preserve="all" />
+    <type fullname="UpdateRoleGuildPermissionConfirmationView" preserve="all" />
+    <type fullname="UpdateUserRoleGuildPermissionButton" preserve="all" />
+    <type fullname="UserDisplay" preserve="all" />
+    <type fullname="UserIdLabel" preserve="all" />
+    <type fullname="UserLeaderboardDataDisplay" preserve="all" />
+    <type fullname="UserLeaderboardEntryDisplay" preserve="all" />
+    <type fullname="UserLeaderboardEntryListDisplay" preserve="all" />
+    <type fullname="UsernameDisplay" preserve="all" />
+    <type fullname="UserNodeDisplay" preserve="all" />
+    <type fullname="UseStashHintDescription" preserve="all" />
+    <type fullname="VerticalAutoScroll" preserve="all" />
+    <type fullname="VideoAdDescription" preserve="all" />
+    <type fullname="ViewCloseButton" preserve="all" />
+    <type fullname="ViewComponent" preserve="all" />
+    <type fullname="ViewReference" preserve="all" />
+    <type fullname="ViewReferenceLinker" preserve="all" />
+    <type fullname="VipItemDescription" preserve="all" />
+    <type fullname="VipQualifyView" preserve="all" />
+    <type fullname="VipRewardsView" preserve="all" />
+    <type fullname="VipSignupEmailButton" preserve="all" />
+    <type fullname="VisibilitySlotListener" preserve="all" />
+    <type fullname="WaitForBoardDisplayScriptStep" preserve="all" />
+    <type fullname="WaitForBoardDisplaySettledScriptStep" preserve="all" />
+    <type fullname="WaitForCarouselMenuScriptStep" preserve="all" />
+    <type fullname="WaitForDialogueScriptStep" preserve="all" />
+    <type fullname="WaitForFramesScriptStep" preserve="all" />
+    <type fullname="WaitForInfoOverlayScriptStep" preserve="all" />
+    <type fullname="WaitForItemGeneratedScriptStep" preserve="all" />
+    <type fullname="WaitForKartDashRaceViewSettledScriptStep" preserve="all" />
+    <type fullname="WaitForMinigameBoardViewScriptStep" preserve="all" />
+    <type fullname="WaitForMinigameCellRevealScriptStep" preserve="all" />
+    <type fullname="WaitForMinigameGemAnimationScriptStep" preserve="all" />
+    <type fullname="WaitForMixerIngredientsScriptStep" preserve="all" />
+    <type fullname="WaitForMoveItemToStashScriptStep" preserve="all" />
+    <type fullname="WaitForMultipleMergeScriptStep" preserve="all" />
+    <type fullname="WaitForOpenCardPackFlowPoppedScriptStep" preserve="all" />
+    <type fullname="WaitForOrderCreatedScriptStep" preserve="all" />
+    <type fullname="WaitForOrderReadyScriptStep" preserve="all" />
+    <type fullname="WaitForProducerGenerationFilledScriptStep" preserve="all" />
+    <type fullname="WaitForRewardletCompleteTargetScriptStep" preserve="all" />
+    <type fullname="WaitForRewardsSequenceFinishedScriptStep" preserve="all" />
+    <type fullname="WaitForSecondsScriptStep" preserve="all" />
+    <type fullname="WaitForSelectedItem" preserve="all" />
+    <type fullname="WaitForSelectItemToSellScriptStep" preserve="all" />
+    <type fullname="WaitForSingleMergeScriptStep" preserve="all" />
+    <type fullname="WaitForSlotItemRemovedScriptStep" preserve="all" />
+    <type fullname="WaitForSocialsTabScriptStep" preserve="all" />
+    <type fullname="WaitForTaskCompletedScriptStep" preserve="all" />
+    <type fullname="WaitForTaskRewardsToCompleteScriptStep" preserve="all" />
+    <type fullname="WaitForTasksViewScriptStep" preserve="all" />
+    <type fullname="WaitForViewReferenceToCloseScriptStep" preserve="all" />
+    <type fullname="WaitForViewReferenceToHideScriptStep" preserve="all" />
+    <type fullname="WaitForViewScriptStep" preserve="all" />
+    <type fullname="WaitForViewToCloseScriptStep" preserve="all" />
+    <type fullname="WaitForViewToHideScriptStep" preserve="all" />
+    <type fullname="WebServiceConfigDescription" preserve="all" />
+    <type fullname="WebSocketConfigDescription" preserve="all" />
+    <type fullname="WhereToFindDisplay" preserve="all" />
+    <type fullname="WildcardBoosterEffectDescription" preserve="all" />
+    <type fullname="AnimationEventEntry" preserve="nothing" serialized="true" />
+    <type fullname="EventPassView/ClaimErrorLocalizationEntry" preserve="nothing" serialized="true" />
+    <type fullname="FloatUnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="FormatLabel/FormatStringEvent" preserve="nothing" serialized="true" />
+    <type fullname="ProgressBar/ProgressBarEvent" preserve="nothing" serialized="true" />
+    <type fullname="ProgressBar/ProgressBarUpdateEvent" preserve="nothing" serialized="true" />
+    <type fullname="AnalyticsEvent" preserve="nothing" serialized="true" />
+    <type fullname="LegacyAnimationSequence/Entry" preserve="nothing" serialized="true" />
+    <type fullname="ParticleSequence/Entry" preserve="nothing" serialized="true" />
+    <type fullname="SwipeUIEffect/Socket" preserve="nothing" serialized="true" />
+    <type fullname="AnyBuffActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BoolUnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="DishDropProgressTooltip" preserve="nothing" serialized="true" />
+    <type fullname="DishDropReminderTooltip" preserve="nothing" serialized="true" />
+    <type fullname="IsHighValueBubbleRequirement" preserve="nothing" serialized="true" />
+    <type fullname="LifetimeValueRequirement" preserve="nothing" serialized="true" />
+    <type fullname="MecanimToSpineBridge/AnimationTransition" preserve="nothing" serialized="true" />
+    <type fullname="MecanimToSpineBridge/StateNameToAnimationReference" preserve="nothing" serialized="true" />
+    <type fullname="RequirementGroup" preserve="nothing" serialized="true" />
+    <type fullname="SeasonSprite" preserve="nothing" serialized="true" />
+    <type fullname="Slot" preserve="nothing" serialized="true" />
+    <type fullname="SlotDisplayUnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="TweenAnimationKey" preserve="nothing" serialized="true" />
+    <type fullname="BakersBuildsProgressDecorationEntry/DecorationElement" preserve="nothing" serialized="true" />
+    <type fullname="CollapsedMenuElement" preserve="nothing" serialized="true" />
+    <type fullname="PredefinedLayoutGroup/PredefinedGroup" preserve="nothing" serialized="true" />
+    <type fullname="PurchaseRewardsView/RewardOrderOverride" preserve="nothing" serialized="true" />
+    <type fullname="FeatureFlagRequirement" preserve="nothing" serialized="true" />
+    <type fullname="GameViewIsActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="MetaTaskCompletedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="MilestoneDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RewardsDescription" preserve="nothing" serialized="true" />
+    <type fullname="RewardsOverridesDefinition" preserve="nothing" serialized="true" />
+    <type fullname="SimpleDialogueEntry" preserve="nothing" serialized="true" />
+    <type fullname="ResetOrdersViewScrollStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetActiveAfterDelayStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="AnimateRewardletSequenceStepDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameEventTokenRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="EventActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="FloatRange" preserve="nothing" serialized="true" />
+    <type fullname="GuildMemberRequirement" preserve="nothing" serialized="true" />
+    <type fullname="HideRewardletStepActionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="MergeableRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="MinigameMilestoneRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="MoveRewardletStepActionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ResourceRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="SetCollectionPointVisiblitySequenceStepDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ShowRewardletStepActionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="TriggerRewardletCollectionPointStepActionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="UITagWithRequirements" preserve="nothing" serialized="true" />
+    <type fullname="ViewIsActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ViewIsPresentRequirement" preserve="nothing" serialized="true" />
+    <type fullname="WaitForInputSequenceStepDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PlayKartDashVictoryLapViewMilestoneAnimationStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetInteractiveUITagStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="CardPackVersionRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DialogueCharacterDefinition" preserve="nothing" serialized="true" />
+    <type fullname="AreaTaskMissingResourceRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BoardReadyRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CampaignRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CarouselProgressAnimationConfig" preserve="nothing" serialized="true" />
+    <type fullname="LeaderboardDefinition" preserve="nothing" serialized="true" />
+    <type fullname="LeaderboardRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="TweenerConfig" preserve="nothing" serialized="true" />
+    <type fullname="AssetReferencePair" preserve="nothing" serialized="true" />
+    <type fullname="CanEventBeActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CosmeticRewardInCardEventUnclaimedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DishDropDeluxeActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DishDropDeluxeEligibilityStartedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ItemCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="KartDashRaceActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="KartDashRaceIndexRequirement" preserve="nothing" serialized="true" />
+    <type fullname="KartDashStageIndexRequirement" preserve="nothing" serialized="true" />
+    <type fullname="SeasonActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DishDropPointRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameEventRoom/PiecesById" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Guilds.ChatListDisplay/StatusMessagePrefabEntry" preserve="nothing" serialized="true" />
+    <type fullname="AbTestStateRequirement" preserve="nothing" serialized="true" />
+    <type fullname="AdConversionBubbleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="AdUnitValuesDefinition" preserve="nothing" serialized="true" />
+    <type fullname="AnalyticsComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="AnalyticsStepData" preserve="nothing" serialized="true" />
+    <type fullname="AppLovinAdUnitDefinition" preserve="nothing" serialized="true" />
+    <type fullname="AppLovinProfileDefinition" preserve="nothing" serialized="true" />
+    <type fullname="AppLovinSelectionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="AreaCompletedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="AreaUnlockedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="AutoOrderItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="BakersBuildsAllDecorationsUnlockedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BakersBuildsEndPopupResetRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="BakersBuildsEventActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BakersBuildsGenericAllMilestonesCompletedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BakersBuildsMinigameEventItemProvider" preserve="nothing" serialized="true" />
+    <type fullname="BakersBuildsPlayableEndPopupTimeRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="BakersBuildsSceneFlowControllerActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BoardAdsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="BoardDefinition" preserve="nothing" serialized="true" />
+    <type fullname="BoardDisplayRegisteredRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BoardFullRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BoardMigrationRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BoardMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="BoardScrollDefinition" preserve="nothing" serialized="true" />
+    <type fullname="BoardScrollIndexRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BoardableItemSeenRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BoosterRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="BubbleOnBoardRequirement" preserve="nothing" serialized="true" />
+    <type fullname="BubblePurchaseRewardsMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="BubbleSpawnChance" preserve="nothing" serialized="true" />
+    <type fullname="BubbleSpecialDrop" preserve="nothing" serialized="true" />
+    <type fullname="BubbleValueItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="BucketRewardsEntryDescription" preserve="nothing" serialized="true" />
+    <type fullname="BuffActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CanAffordRechargeRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CardDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CardEventActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CardEventAlbumCompleteRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CardEventDialogueSequenceViewParams" preserve="nothing" serialized="true" />
+    <type fullname="CardEventDuplicateCardCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CardEventEndPopupResetRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CardEventEndPopupTimeRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CardEventFlowControllerActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CardEventJokerCardCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CardEventJokerPointsCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CardEventLocalizationIdentifiers" preserve="nothing" serialized="true" />
+    <type fullname="CardEventRewardTierDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CardEventViewReferences" preserve="nothing" serialized="true" />
+    <type fullname="CardMilestoneDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CardPackOpenCountChance" preserve="nothing" serialized="true" />
+    <type fullname="CardPackRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="CardPackTokenSchemaEntryDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CardPackTokenSchemaEntryV2Definition" preserve="nothing" serialized="true" />
+    <type fullname="CardSetEntryDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CardTypeJokerPointsCountDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CarouselMenuButtonIsPrimaryRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CashCostDescription" preserve="nothing" serialized="true" />
+    <type fullname="ChanceCardDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CharacterAnimationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CharacterDialogueStepData" preserve="nothing" serialized="true" />
+    <type fullname="CharacterState" preserve="nothing" serialized="true" />
+    <type fullname="CheckingOrdersHintDescription/OrderFilterPair" preserve="nothing" serialized="true" />
+    <type fullname="ChefsCupRankRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ChequerBoardDisplayBuilderDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CircuitFlowInformationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ClickButtonOnViewStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="ComboMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ConsumableItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="CosmeticRewardInCardEventRequirement" preserve="nothing" serialized="true" />
+    <type fullname="CostsDescription" preserve="nothing" serialized="true" />
+    <type fullname="CostsOverridesDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CreateItemGeneratorDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CreateItemOutputDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CreateItemToDoChallengeDescriptionMigrationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="CurrencyComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="DailyDealsReadyRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DecorationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DecorationMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DecorationVariantDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DelaySequenceStepDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DescriptionMigrationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DialogueStep" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameEventActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameEventTokenCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameEventUncoveredGemsRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameLevelDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameMergeRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameViewIsActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DishDropBandDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DishDropDeluxeEligibilityCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="DishDropDeluxeRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DishDropPointAllocationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DishDropRewardFamilyDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DishDropRewardItemLevelWeightDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DishDropSubsequentOrderBracketDefinition" preserve="nothing" serialized="true" />
+    <type fullname="DoubleTroubleMinigameEventBoardViewIsActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="EachSessionPopupRepeatRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="EventArchetypeActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="EventArchetypeLockedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="EventDialogueCharacterDefinition" preserve="nothing" serialized="true" />
+    <type fullname="EventExtensionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="EventLockedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="EventPassMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="EventPassPopupItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="EventPassRewardsClaimableRequirement" preserve="nothing" serialized="true" />
+    <type fullname="EventPopupItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="EventRecordRequirement" preserve="nothing" serialized="true" />
+    <type fullname="EventStartPopupTimeRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ExpirableItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="FadeTransitionDialogueStepData" preserve="nothing" serialized="true" />
+    <type fullname="FalseRequirement" preserve="nothing" serialized="true" />
+    <type fullname="FirstAvailableMatchmakingRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="FirstBoardableRewardRequirement" preserve="nothing" serialized="true" />
+    <type fullname="FollowTargetRewardletSequenceStepDefinition" preserve="nothing" serialized="true" />
+    <type fullname="FriendCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="GameFlowControllerActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="GenerationWeightingItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="GeneratorMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="GlassStarComponentPointsProviderDefinition" preserve="nothing" serialized="true" />
+    <type fullname="GlassStarCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="GlassStarMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="GlassStarRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="GuaranteedCardDefinition" preserve="nothing" serialized="true" />
+    <type fullname="GuildCoOpEventMilestoneDefinition" preserve="nothing" serialized="true" />
+    <type fullname="GuildCoOpEventTierDefinition" preserve="nothing" serialized="true" />
+    <type fullname="HasRevealableSlotsInActiveBoardRequirement" preserve="nothing" serialized="true" />
+    <type fullname="HomeViewIsActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="HowToPlayEventDialogueCharacterDefinition" preserve="nothing" serialized="true" />
+    <type fullname="IapPurchasedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="InitialECPMRequirement" preserve="nothing" serialized="true" />
+    <type fullname="InterstitialAdValuesDefinition" preserve="nothing" serialized="true" />
+    <type fullname="InterstitialTimerModifier" preserve="nothing" serialized="true" />
+    <type fullname="ItemCostComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="ItemCountPointsProviderDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ItemInOrderRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ItemOnBoardRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ItemReferenceDescription" preserve="nothing" serialized="true" />
+    <type fullname="ItemReplacementChanceDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ItemUndestroyableComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="ItemValueComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="JokerCardRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="JokerPointRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="KartDashActiveRaceCompletableRequirement" preserve="nothing" serialized="true" />
+    <type fullname="KartDashEventActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="KartDashMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="KartDashRivalPaceDescription/PaceKeyFrame" preserve="nothing" serialized="true" />
+    <type fullname="KartDashRivalRaceBehaviourDefinition" preserve="nothing" serialized="true" />
+    <type fullname="LaneFlowInformationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="LastCardInSetDrawLogicDefinition" preserve="nothing" serialized="true" />
+    <type fullname="LastLevelUpTimeRequirement" preserve="nothing" serialized="true" />
+    <type fullname="LastPreloadedAdValueRequirement" preserve="nothing" serialized="true" />
+    <type fullname="LeaderboardDialogueDefinition" preserve="nothing" serialized="true" />
+    <type fullname="LoyaltyEventPointsRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="MaxGeneratorLevelRequirement" preserve="nothing" serialized="true" />
+    <type fullname="MergeItemLevelMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="MergeMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="MergeableItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="MetaTaskActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="MetaTaskCompletableRequirement" preserve="nothing" serialized="true" />
+    <type fullname="MilestoneDialogueDefinition" preserve="nothing" serialized="true" />
+    <type fullname="MilestonesEventDialogueCharacterDefinition" preserve="nothing" serialized="true" />
+    <type fullname="MilestonesMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="MinigameItemSeenRequirement" preserve="nothing" serialized="true" />
+    <type fullname="MinigamePuzzlePointRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="MinigameUnlockedDecorationRequirement" preserve="nothing" serialized="true" />
+    <type fullname="MixerItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="MusicStepData" preserve="nothing" serialized="true" />
+    <type fullname="MysteryTileEventPopupItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="NewCardDrawLogicDefinition" preserve="nothing" serialized="true" />
+    <type fullname="NormalCardDrawLogicDefinition" preserve="nothing" serialized="true" />
+    <type fullname="NotQualifiedEventDialogueCharacterDefinition" preserve="nothing" serialized="true" />
+    <type fullname="NotifyTargetRewardletStepActionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ObscuredRegionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="OrderBoardableCountDescription" preserve="nothing" serialized="true" />
+    <type fullname="OrderCompletedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="OrderDifficultyRangeRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="OrderGenerationV1Definition" preserve="nothing" serialized="true" />
+    <type fullname="OrderGenerationV2Definition" preserve="nothing" serialized="true" />
+    <type fullname="OrderItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="OrderItemRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="OrderLoopRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="OrderMergeableDescription" preserve="nothing" serialized="true" />
+    <type fullname="OrderMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="OrderReadyRequirement" preserve="nothing" serialized="true" />
+    <type fullname="OrderRewardsMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="OverlayDialogueStepData" preserve="nothing" serialized="true" />
+    <type fullname="PendingLoyaltyMilestoneRequirement" preserve="nothing" serialized="true" />
+    <type fullname="PlayerLevelDescription" preserve="nothing" serialized="true" />
+    <type fullname="PlayerLevelItemReferenceDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PlayerLevelOverrideDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PlayerLevelRequirement" preserve="nothing" serialized="true" />
+    <type fullname="PlayerProfileItemReferenceDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PopupCapDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PrefabIconComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="PrefabOverrideDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PrefabTutorialOverrideDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PrepareRewardletCollectionPointStepActionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PreviousScoreMatchmakingRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ProducerReadyRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ProfileUnlockedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="PromoGiftDescription/LocalizationPairDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PuzzleMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="PuzzlePointCountRequirement" preserve="nothing" serialized="true" />
+    <type fullname="RandomDialogueEntry" preserve="nothing" serialized="true" />
+    <type fullname="RarityCardDrawLogicDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RecentSpenderRequirement" preserve="nothing" serialized="true" />
+    <type fullname="RechargeCashCostRequirement" preserve="nothing" serialized="true" />
+    <type fullname="RechargeableComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="RechargeableCostDescription" preserve="nothing" serialized="true" />
+    <type fullname="RechargeableItemReferenceDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RechargeableRangeRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="RechargeableRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="ReferralStageDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RegionRequirement" preserve="nothing" serialized="true" />
+    <type fullname="RequirementsCostsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RequirementsRewardsArrayDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RequirementsRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ResourceCostDescription" preserve="nothing" serialized="true" />
+    <type fullname="ResourceItemReferenceDescription" preserve="nothing" serialized="true" />
+    <type fullname="ResourceRangeRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="RevealSlotRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="RewardDisplayOptionsComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="RewardMigrationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RewardletComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="RewardletComponentDescription/Entry" preserve="nothing" serialized="true" />
+    <type fullname="RewardletComponentDescription/IconEntry" preserve="nothing" serialized="true" />
+    <type fullname="RewardsArrayOverridesDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RewardsEventDialogueCharacterDefinition" preserve="nothing" serialized="true" />
+    <type fullname="RuntimePlatformRequirementDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ScaledCostDescription" preserve="nothing" serialized="true" />
+    <type fullname="ScaledCostItemDescription/Entry" preserve="nothing" serialized="true" />
+    <type fullname="SceneMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="SeenItemsMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="SelectableItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="SharedCooldownPopupRepeatRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ShopMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupCollectionActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupCollectionCompleteRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupCollectionPopupAvailableRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupCollectionPopupItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupCycleLimitRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupDisplayPopupAvailableRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupDisplayPopupItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupPurchaseRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferGroupTransitionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferPopupAvailableRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferPurchaseRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ShopOfferTemplateDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ShopProductRestriction" preserve="nothing" serialized="true" />
+    <type fullname="SignatureDecorationVariantDefinition" preserve="nothing" serialized="true" />
+    <type fullname="SimpleBoardDisplayBuilderDefinition" preserve="nothing" serialized="true" />
+    <type fullname="SlotDefinition" preserve="nothing" serialized="true" />
+    <type fullname="SlotFilter" preserve="nothing" serialized="true" />
+    <type fullname="SlotMatchesFilterRequirement" preserve="nothing" serialized="true" />
+    <type fullname="SocialsUnlockedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="SpenderActivityRequirement" preserve="nothing" serialized="true" />
+    <type fullname="SpriteIconComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="SpriteIconEntry" preserve="nothing" serialized="true" />
+    <type fullname="SpriteReferenceOverrideDefinition" preserve="nothing" serialized="true" />
+    <type fullname="StackableBoardableItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="StackableComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="StandaloneShopOfferPopupItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="StarterRewardsEventDialogueCharacterDefinition" preserve="nothing" serialized="true" />
+    <type fullname="StashAvailableRequirement" preserve="nothing" serialized="true" />
+    <type fullname="StashItemRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="SuitableSellableItemsRequirement" preserve="nothing" serialized="true" />
+    <type fullname="SuperchargeActivationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="SuperchargeGeneratorFamilyDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Guilds.AlbumCompleteCardEventChatFilter" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Guilds.GuildStatusMessageDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Guilds.HelpRequestRequirementChatFilter" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Guilds.SetCompleteCardEventLimitChatFilter" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Guilds.StatusChatFilter" preserve="nothing" serialized="true" />
+    <type fullname="TapGeneratorItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="TargetedBoosterItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="TextDescriptionComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="TimeGroupTimeRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="TimeSinceAccountCreationRequirement" preserve="nothing" serialized="true" />
+    <type fullname="TimedBoosterRewardsMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="TimedEventEndPopupResetRuleDefinition" preserve="nothing" serialized="true" />
+    <type fullname="TimedEventGameFlowControllerActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="TimedEventMilestone" preserve="nothing" serialized="true" />
+    <type fullname="TimedEventMilestoneRequirement" preserve="nothing" serialized="true" />
+    <type fullname="TimedEventTokenRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="ToDoDailyRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ToDoDayDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ToDoEventActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ToDoEventCanBeActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ToDoEventCompletableChallengesRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ToDoEventCompletableStageRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ToDoEventCompletedChallengesRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ToDoEventDayCompletedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ToDoEventPointRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="ToDoEventPopupItemComponentDescription" preserve="nothing" serialized="true" />
+    <type fullname="ToDoMinigameEventComponentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ToDoStageRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ToDoStageTargetCountsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ToDoStreakPointRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ToDoStreakPointRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="ToDoTargetCountDefinition" preserve="nothing" serialized="true" />
+    <type fullname="ToDoWeeklyRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="TotalAdsSeenLastDaysRequirement" preserve="nothing" serialized="true" />
+    <type fullname="TotalDaysActiveInLastDaysRequirement" preserve="nothing" serialized="true" />
+    <type fullname="TreasureHuntMinigameEventBoardViewIsActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="TriggerRewardletStepActionDefinition" preserve="nothing" serialized="true" />
+    <type fullname="TutorialAnalyticsStepData" preserve="nothing" serialized="true" />
+    <type fullname="TutorialCompletedRequirement" preserve="nothing" serialized="true" />
+    <type fullname="UnobscureRegionRewardDescription" preserve="nothing" serialized="true" />
+    <type fullname="UnsendableCardDrawLogicDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vector2IntNode" preserve="nothing" serialized="true" />
+    <type fullname="ViewReferenceIsActiveRequirement" preserve="nothing" serialized="true" />
+    <type fullname="VipRequirement" preserve="nothing" serialized="true" />
+    <type fullname="WeightedCardTypeDefinition" preserve="nothing" serialized="true" />
+    <type fullname="WeightedRarityDefinition" preserve="nothing" serialized="true" />
+    <type fullname="WeightedRewardsDefinition" preserve="nothing" serialized="true" />
+    <type fullname="WeightedSpecialRewardDefinition" preserve="nothing" serialized="true" />
+    <type fullname="FinalEventIntroView/FinalEventIntroAnimation" preserve="nothing" serialized="true" />
+    <type fullname="SpineAnimationEventEntry" preserve="nothing" serialized="true" />
+    <type fullname="AdUnitsDebugMenu/PrefabEntry" preserve="nothing" serialized="true" />
+    <type fullname="SearchableDropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="OpenCardPackStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="PushCardEventFlowControllerStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="ShowViewReferenceStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="AmbienceIdAssetReferencePair" preserve="nothing" serialized="true" />
+    <type fullname="AnimatedItemDescriptionListDisplay/AnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="AppsFlyerConfig" preserve="nothing" serialized="true" />
+    <type fullname="CanConsumeAdRequirement" preserve="nothing" serialized="true" />
+    <type fullname="ClearCarouselButtonPrimaryOverrideStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="DiggingMinigameCellFilter" preserve="nothing" serialized="true" />
+    <type fullname="LaneRaceSlidingNotificationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="MusicIdAssetReferencePair" preserve="nothing" serialized="true" />
+    <type fullname="PlayAmbienceStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="PromoCodeGiftView/ErrorLocalization" preserve="nothing" serialized="true" />
+    <type fullname="SetAllMingameCellsInteractableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetAllMinigameCellsHighlightedStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetAllSlotsDraggableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetAllSlotsHighlightedStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetAllSlotsInteractableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetAllSlotsMergeableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetAllSlotsSelectableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetAnimatorBoolParameterUITagStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetCardPackDisplayOnBoardableRewardsButtonStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetCarouselButtonPrimaryOverrideStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetCurrencyBarDisplayVisibilityStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetCurrencyBarVisibilityStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetEventSystemEnabledStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetImageEnabledUITagStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetMinigameCellHighlightedStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetMinigameCellInteractableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetNavBarVisibilityStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetScrollRectEnabledStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetSelectedSlotHighlightedStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetSlotDraggableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetSlotHighlightedStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetSlotInteractableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetSlotItemPausedStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetSlotMergeableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetSlotSelectableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetSocialsTabStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetStashDroppableStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetStoreProductUIInteractiveStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SetVisibleUITagStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SoundIdAssetReferencePair" preserve="nothing" serialized="true" />
+    <type fullname="StartDialogueStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="ToDoSlidingNotificationDefinition" preserve="nothing" serialized="true" />
+    <type fullname="UnlockStashStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="UnlockSuperchargeStepCommand" preserve="nothing" serialized="true" />
+    <type fullname="SeasonSpriteReference" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
+  </assembly>
+  <assembly fullname="Coffee.UnmaskForUGUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.Unmask" preserve="all" />
+    <type fullname="Coffee.UIExtensions.UnmaskRaycastFilter" preserve="all" />
+  </assembly>
+  <assembly fullname="Febucci.TextAnimator.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Febucci.UI.Actions.ActionDatabase" preserve="all" />
+    <type fullname="Febucci.UI.Actions.SpeedAction" preserve="all" />
+    <type fullname="Febucci.UI.Actions.WaitAnyInputAction" preserve="all" />
+    <type fullname="Febucci.UI.Actions.WaitForAction" preserve="all" />
+    <type fullname="Febucci.UI.Effects.AnimationsDatabase" preserve="all" />
+    <type fullname="Febucci.UI.Effects.BounceBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.DangleBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.DiagonalExpandAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.FadeAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.FadeBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.HorizontalExpandAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.OffsetAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.PendulumBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.RainbowBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.RandomDirectionAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.RotatingAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.RotationBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.ShakeBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.SizeAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.SizeBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.SlideBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.SwingBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.VerticalExpandAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.WaveBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.WiggleBehavior" preserve="all" />
+    <type fullname="Febucci.UI.TypewriterByCharacter" preserve="all" />
+    <type fullname="Febucci.UI.Core.CharacterEvent" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.Core.MessageEvent" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.TimeData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Febucci.TextAnimator.TMP.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Febucci.UI.TextAnimator_TMP" preserve="all" />
+  </assembly>
+  <assembly fullname="MobileConsole, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MobileConsole.LogEntry" preserve="all" />
+    <type fullname="MobileConsole.MobileConsole" preserve="all" />
+    <type fullname="MobileConsole.Style" preserve="all" />
+    <type fullname="MobileConsole.StyleSettings" preserve="all" />
+  </assembly>
+  <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Spine.Unity.AnimationReferenceAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonDataAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonGraphic" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonSubmeshGraphic" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonUtility" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonUtilityBone" preserve="all" />
+    <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
+    <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Supersolid.Descriptions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Supersolid.Descriptions.ScriptableDescriptionLinker" preserve="all" />
+    <type fullname="Supersolid.Descriptions.DescriptionLink" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Supersolid.I18n, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Supersolid.I18n.Data.LanguageDescription" preserve="all" />
+    <type fullname="Supersolid.I18n.Data.LanguagesMetaDescription" preserve="all" />
+    <type fullname="Supersolid.I18n.UI.ImageLocalization" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.I18n.Data.SerializableSpriteReferenceDictionary" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.I18n.Data.SerializableStringDictionary" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Supersolid.Time, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Supersolid.Time.Model.TimeGroupDescription" preserve="all" />
+    <type fullname="Supersolid.Time.Model.EveryDaysTimeDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Time.Model.EveryTimeDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Time.Model.EveryWeekTimeDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Time.Model.SpecificTimeDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Time.Model.TimeGroupDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Supersolid.Time.NullableDateTime" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Supersolid.UI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Supersolid.UI.UITag" preserve="all" />
+    <type fullname="Supersolid.UI.View" preserve="all" />
+    <type fullname="Supersolid.UI.ViewCanvasSyncer" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.2D.Animation.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.U2D.Animation.SpriteSkin" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.InputSystem, Version=1.20.1.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Splines, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Splines.SplineContainer" preserve="all" />
+    <type fullname="UnityEngine.Splines.BezierKnot" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.KnotLinkCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.Spline" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.Spline/MetaData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.SplineDataDictionary`1" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_Dropdown" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.TMP_Settings" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
+    <type fullname="TMPro.TMP_StyleSheet" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.LigatureSubstitutionRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ControlPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ControlTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.MarkerTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalEmitter" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalReceiver" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.SignalReceiver/EventKeyValue" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animations.ParentConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animations.PositionConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animations.RotationConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animations.ScaleConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.ExposedReference`1" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Selectable" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Mathematics">
+    <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.float4" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.quaternion" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
